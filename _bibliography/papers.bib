@@ -1,115 +1,64 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
 
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@article{anand2024beat,
+  title={Beat Pilot Tone (BPT): Simultaneous MRI and RF motion sensing at arbitrary frequencies},
+  author={Anand, Suma and Lustig, Michael},
+  journal={Magnetic Resonance in Medicine},
+  year={2024},
+  publisher={Wiley Online Library},
+  code = "https://github.com/mikgroup/bpt_paper",
+  preview = "bpt_paper.jpg",
+  html = "https://onlinelibrary.wiley.com/doi/full/10.1002/mrm.30150",
+  abstract = {Purpose: To introduce a simple system exploitation with the potential to turn MRI scanners into general-purpose radiofrequency (RF) motion monitoring systems. Methods: Inspired by Pilot Tone (PT), this work proposes Beat Pilot Tone (BPT), in which two or more RF tones at arbitrary frequencies are transmitted continuously during the scan. These tones create motion-modulated standing wave patterns that are sensed by the receiver coil array, incidentally mixed by intermodulation in the receiver chain, and digitized simultaneously with the MRI data. BPT can operate at almost any frequency as long as the intermodulation products lie within the bandwidth of the receivers. BPT's mechanism is explained in electromagnetic simulations and validated experimentally. Results:  Phantom and volunteer experiments over a range of transmit frequencies suggest that BPT may offer frequency-dependent sensitivity to motion. Using a semi-flexible anterior receiver array, BPT appears to sense cardiac-induced body vibrations at microwave frequencies (1.2 GHz). At lower frequencies, it exhibits a similar cardiac signal shape to PT, likely due to blood volume changes. Other volunteer experiments with respiratory, bulk, and head motion show that BPT can achieve greater sensitivity to motion than PT and greater separability between motion types. Basic multiple-input multiple-output (MIMO) operation with simultaneous PT and BPT in head motion is demonstrated using two transmit antennas and a 22-channel head-neck coil. Conclusion: BPT may offer a rich source of motion information that is frequency-dependent, simultaneous, and complementary to PT and the MRI exam.}
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@inproceedings{maravilla2024twstr,
+  title={Twstr: A Resonant, Matched MRI Coil without any Discrete Components},
+  author={Maravilla, Julian A and Lustig, Michael and Arias, Ana C},
+  booktitle={2024 IEEE MTT-S International Microwave Biomedical Conference (IMBioC)},
+  pages={128--130},
+  year={2024},
+  organization={IEEE},
+  preview = "twstr_preview.gif",
+  html = "https://ieeexplore.ieee.org/abstract/document/10590497",
+  abstract ={Thin, flexible, and nearly invisible MRI coils have the potential reduce the invasiveness of implantable coils, allow for multi-modalities to co-exist in an MR scanner, and generate coil arrays with extreme adaptability. As a result, this work strives to demonstrate a resonant, and matched MRI coil without the use of discrete components. Twstr coils are comprised of a single Twisted-Pair wire manipulated by twisting and cutting to generate a coil that is matched at its resonant frequency and nearly invisible due to the elimination of non-flexible components. The proposed structure has a high quality factor, similar SNR performance in a Rx-Only configuration, and outstanding TRx performance when compared to a standard loop coil. Additionally, the methods described in this work can be used to generate new resonant structures (resonators, antennas, etc.).}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@article{cui2024reference,
+  title={Reference-Free Image Quality Metric for Degradation and Reconstruction Artifacts},
+  author={Cui, Han and De Goyeneche, Alfredo and Shimron, Efrat and Ma, Boyuan and Lustig, Michael},
+  journal={arXiv preprint arXiv:2405.02208},
+  year={2024},
+  html="https://arxiv.org/abs/2405.02208",
+  abstract = {Image Quality Assessment (IQA) is essential in various Computer Vision tasks such as image deblurring and super-resolution. However, most IQA methods require reference images, which are not always available. While there are some reference-free IQA metrics, they have limitations in simulating human perception and discerning subtle image quality variations. We hypothesize that the JPEG quality factor is representatives of image quality measurement, and a well-trained neural network can learn to accurately evaluate image quality without requiring a clean reference, as it can recognize image degradation artifacts based on prior knowledge. Thus, we developed a reference-free quality evaluation network, dubbed "Quality Factor (QF) Predictor", which does not require any reference. Our QF Predictor is a lightweight, fully convolutional network comprising seven layers. The model is trained in a self-supervised manner: it receives JPEG compressed image patch with a random QF as input, is trained to accurately predict the corresponding QF. We demonstrate the versatility of the model by applying it to various tasks. First, our QF Predictor can generalize to measure the severity of various image artifacts, such as Gaussian Blur and Gaussian noise. Second, we show that the QF Predictor can be trained to predict the undersampling rate of images reconstructed from Magnetic Resonance Imaging (MRI) data.}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
+
+@inproceedings{de2023resonet,
+  title={ResoNet: a Physics-Informed DL Framework for Off-Resonance Correction in MRI Trained with Noise},
+  author={De Goyeneche, Alfredo and Ramachandran, Shreya and Wang, Ke and Karasan, Ekin and Cheng, Joseph Yitan and Stella, X Yu and Lustig, Michael},
+  booktitle={Thirty-seventh Conference on Neural Information Processing Systems},
+  year={2023},
   selected={true},
-  inspirehep_id = {3255}
+  preview = "Off_resonet.png",
+  html="https://openreview.net/forum?id=Ia4dmqst0Z",
+  code="https://github.com/mikgroup/ResoNet",
+  abstract = {Magnetic Resonance Imaging (MRI) is a powerful medical imaging modality that offers diagnostic information without harmful ionizing radiation. Unlike optical imaging, MRI sequentially samples the spatial Fourier domain k-space of the image. Measurements are collected in multiple shots, or readouts, and in each shot, data along a smooth trajectory is sampled.
+  Conventional MRI data acquisition relies on sampling k-space row-by-row in short intervals, which is slow and inefficient. More efficient, non-Cartesian sampling trajectories (e.g., Spirals) use longer data readout intervals, but are more susceptible to magnetic field inhomogeneities, leading to off-resonance artifacts. Spiral trajectories cause off-resonance blurring in the image, and the mathematics of this blurring resembles that of optical blurring, where magnetic field variation corresponds to depth and readout duration to aperture size. Off-resonance blurring is a system issue with a physics-based, accurate forward model. We present a physics-informed deep learning framework for off-resonance correction in MRI, which is trained exclusively on synthetic, noise-like data with representative marginal statistics. Our approach allows for fat/water partial volume effects modeling and separation, and parallel imaging acceleration. Through end-to-end training using synthetic randomized data (i.e., images, coil sensitivities, field maps), we train the network to reverse off-resonance effects across diverse anatomies and contrasts without retraining. We demonstrate the effectiveness of our approach through results on phantom and in-vivo data. This work has the potential to facilitate the clinical adoption of non-Cartesian sampling trajectories, enabling efficient, rapid, and motion-robust MRI scans. Code is publicly available at: https://github.com/mikgroup/ResoNet}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@article{wang2023high,
+  title={High-fidelity direct contrast synthesis from magnetic resonance fingerprinting},
+  selected={true},
+  preview = "mrf.jpg",
+  author={Wang, Ke and Doneva, Mariya and Meineke, Jakob and Amthor, Thomas and Karasan, Ekin and Tan, Fei and Tamir, Jonathan I and Yu, Stella X and Lustig, Michael},
+  journal={Magnetic Resonance in Medicine},
+  year={2023},
+  publisher={Wiley Online Library},
+  html= "https://onlinelibrary.wiley.com/doi/abs/10.1002/mrm.29766",
+  code = "https://github.com/mikgroup/DCSNet",
+  abstract={Magnetic Resonance Fingerprinting (MRF) is an efficient quantitative MRI technique that can extract important tissue and system parameters such as T1, T2, B0, and B1 from a single scan. This property also makes it attractive for retrospectively synthesizing contrast-weighted images. In general, contrast-weighted images like T1-weighted, T2-weighted, etc., can be synthesized directly from parameter maps through spin-dynamics simulation (i.e., Bloch or Extended Phase Graph models). However, these approaches often exhibit artifacts due to imperfections in the mapping, the sequence modeling, and the data acquisition. Here we propose a supervised learning-based method that directly synthesizes contrast-weighted images from the MRF data without going through the quantitative mapping and spin-dynamics simulation. To implement our direct contrast synthesis (DCS) method, we deploy a conditional Generative Adversarial Network (GAN) framework and propose a multi-branch U-Net as the generator. The input MRF data are used to directly synthesize T1-weighted, T2-weighted, and fluid-attenuated inversion recovery (FLAIR) images through supervised training on paired MRF and target spin echo-based contrast-weighted scans. In-vivo experiments demonstrate excellent image quality compared to simulation-based contrast synthesis and previous DCS methods, both visually as well as by quantitative metrics. We also demonstrate cases where our trained model is able to mitigate in-flow and spiral off-resonance artifacts that are typically seen in MRF reconstructions and thus more faithfully represent conventional spin echo-based contrast-weighted images.}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
-}
