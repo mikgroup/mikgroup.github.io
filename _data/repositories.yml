@@ -25,6 +25,10 @@ github_repos:
   - mikgroup/Caterpillar-Traps
   - mikgroup/DiSpectMRI
   - mikgroup/phase_cycling
+  - mikgroup/MEL_MRI
+  - mikgroup/DCSNet
+  - mikgroup/auto-espirit
+  - mikgroup/data_crimes
 
   
   # - alshedivat/al-folio
