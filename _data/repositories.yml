@@ -1,14 +1,36 @@
 github_users:
-  - torvalds
-  - alshedivat
+  # - mikgroup
 
 repo_description_lines_max: 2
 
+bart_repos:
+  - mrirecon/bart
+  - mrirecon/bart-workshop
+
+sigpy_repos:
+  - mikgroup/sigpy
+  - mikgroup/sigpy-mri-tutorial
+
+espirit_repos:
+  - mikgroup/espirit-matlab-examples
+  - mikgroup/espirit-python
+
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - mikgroup/extreme_mri
+  - mikgroup/kspace_precond
+  - mikgroup/bpt_paper
+  - mikgroup/bpt_mrpub
+  - mikgroup/UFLoss 
+  - mikgroup/ResoNet
+  - mikgroup/Caterpillar-Traps
+  - mikgroup/DiSpectMRI
+  - mikgroup/phase_cycling
+
+  
+  # - alshedivat/al-folio
+  # - jekyll/jekyll
+  # - twbs/bootstrap
+  # - jquery/jquery
+  # - FortAwesome/Font-Awesome
+  # - mathjax/MathJax
+  # - jpswalsh/academicons
