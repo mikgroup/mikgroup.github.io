@@ -57,4 +57,3 @@ This website provides open datasets to researchers who desire to contribute to a
   {% endfor %}
 </div>
 {% endif %}
-
