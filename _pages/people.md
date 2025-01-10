@@ -9,7 +9,7 @@ nav: true
 nav_order: 5
 ---
 
-### Undergraduate, 5th yr M.S., and Postundergraduate Students
+### Undergraduate and 5th yr M.S. Students
 - Abigail Falk
 - Anjo Pagdanganan
 - Arul Loomba
@@ -26,8 +26,8 @@ nav_order: 5
 - Alexander Chou
 - Julian Maravilla
 - Naz Khairallah
-- Rinni Bhansali
 - Rebekah Zhao
+- Rinni Bhansali
 - Shreya Ramachandran
 <br>
 <br>
