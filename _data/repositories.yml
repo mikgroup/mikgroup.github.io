@@ -1,7 +1,7 @@
 github_users:
   # - mikgroup
 
-repo_description_lines_max: 2
+repo_description_lines_max: 1
 
 bart_repos:
   - mrirecon/bart
@@ -29,12 +29,3 @@ github_repos:
   - mikgroup/DCSNet
   - mikgroup/auto-espirit
   - mikgroup/data_crimes
-
-  
-  # - alshedivat/al-folio
-  # - jekyll/jekyll
-  # - twbs/bootstrap
-  # - jquery/jquery
-  # - FortAwesome/Font-Awesome
-  # - mathjax/MathJax
-  # - jpswalsh/academicons
