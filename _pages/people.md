@@ -20,7 +20,7 @@ nav_order: 5
 <br>
 <br>
 
-### Postdoctoral Fellows and Research Associates
+### Postdoctoral Researchers and Research Associates
 - Ekin Karasan 
 - Gustavo Perez
 - Karthik Gopalan
@@ -45,14 +45,14 @@ nav_order: 5
 - Sana Vaziri (Undergraduate)
 - Dara Bahri (Undergraduate)
 - Peter Shin (Ph.D. student)
-- Martin Uecker (Research Associate, now faculty at TU Graz, Austria)
+- [Martin Uecker](https://www.tugraz.at/institute/ibi/home) (Research Associate, now faculty at TU Graz, Austria)
 - Mariya Doneva (Research Associate, now at Philips Research, Germany)
 - Alina Paechacek (M.S. student)
 - Harrison Wang (Undergraduate)
 - Harrison Rosenber (Undergraduate)
 - Wenwen Jiang (Ph.D. student with [Peder Larson](https://profiles.ucsf.edu/peder.larson), now at Meta)
 - Teresa Ou (M.S. student with [Laura Waller](https://www2.eecs.berkeley.edu/Faculty/Homepages/waller.html))
-- Siddharth Srinivasan, B.S.
+- Siddharth Srinivasan (Undergraduate)
 - Joe Corea (Ph.D. student with [Ana Claudia Arias](https://www2.eecs.berkeley.edu/Faculty/Homepages/acarias.html), now at InkSpace Imaging)
 - Balthazar Lechene (Ph.D. student primarily with [Ana Claudia Arias](https://www2.eecs.berkeley.edu/Faculty/Homepages/acarias.html), now at InkSpace Imaging)
 - Patrick Virtue (Ph.D. student with [Stella Yu](https://midas.umich.edu/directory/stella-yu//), now faculty at Carnegie Mellon University)
@@ -64,7 +64,7 @@ nav_order: 5
 - Rahul Tewari (Undergraduate)
 - [Jon Tamir](https://users.ece.utexas.edu/~jtamir/) (Ph.D. student, now faculty at UT Austin)
 - Volkert Roeloffs (Postdoctoral Researcher, now at Neoscan Solutions GmbH)
-- Zhiyong Zhang (Postdoctoral Researcher, now faculty at Shanghai Jiao Tong University, China)
+- [Zhiyong Zhang](https://bme.sjtu.edu.cn/En/FacultyDetail/615) (Postdoctoral Researcher, now faculty at Shanghai Jiao Tong University, China)
 - Michael Kellman (Ph.D. student with [Laura Waller](https://www2.eecs.berkeley.edu/Faculty/Homepages/waller.html), now at Zendar)
 - Jacob Sleczkowski (Undergraduate)
 - Sukrit Arora (M.S. student)
@@ -75,7 +75,6 @@ nav_order: 5
 - Max Litster (Undergraduate)
 - Jim Tropp (Research Associate)
 - Anita Flynn (Research Associate)
-- Karthik Gopalan (Ph.D. student with [Ana Claudia Arias](https://www2.eecs.berkeley.edu/Faculty/Homepages/acarias.html), now at UC Berkeley)
 - Han Qi (Undergraduate)
 - Han Cui (M.S. student)
 - Daniel Abraham (Undergraduate)
