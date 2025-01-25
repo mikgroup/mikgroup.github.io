@@ -26,15 +26,6 @@
   abstract ={Thin, flexible, and nearly invisible MRI coils have the potential reduce the invasiveness of implantable coils, allow for multi-modalities to co-exist in an MR scanner, and generate coil arrays with extreme adaptability. As a result, this work strives to demonstrate a resonant, and matched MRI coil without the use of discrete components. Twstr coils are comprised of a single Twisted-Pair wire manipulated by twisting and cutting to generate a coil that is matched at its resonant frequency and nearly invisible due to the elimination of non-flexible components. The proposed structure has a high quality factor, similar SNR performance in a Rx-Only configuration, and outstanding TRx performance when compared to a standard loop coil. Additionally, the methods described in this work can be used to generate new resonant structures (resonators, antennas, etc.).}
 }
 
-@article{cui2024reference,
-  title={Reference-Free Image Quality Metric for Degradation and Reconstruction Artifacts},
-  author={Cui, Han and De Goyeneche, Alfredo and Shimron, Efrat and Ma, Boyuan and Lustig, Michael},
-  journal={arXiv preprint arXiv:2405.02208},
-  year={2024},
-  html="https://arxiv.org/abs/2405.02208",
-  abstract = {Image Quality Assessment (IQA) is essential in various Computer Vision tasks such as image deblurring and super-resolution. However, most IQA methods require reference images, which are not always available. While there are some reference-free IQA metrics, they have limitations in simulating human perception and discerning subtle image quality variations. We hypothesize that the JPEG quality factor is representatives of image quality measurement, and a well-trained neural network can learn to accurately evaluate image quality without requiring a clean reference, as it can recognize image degradation artifacts based on prior knowledge. Thus, we developed a reference-free quality evaluation network, dubbed "Quality Factor (QF) Predictor", which does not require any reference. Our QF Predictor is a lightweight, fully convolutional network comprising seven layers. The model is trained in a self-supervised manner: it receives JPEG compressed image patch with a random QF as input, is trained to accurately predict the corresponding QF. We demonstrate the versatility of the model by applying it to various tasks. First, our QF Predictor can generalize to measure the severity of various image artifacts, such as Gaussian Blur and Gaussian noise. Second, we show that the QF Predictor can be trained to predict the undersampling rate of images reconstructed from Magnetic Resonance Imaging (MRI) data.}
-}
-
 
 @inproceedings{de2023resonet,
   title={ResoNet: a Physics-Informed DL Framework for Off-Resonance Correction in MRI Trained with Noise},
@@ -62,3 +53,149 @@
   abstract={Magnetic Resonance Fingerprinting (MRF) is an efficient quantitative MRI technique that can extract important tissue and system parameters such as T1, T2, B0, and B1 from a single scan. This property also makes it attractive for retrospectively synthesizing contrast-weighted images. In general, contrast-weighted images like T1-weighted, T2-weighted, etc., can be synthesized directly from parameter maps through spin-dynamics simulation (i.e., Bloch or Extended Phase Graph models). However, these approaches often exhibit artifacts due to imperfections in the mapping, the sequence modeling, and the data acquisition. Here we propose a supervised learning-based method that directly synthesizes contrast-weighted images from the MRF data without going through the quantitative mapping and spin-dynamics simulation. To implement our direct contrast synthesis (DCS) method, we deploy a conditional Generative Adversarial Network (GAN) framework and propose a multi-branch U-Net as the generator. The input MRF data are used to directly synthesize T1-weighted, T2-weighted, and fluid-attenuated inversion recovery (FLAIR) images through supervised training on paired MRF and target spin echo-based contrast-weighted scans. In-vivo experiments demonstrate excellent image quality compared to simulation-based contrast synthesis and previous DCS methods, both visually as well as by quantitative metrics. We also demonstrate cases where our trained model is able to mitigate in-flow and spiral off-resonance artifacts that are typically seen in MRF reconstructions and thus more faithfully represent conventional spin echo-based contrast-weighted images.}
 }
 
+@article{karasan2023caterpillar,
+  title={Caterpillar traps: A highly flexible, distributed system of toroidal cable traps},
+  author={Karasan, Ekin and Hammerschmidt, Alison and Arias, Ana C and Taracila, Victor and Robb, Fraser and Lustig, Michael},
+  journal={Magnetic resonance in medicine},
+  preview = "ctraps.png",
+  volume={89},
+  number={6},
+  pages={2471--2484},
+  year={2023},
+  publisher={Wiley Online Library},
+  html= "https://onlinelibrary.wiley.com/doi/full/10.1002/mrm.29584",
+  code = "https://github.com/mikgroup/Caterpillar-Traps",
+  abstract = {Purpose: Coil arrays are connected to the main MRI system with long, shielded coaxial cables. RF coupling of these cables to the main transmit coil can cause high shield currents, which pose risks of heating and RF burns. High-blocking resonant RF traps are placed at distinct positions along cables to mitigate these currents. Traditional traps are designed to be stiff to avoid changes in their resonant frequency, hindering the overall system flexibility. Instead of using a few high-blocking traps, we propose the use of caterpillar traps—a distributed system of small, elastic traps that cover the full length of cables. Methods: We leverage an array of resonant toroids as traps, forming a caterpillar-like structure whereby bending only impacts individual traps minimally. Benchtop measurements are used to determine the blocking of caterpillar traps and show their robustness to bending. We also compare an anterior array system cable covered with caterpillar traps to a commercial cable with B1+ and heating measurements. Results: Benchtop experiments with caterpillar traps demonstrate high robustness to bending. B1+ mapping experiments of an anterior array cable show improved blocking and flexibility compared to a commercial cable. Conclusion: Caterpillar traps provide sufficient attenuation to shield currents while allowing cable flexibility. Our distributed design can provide high blocking efficiency at different positions and orientations, even in cases where commercial cable traps cannot.}
+}
+
+@article{gopalan2023vacuum,
+  title={Vacuum formed coils for MRI},
+  author={Gopalan, Karthik and Maravilla, Julian and Mendelsohn, Jaren and Arias, Ana C and Lustig, Michael},
+  journal={Magnetic Resonance in Medicine},
+  volume={89},
+  number={4},
+  preview = "vacuumformedcoils.png",
+  pages={1684--1696},
+  year={2023},
+  publisher={Wiley Online Library},
+  html= "https://onlinelibrary.wiley.com/doi/full/10.1002/mrm.29546",
+  code = "https://github.com/mikgroup/Vacuum-Forming-Sim",
+  abstract = {Purpose: To describe a digital fabrication method used for custom MRI receive coils with vacuum forming and electroless copper plating. Methods: Our process produces intricate copper traces on curved surfaces. A three-dimensional scan of a desired anatomy is obtained and used to design coil elements. The layout is predistorted with a self built simulation of the vacuum forming process and the geometric overlaps are tested with electromagnetic simulation software. The desired coil geometry is patterned onto a polycarbonate sheet by sandblasting through a tape mask. The sandblasted areas are then catalyzed with a palladium-tin solution and vacuum formed. The catalyzed, three-dimensional part is placed into a custom built plating tank and copper plated. Electronic components are attached to the copper traces to form resonant receive coils. The methods described here are demonstrated and tested with an 8 channel visual cortex coil array. Results: The prototype coils exhibit quality factor ratios higher than three, indicating body noise dominance. The coil array shows high signal-to-noise ratio (SNR) near the periphery of a head shaped phantom. In vivo images with up to spatial resolution were acquired on a human volunteer. Conclusion: This work presents the first example of vacuum formed coils with direct electroless copper plating. Our fabrication method results in coil arrays that are in close proximity to the body. This methods described here may enable the rapid development of a set of coils of different sizes for applications including longitudinal fMRI studies and MR-guided therapies.}
+}
+
+@article{wang2022high,
+  title={High fidelity deep learning-based MRI reconstruction with instance-wise discriminative feature matching loss},
+  author={Wang, Ke and Tamir, Jonathan I and De Goyeneche, Alfredo and Wollner, Uri and Brada, Rafi and Yu, Stella X and Lustig, Michael},
+  journal={Magnetic Resonance in Medicine},
+  volume={88},
+  number={1},
+  pages={476--491},
+  year={2022},
+  preview = "ufloss.png",
+  publisher={Wiley Online Library},
+  html="https://onlinelibrary.wiley.com/doi/full/10.1002/mrm.29227",
+  code = "https://github.com/mikgroup/UFLoss",
+  abstract = {Purpose: To improve reconstruction fidelity of fine structures and textures in deep learning- (DL) based reconstructions. Methods: A novel patch-based Unsupervised Feature Loss (UFLoss) is proposed and incorporated into the training of DL-based reconstruction frameworks in order to preserve perceptual similarity and high-order statistics. The UFLoss provides instance-level discrimination by mapping similar instances to similar low-dimensional feature vectors and is trained without any human annotation. By adding an additional loss function on the low-dimensional feature space during training, the reconstruction frameworks from under-sampled or corrupted data can reproduce more realistic images that are closer to the original with finer textures, sharper edges, and improved overall image quality. The performance of the proposed UFLoss is demonstrated on unrolled networks for accelerated two- (2D) and three-dimensional (3D) knee MRI reconstruction with retrospective under-sampling. Quantitative metrics including normalized root mean squared error (NRMSE), structural similarity index (SSIM), and our proposed UFLoss were used to evaluate the performance of the proposed method and compare it with others. Results: In vivo experiments indicate that adding the UFLoss encourages sharper edges and more faithful contrasts compared to traditional and learning-based methods with pure loss. More detailed textures can be seen in both 2D and 3D knee MR images. Quantitative results indicate that reconstruction with UFLoss can provide comparable NRMSE and a higher SSIM while achieving a much lower UFLoss value. Conclusion: We present UFLoss, a patch-based unsupervised learned feature loss, which allows the training of DL-based reconstruction to obtain more detailed texture, finer features, and sharper edges with higher overall image quality under DL-based reconstruction frameworks.}
+}
+
+@article{shimron2022implicit,
+  title={Implicit data crimes: Machine learning bias arising from misuse of public data},
+  author={Shimron, Efrat and Tamir, Jonathan I and Wang, Ke and Lustig, Michael},
+  journal={Proceedings of the National Academy of Sciences},
+  volume={119},
+  number={13},
+  pages={e2117203119},
+  year={2022},
+  publisher={National Acad Sciences},
+  preview = "datacrimes.png",
+  html="https://www.pnas.org/doi/abs/10.1073/pnas.2117203119",
+  code = "https://github.com/mikgroup/data_crimes",
+  abstract = {Although open databases are an important resource in the current deep learning (DL) era, they are sometimes used “off label”: Data published for one task are used to train algorithms for a different one. This work aims to highlight that this common practice may lead to biased, overly optimistic results. We demonstrate this phenomenon for inverse problem solvers and show how their biased performance stems from hidden data-processing pipelines. We describe two processing pipelines typical of open-access databases and study their effects on three well-established algorithms developed for MRI reconstruction: compressed sensing, dictionary learning, and DL. Our results demonstrate that all these algorithms yield systematically biased results when they are naively trained on seemingly appropriate data: The normalized rms error improves consistently with the extent of data processing, showing an artificial improvement of 25 to 48\% in some cases. Because this phenomenon is not widely known, biased results sometimes are published as state of the art; we refer to that as implicit “data crimes.” This work hence aims to raise awareness regarding naive off-label usage of big data and reveal the vulnerability of modern inverse problem solvers to the resulting bias.}
+}
+
+@article{zhang2021dispect,
+  title={DiSpect: Displacement spectrum imaging of flow and tissue perfusion using spin-labeling and stimulated echoes},
+  author={Zhang, Zhiyong and Karasan, Ekin and Gopalan, Karthik and Liu, Chunlei and Lustig, Michael},
+  journal={Magnetic Resonance in Medicine},
+  volume={86},
+  number={5},
+  pages={2468--2481},
+  year={2021},
+  preview = "dispect.png",
+  html="https://onlinelibrary.wiley.com/doi/full/10.1002/mrm.28882",
+  code = "https://github.com/mikgroup/DiSpectMRI",
+  publisher={Wiley Online Library},
+  abstract = {Purpose: We propose a new method, displacement spectrum (DiSpect) imaging, for probing in vivo complex tissue dynamics such as motion, flow, diffusion, and perfusion. Based on stimulated echoes and image phase, our flexible approach enables observations of the spin dynamics over short (milliseconds) to long (seconds) evolution times. Methods:
+The DiSpect method is a Fourier‐encoded variant of displacement encoding with stimulated echoes, which encodes bulk displacement of spins that occurs between tagging and imaging in the image phase. However, this method fails to capture partial volume effects as well as blood flow. The DiSpect variant mitigates this by performing multiple scans with increasing displacement‐encoding steps. Fourier analysis can then resolve the multidimensional spectrum of displacements that spins exhibit over the mixing time. In addition, repeated imaging following tagging can capture dynamic displacement spectra with increasing mixing times. Results: We demonstrate properties of DiSpect MRI using flow phantom experiments as well as in vivo brain scans. Specifically, the ability of DiSpect to perform retrospective vessel‐selective perfusion imaging at multiple mixing times is highlighted. Conclusion: The DiSpect variant is a new tool in the arsenal of MRI techniques for probing complex tissue dynamics. The flexibility and the rich information it provides open the possibility of alternative ways to quantitatively measure numerous complex spin dynamics, such as flow and perfusion within a single exam.}
+}
+
+@article{gopalan2021quantitative,
+  title={Quantitative anatomy mimicking slice phantoms},
+  author={Gopalan, Karthik and Tamir, Jonathan I and Arias, Ana C and Lustig, Michael},
+  journal={Magnetic resonance in medicine},
+  volume={86},
+  number={2},
+  pages={1159--1166},
+  preview = "qphantoms.png",
+  html="https://onlinelibrary.wiley.com/doi/full/10.1002/mrm.28740",
+  code = "https://github.com/mikgroup/phantom-building",
+  year={2021},
+  publisher={Wiley Online Library},
+  abstract = {Purpose: To present a reproducible methodology for building an anatomy mimicking phantom with targeted T1 and T2 contrast for use in quantitative magnetic resonance imaging. Methods: We propose a reproducible method for creating high‐resolution, quantitative slice phantoms. The phantoms are created using gels with different concentrations of NiCl2 and MnCl2 to achieve targeted T1 and T2 values. We describe a calibration method for accurately targeting anatomically realistic relaxation pairs. In addition, we developed a method of fabricating slice phantoms by extruding 3D printed walls on acrylic sheets. These procedures are combined to create a physical analog of the Brainweb digital phantom. Results: With our method, we are able to target specific T1/T2 values with less than 10\% error. Additionally, our slice phantoms look realistic since their geometries are derived from anatomical data. Conclusion: Standardized and accurate tools for validating new techniques across sequences, platforms, and different imaging sites are important. Anatomy mimicking, multi‐contrast phantoms designed with our procedures could be used for evaluating, testing, and verifying model‐based methods.}
+}
+
+@inproceedings{wang2021memory,
+  title={Memory-efficient learning for high-dimensional MRI reconstruction},
+  author={Wang, Ke and Kellman, Michael and Sandino, Christopher M and Zhang, Kevin and Vasanawala, Shreyas S and Tamir, Jonathan I and Yu, Stella X and Lustig, Michael},
+  booktitle={Medical Image Computing and Computer Assisted Intervention--MICCAI 2021: 24th International Conference, Strasbourg, France, September 27--October 1, 2021, Proceedings, Part VI 24},
+  pages={461--470},
+  year={2021},
+  organization={Springer},
+  preview = "memefficientmri.jpg",
+  html="https://link.springer.com/chapter/10.1007/978-3-030-87231-1_45",
+  code = "https://github.com/mikgroup/MEL_MRI",
+  abstract = {Deep learning (DL) based unrolled reconstructions have shown state-of-the-art performance for under-sampled magnetic resonance imaging (MRI). Similar to compressed sensing, DL can leverage high-dimensional data (e.g. 3D, 2D+time, 3D+time) to further improve performance. However, network size and depth are currently limited by the GPU memory required for backpropagation. Here we use a memory-efficient learning (MEL) framework which favorably trades off storage with a manageable increase in computation during training. Using MEL with multi-dimensional data, we demonstrate improved image reconstruction performance for in-vivo 3D MRI and 2D+time cardiac cine MRI. MEL uses far less GPU memory while marginally increasing the training time, which enables new applications of DL to high-dimensional MRI. }
+}
+
+@article{iyer2020sure,
+  title={SURE-based automatic parameter selection for ESPIRiT calibration},
+  author={Iyer, Siddharth and Ong, Frank and Setsompop, Kawin and Doneva, Mariya and Lustig, Michael},
+  journal={Magnetic Resonance in Medicine},
+  volume={84},
+  number={6},
+  pages={3423--3437},
+  year={2020},
+  publisher={Wiley Online Library},
+  preview = "sure.png",
+  html="https://onlinelibrary.wiley.com/doi/full/10.1002/mrm.28386",
+  code = "https://github.com/mikgroup/auto-espirit",
+  abstract = {Purpose: ESPIRiT is a parallel imaging method that estimates coil sensitivity maps from the auto‐calibration region (ACS). This requires choosing several parameters for the optimal map estimation. While fairly robust to these parameter choices, occasionally, poor selection can result in reduced performance. The purpose of this work is to automatically select parameters in ESPIRiT for more robust and consistent performance across a variety of exams. Methods:By viewing ESPIRiT as a denoiser, Stein’s unbiased risk estimate (SURE) is leveraged to automatically optimize parameter selection in a data‐driven manner. The optimum parameters corresponding to the minimum true squared error, minimum SURE as derived from densely sampled, high‐resolution, and non‐accelerated data and minimum SURE as derived from ACS are compared using simulation experiments. To avoid optimizing the rank of ESPIRiT’s auto‐calibrating matrix (one of the parameters), a heuristic derived from SURE‐based singular value thresholding is also proposed. Results: Simulations show SURE derived from the densely sampled, high‐resolution, and non‐accelerated data to be an accurate estimator of the true mean squared error, enabling automatic parameter selection. The parameters that minimize SURE as derived from ACS correspond well to the optimal parameters. The soft‐threshold heuristic improves computational efficiency while providing similar results to an exhaustive search. In‐vivo experiments verify the reliability of this method. Conclusions: Using SURE to determine ESPIRiT parameters allows for automatic parameter selections. In‐vivo results are consistent with simulation and theoretical results.}
+}
+
+@article{ong2020extreme,
+  title={Extreme MRI: Large-scale volumetric dynamic imaging from continuous non-gated acquisitions},
+  author={Ong, Frank and Zhu, Xucheng and Cheng, Joseph Y and Johnson, Kevin M and Larson, Peder EZ and Vasanawala, Shreyas S and Lustig, Michael},
+  journal={Magnetic resonance in medicine},
+  volume={84},
+  number={4},
+  pages={1763--1780},
+  year={2020},
+  publisher={Wiley Online Library},
+  preview = "extrememri.png",
+  html="https://onlinelibrary.wiley.com/doi/full/10.1002/mrm.28235",
+  code = "https://github.com/mikgroup/extreme_mri.git",
+  abstract = {Purpose: To develop a framework to reconstruct large‐scale volumetric dynamic MRI from rapid continuous and non‐gated acquisitions, with applications to pulmonary and dynamic contrast‐enhanced (DCE) imaging. Theory and Methods: The problem considered here requires recovering 100 gigabytes of dynamic volumetric image data from a few gigabytes of k‐space data, acquired continuously over several minutes. This reconstruction is vastly under‐determined, heavily stressing computing resources as well as memory management and storage. To overcome these challenges, we leverage intrinsic three‐dimensional (3D) trajectories, such as 3D radial and 3D cones, with ordering that incoherently cover time and k‐space over the entire acquisition. We then propose two innovations: (a) A compressed representation using multiscale low‐rank matrix factorization that constrains the reconstruction problem, and reduces its memory footprint. (b) Stochastic optimization to reduce computation, improve memory locality, and minimize communications between threads and processors. We demonstrate the feasibility of the proposed method on DCE imaging acquired with a golden‐angle ordered 3D cones trajectory and pulmonary imaging acquired with a bit‐reversed ordered 3D radial trajectory. We compare it with “soft‐gated" dynamic reconstruction for DCE and respiratory‐resolved reconstruction for pulmonary imaging. Results: The proposed technique shows transient dynamics that are not seen in gating‐based methods. When applied to datasets with irregular, or non‐repetitive motions, the proposed method displays sharper image features. Conclusions: We demonstrated a method that can reconstruct massive 3D dynamic image series in the extreme undersampling and extreme computation setting.}
+}
+
+@article{kellman2020memory,
+  title={Memory-efficient learning for large-scale computational imaging},
+  author={Kellman, Michael and Zhang, Kevin and Markley, Eric and Tamir, Jon and Bostan, Emrah and Lustig, Michael and Waller, Laura},
+  journal={IEEE Transactions on Computational Imaging},
+  volume={6},
+  pages={1403--1414},
+  year={2020},
+  publisher={IEEE},
+  preview = "memoryefficient.png",
+  html="https://ieeexplore.ieee.org/abstract/document/9204455",
+  abstract = {Critical aspects of computational imaging systems, such as experimental design and image priors, can be optimized through deep networks formed by the unrolled iterations of classical physics-based reconstructions. Termed physics-based networks, they incorporate both the known physics of the system via its forward model, and the power of deep learning via data-driven training. However, for realistic large-scale physics-based networks, computing gradients via backpropagation is infeasible due to the memory limitations of graphics processing units. In this work, we propose a memory-efficient learning procedure that exploits the reversibility of the network's layers to enable physics-based learning for large-scale computational imaging systems. We demonstrate our method on a compressed sensing example, as well as two large-scale real-world systems: 3D multi-channel magnetic resonance imaging and super-resolution optical microscopy.}
+}
