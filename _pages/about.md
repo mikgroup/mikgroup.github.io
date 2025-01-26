@@ -19,7 +19,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 <div class="row">
-        {% include figure.liquid loading="eager" path="/assets/img/group_photo1.jpeg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="/assets/img/group_photo1.jpg" class="img-fluid rounded z-depth-1" %}
 </div>
 
 
