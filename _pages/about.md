@@ -18,17 +18,10 @@ news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
+<div class="row">
+        {% include figure.liquid loading="eager" path="/assets/img/group_photo1.jpeg" class="img-fluid rounded z-depth-1" %}
+</div>
 
-<figure style="display: flex; flex-direction: row;">
-  <figure style="margin: 10px;">
-    <img src="/assets/img/ISeeTheMRI.png" alt="Image 1" style="height: 300px;">
-    <figcaption>Nogah Lustig (age 5), 2013</figcaption>
-  </figure>
-  <figure style="margin: 10px;">
-    <img src="/assets/img/dce.gif" alt="Image 2" style="height: 300px;">
-    <figcaption>Frank Ong PhD, 2018</figcaption>
-  </figure>
-</figure>
 
 
 <div class="row">
