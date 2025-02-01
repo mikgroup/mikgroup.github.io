@@ -1,81 +1,32 @@
 ---
 layout: page
 title: Quiet MRI
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+description: Our research develops upon standard ZTE to enable (i) quiet T1-weighted imaging and (ii) quiet, dynamic imaging with flexible temporal resolution.We jointly design the quiet acquisition along with an inverse problem-based reconstruction to enable novel applications of quiet MRI in clinical settings.
+
+img: assets/img/project_photos/QuietMRI_1.png
 importance: 2
 category: Advanced Acquisition Methods
-giscus_comments: true
+giscus_comments: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Loud acoustic noise is well-acknowledged as one of the main reasons for patient discomfort in MRI [1][2], especially for pediatric patients. For unsedated neonates scanned with the feed-and-swaddle technique, the loud acoustic noise can often wake them up and lead to an unsuccessful exam[3]. Zero echo time (ZTE) imaging (based on RUFIS[4]) enables the unique combination of low acoustic noise and high sampling efficiency, where >99% of each TR can be used for sampling. Our research develops upon standard ZTE to enable (i) quiet T1-weighted imaging and (ii) quiet, dynamic imaging with flexible temporal resolution. We jointly design the quiet acquisition along with an inverse problem-based reconstruction to enable novel applications of quiet MRI in clinical settings.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-8">
+        {% include figure.liquid loading="eager" path="assets/img/project_photos/QuietMRI_1.jpg" title="QuietMRI_1" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-4">
+        {% include figure.liquid loading="eager" path="assets/img/project_photos/QuietMRI_2.jpg" title="QuietMRI_2" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+References
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+[1] Mackenzie R., Sims C., Owens R. G., Dixon A. K.. Patients’ perceptions of magnetic resonance imaging. Clinical Radiology. 1995;50(3):137–143.
+[2] Chou I.-Jun, Tench Christopher R., Gowland Penny, et al. Subjective discomfort in children receiving 3 T MRI and experienced adults’ perspective on children’s tolerability of 7 T: a cross-sectional questionnaire survey. BMJ Open. 2014;4(10):e006094. Publisher: British Medical Journal Publishing
+Group Section: Radiology and imaging.
+[3] Zhu Xi, Ye Jing, Bao Zhuqing, et al. Benefits of Silent DWI MRI in Success Rate, Image Quality, and the Need for Secondary Sedation During Brain Imaging of Children of 3–36 Months of Age. Academic Radiology. 2020;27(4):543–549.
+[4] Madio David P., Lowe Irving J.. Ultra-fast imaging using low flip angles and fids. Magnetic Resonance in Medicine. 1995;34(4):525–529.

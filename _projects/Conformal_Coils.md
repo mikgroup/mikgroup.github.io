@@ -1,81 +1,23 @@
 ---
 layout: page
 title: Conformal Receiver Coils
-description: with background image
-img: assets/img/4.jpg
+description: Our research focuses on the development of conformal, ultra-thin MRI receiver coils designed to improve imaging quality, patient comfort, and neuroimaging compatibility by integrating novel fabrication methods such as vacuum forming, electroless copper plating, and Twstr coil technology.
+img: assets/img/project_photos/Twister_1.jpg
 importance: 1
 category: Advancements in MRI Hardware
-related_publications: true
+related_publications: false
 ---
-
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-7">
+        {% include figure.liquid loading="eager" path="assets/img/project_photos/Twister_1.jpg" title="QuietMRI_1" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-5">
+        {% include figure.liquid loading="eager" path="assets/img/project_photos/Twister_2.jpg" title="QuietMRI_2" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+<div class="title">
+References:
 </div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+[1] Maravilla JA, Lustig M, Arias AC. Twstr: A Resonant, Matched MRI Coil without any Discrete Components. In: 2024 IEEE MTT-S International Microwave Biomedical Conference (IMBioC). IEEE; 2024:128-130. doi:10.1109/IMBioC60287.2024.10590497
+[2] Maravilla JA, Gopalan K, Arias AC, Lustig M. Transmission Line Receiver Coils (TLCs) for MRI. In: Proceedings of the 30th Scientific Meeting, International Society for Magnetic Resonance in Medicine, London, UK. ; 2022:7-12.
+[3] Gopalan K, Maravilla J, Mendelsohn J, Arias AC, Lustig M. Vacuum formed coils for MRI. Magnetic Resonance in Medicine. 2023;89(4):1684-1696. doi:10.1002/mrm.29546
