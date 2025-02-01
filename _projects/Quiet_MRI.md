@@ -15,10 +15,10 @@ Loud acoustic noise is well-acknowledged as one of the main reasons for patient 
 
 <div class="row">
     <div class="col-8">
-        {% include figure.liquid loading="eager" path="assets/img/project_photos/QuietMRI_1.jpg" title="QuietMRI_1" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_photos/QuietMRI_1.png" title="QuietMRI_1" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-4">
-        {% include figure.liquid loading="eager" path="assets/img/project_photos/QuietMRI_2.jpg" title="QuietMRI_2" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_photos/QuietMRI_2.png" title="QuietMRI_2" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 

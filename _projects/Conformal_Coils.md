@@ -9,10 +9,10 @@ related_publications: false
 ---
 <div class="row">
     <div class="col-7">
-        {% include figure.liquid loading="eager" path="assets/img/project_photos/Twister_1.jpg" title="QuietMRI_1" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_photos/Twister_1.png" title="QuietMRI_1" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-5">
-        {% include figure.liquid loading="eager" path="assets/img/project_photos/Twister_2.jpg" title="QuietMRI_2" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_photos/Twister_2.png" title="QuietMRI_2" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="title">
