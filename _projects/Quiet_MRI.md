@@ -25,8 +25,8 @@ Loud acoustic noise is well-acknowledged as one of the main reasons for patient 
 
 References
 
-[1] Mackenzie R., Sims C., Owens R. G., Dixon A. K.. Patients’ perceptions of magnetic resonance imaging. Clinical Radiology. 1995;50(3):137–143.
+[1] Mackenzie R., Sims C., Owens R. G., Dixon A. K.. Patients’ perceptions of magnetic resonance imaging. Clinical Radiology. 1995;50(3):137–143.\
 [2] Chou I.-Jun, Tench Christopher R., Gowland Penny, et al. Subjective discomfort in children receiving 3 T MRI and experienced adults’ perspective on children’s tolerability of 7 T: a cross-sectional questionnaire survey. BMJ Open. 2014;4(10):e006094. Publisher: British Medical Journal Publishing
-Group Section: Radiology and imaging.
+Group Section: Radiology and imaging.\
 [3] Zhu Xi, Ye Jing, Bao Zhuqing, et al. Benefits of Silent DWI MRI in Success Rate, Image Quality, and the Need for Secondary Sedation During Brain Imaging of Children of 3–36 Months of Age. Academic Radiology. 2020;27(4):543–549.
 [4] Madio David P., Lowe Irving J.. Ultra-fast imaging using low flip angles and fids. Magnetic Resonance in Medicine. 1995;34(4):525–529.
