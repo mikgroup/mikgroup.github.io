@@ -1,81 +1,34 @@
 ---
 layout: page
 title: MRDust
-description: an other project with a background image and giscus comments
-img: assets/img/9.jpg
+summary: Tiny implants that "blink" in MRI to encode physiological data in the scans!
+img: assets/img/project_photos/MRDust_3.gif
 importance: 1
 category: Wearable & Implantable Sensors within the MRI
-giscus_comments: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+MRI is a powerful diagnostic tool that provides detailed anatomical structure and physiological information. However, functional MRI techniques are indirect and low resolution. We design wireless implantable sensors that measure high-resolution physiological information, and augment MR images with the measured data by actively modulating the image voxels with an on-chip micro-coil. The implant performs 1) ultrasonic energy harvesting and downlink data communication 2) physiological signal sensing and storage 3) data uplink by modulating MR images.
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-2">
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-8">
+        {% include figure.liquid loading="eager" path="assets/img/project_photos/MRDust_1.png" title="MRDust_1" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
+
+We designed a 0.9mm x 1mm chip that demonstrates MR image modulation when synced-up with Spin-echo EPI sequences!
+
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-7">
+        {% include figure.liquid loading="eager" path="assets/img/project_photos/MRDust_2.png" title="MRDust_2" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-4">
+        {% include figure.liquid loading="eager" path="assets/img/project_photos/MRDust_3.gif" title="MRDust_3" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+To read more about this work, check out the following publications:
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+[1] Zhao, Biqi Rebekah, et al. "<a href="https://archive.ismrm.org/2023/0746.html">The MRDust: An implantable neural interface powered via focused ultrasound with data communication via MR image modulation</a>." Proceedings of the 32nd Annual Meeting of ISMRM. 2023.\
+[2] B. R. Zhao et al., "<a href="https://ieeexplore.ieee.org/abstract/document/10781942">The MRDust: Wireless Data Uplink & Localization via Magnetic Resonance Image Modulation</a>," 2024 46th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC), Orlando, FL, USA, 2024, pp. 1-4, doi: 10.1109/EMBC53108.2024.10781942.

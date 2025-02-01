@@ -1,80 +1,29 @@
 ---
 layout: page
 title: Caterpiller Traps
-description: another project with an image 🎉
-img: assets/img/6.jpg
+summary: The management of long cables connecting a coil array to the main MRI system remains to be a challenge. Instead of a few high-blocking traps, we present caterpillar traps, a distributed system of small, elastic traps forming a caterpillar-like structure, where bending only minimally impacts individual traps.
+img: assets/img/project_photos/Caterpiller_1.jpg
 importance: 2
 category: Advancements in MRI Hardware
 ---
+The management of long cables connecting a coil array to the main MRI system remains to be a challenge. Radiofrequency (RF) coupling of these cables to the main MRI transmit coil can cause high shield currents [1,2]. These currents affect coil performance, result in B1 field inhomogeneities, and, most importantly, pose serious safety hazards like heating and RF burns [3]. Traditional traps are designed to be stiff to avoid changes in their resonant frequency, hindering the overall system flexibility [4,5]. Instead of a few high-blocking traps, we propose caterpillar traps, a distributed system of small, elastic traps that cover the full length of cables. We leverage an array of resonant toroids as traps, forming a caterpillar-like structure, where bending only minimally impacts individual traps. Caterpillar traps provide sufficient attenuation to shield currents while allowing cable flexibility. Our distributed design can provide high blocking efficiency at different positions and orientations, even in cases where commercial cable traps cannot.
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-5">
+        {% include figure.liquid loading="eager" path="assets/img/project_photos/Caterpiller_1.png" title="Caterpiller_1" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-6">
+        {% include figure.liquid loading="eager" path="assets/img/project_photos/Caterpiller_2.png" title="Caterpiller_2" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+<h2>
+References
+</h2>
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+[1] 	Peterson, D.M., Beck, B.L., & Duensing G.R. (2002). Reduction of cable shield currents generated by high field body coils at 3 Tesla and above. Int Soc Magn Reson Med, Honolulu, HI. p 850. 2.\
+[2]	Beck, B.L., Peterson, D.M., Duensing G.R., & Fitzsimmons J.R. (2000). Implications of Cable Shield Currents at 3.0 and 4.7 Tesla. Int Soc Magn Reson Med, Denver, CO. p 641\
+[3] Peterson, D. M., Beck, B. L., Duensing, G. R., & Fitzsimmons, J. R. (2003). Common mode signal rejection methods for MRI: Reduction of cable shield currents for high static magnetic field systems. Concepts in Magnetic Resonance, 19B(1), 1–8. https://doi.org/10.1002/cmr.b.10090\
+[4] Burl, M., Chmielewski, T., & Braum, W.O., Koninklijke Philips Electronics, assignee. (2003). Multi-channel RF cable trap for magnetic resonance imaging. U.S. patent 6593744.\
+[5] Seeber, D. A., Jevtic, J., & Menon, A. (2004). Floating shield current suppression trap. Concepts in Magnetic Resonance, 21B(1), 26–31. https://doi.org/10.1002/cmr.b.20008

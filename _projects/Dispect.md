@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Dispect
+title: DiSpect
 description: with background image
 img: assets/img/miki_lustig.jpg
 importance: 1
