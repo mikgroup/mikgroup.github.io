@@ -1,8 +1,7 @@
 ---
 layout: page
 title: Quiet MRI
-description: Our research develops upon standard ZTE to enable (i) quiet T1-weighted imaging and (ii) quiet, dynamic imaging with flexible temporal resolution.We jointly design the quiet acquisition along with an inverse problem-based reconstruction to enable novel applications of quiet MRI in clinical settings.
-
+summary: Our research develops upon standard ZTE to enable (i) quiet T1-weighted imaging and (ii) quiet, dynamic imaging with flexible temporal resolution.We jointly design the quiet acquisition along with an inverse problem-based reconstruction to enable novel applications of quiet MRI in clinical settings.
 img: assets/img/project_photos/QuietMRI_1.png
 importance: 2
 category: Advanced Acquisition Methods
@@ -22,8 +21,9 @@ Loud acoustic noise is well-acknowledged as one of the main reasons for patient 
     </div>
 </div>
 
-
+<h2>
 References
+</h2>
 
 [1] Mackenzie R., Sims C., Owens R. G., Dixon A. K.. Patients’ perceptions of magnetic resonance imaging. Clinical Radiology. 1995;50(3):137–143.\
 [2] Chou I.-Jun, Tench Christopher R., Gowland Penny, et al. Subjective discomfort in children receiving 3 T MRI and experienced adults’ perspective on children’s tolerability of 7 T: a cross-sectional questionnaire survey. BMJ Open. 2014;4(10):e006094. Publisher: British Medical Journal Publishing
