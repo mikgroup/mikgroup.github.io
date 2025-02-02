@@ -5,7 +5,7 @@ permalink: /research/
 description:
 nav: true
 nav_order: 2
-display_categories: [Advanced Acquisition Methods, Advanced reconstruction methods + Computational MRI, Advancements in MRI Hardware, Motion sensing and correction in MRI, Anatomy-mimicking quantitative phantoms, Wearable & Implantable Sensors within the MRI]
+display_categories: [Advanced Acquisition Methods, Computational MRI, MRI Hardware, Motion Sensing and Correction in MRI, Phantoms, Wearable & Implantable Sensors within the MRI]
 horizontal: false
 ---
 <!-- pages/projects.md -->

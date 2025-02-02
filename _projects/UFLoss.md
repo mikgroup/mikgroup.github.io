@@ -4,7 +4,7 @@ title: UFLoss
 description: another without an image
 img:
 importance: 2
-category: Advanced reconstruction methods + Computational MRI
+category: Computational MRI
 ---
 
 Every project has a beautiful feature showcase page.
