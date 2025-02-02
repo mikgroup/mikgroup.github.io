@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Caterpiller Traps
+title: Caterpillar Traps
 summary: The management of long cables connecting a coil array to the main MRI system remains to be a challenge. Instead of a few high-blocking traps, we present caterpillar traps, a distributed system of small, elastic traps forming a caterpillar-like structure, where bending only minimally impacts individual traps.
 img: assets/img/project_photos/Caterpiller_1.png
 importance: 2
