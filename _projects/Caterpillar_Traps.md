@@ -11,10 +11,10 @@ The management of long cables connecting a coil array to the main MRI system rem
 
 <div class="row">
     <div class="col-5">
-        {% include figure.liquid loading="eager" path="assets/img/project_photos/Caterpiller_1.png" title="Caterpillar_1" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_photos/Caterpillar_1.png" title="Caterpillar_1" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-6">
-        {% include figure.liquid loading="eager" path="assets/img/project_photos/Caterpiller_2.png" title="Caterpillar_2" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_photos/Caterpillar_2.png" title="Caterpillar_2" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 

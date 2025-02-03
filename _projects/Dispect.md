@@ -11,13 +11,13 @@ Our research focuses on developing a non-contrast MRI method, Displacement Spect
 
 
 <div class="row">
-    {% include figure.liquid loading="eager" path="assets/img/project_photos/DiSpect_1.png" title="Caterpillar_1" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/project_photos/DiSpect_1.png" title="DiSpect_1" class="img-fluid rounded z-depth-1" %}
 
 </div>
 
 
 <div class="row">
-    {% include figure.liquid loading="eager" path="assets/img/project_photos/DiSpect_2.png" title="Caterpillar_1" class="img-fluid rounded z-depth-1" %}
+  {% include figure.liquid loading="eager" path="assets/img/project_photos/DiSpect_2.jpg" title="DiSpect_1" class="img-fluid rounded z-depth-1" %}
 
 </div>
 
