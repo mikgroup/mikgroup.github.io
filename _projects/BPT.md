@@ -4,7 +4,7 @@ title: Beat Pilot Tone
 description: an other project with a background image and giscus comments
 img: assets/img/9.jpg
 importance: 1
-category: Motion sensing and correction in MRI
+category: Motion Sensing and Correction in MRI
 giscus_comments: true
 ---
 

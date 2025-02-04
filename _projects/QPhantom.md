@@ -4,7 +4,7 @@ title: QPhantom
 description: an other project with a background image and giscus comments
 img: assets/img/9.jpg
 importance: 1
-category: Anatomy-mimicking quantitative phantoms
+category: Phantoms
 giscus_comments: true
 ---
 

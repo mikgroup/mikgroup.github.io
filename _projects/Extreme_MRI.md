@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Extreme MRI, T2 Shuffling
+title: Extreme MRI
 description: a project with a background image
 img: assets/img/1.jpg
 importance: 3
-category: Advanced reconstruction methods + Computational MRI
+category: Computational MRI
 ---
 
 Every project has a beautiful feature showcase page.

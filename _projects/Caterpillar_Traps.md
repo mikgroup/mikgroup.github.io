@@ -2,19 +2,19 @@
 layout: page
 title: Caterpillar Traps
 summary: The management of long cables connecting a coil array to the main MRI system remains to be a challenge. Instead of a few high-blocking traps, we present caterpillar traps, a distributed system of small, elastic traps forming a caterpillar-like structure, where bending only minimally impacts individual traps.
-img: assets/img/project_photos/Caterpiller_1.png
+img: assets/img/project_photos/Caterpillar_1.png
 importance: 2
-category: Advancements in MRI Hardware
+category: MRI Hardware
 ---
 The management of long cables connecting a coil array to the main MRI system remains to be a challenge. Radiofrequency (RF) coupling of these cables to the main MRI transmit coil can cause high shield currents [1,2]. These currents affect coil performance, result in B1 field inhomogeneities, and, most importantly, pose serious safety hazards like heating and RF burns [3]. Traditional traps are designed to be stiff to avoid changes in their resonant frequency, hindering the overall system flexibility [4,5]. Instead of a few high-blocking traps, we propose caterpillar traps, a distributed system of small, elastic traps that cover the full length of cables. We leverage an array of resonant toroids as traps, forming a caterpillar-like structure, where bending only minimally impacts individual traps. Caterpillar traps provide sufficient attenuation to shield currents while allowing cable flexibility. Our distributed design can provide high blocking efficiency at different positions and orientations, even in cases where commercial cable traps cannot.
 
 
 <div class="row">
     <div class="col-5">
-        {% include figure.liquid loading="eager" path="assets/img/project_photos/Caterpiller_1.png" title="Caterpiller_1" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_photos/Caterpillar_1.png" title="Caterpillar_1" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-6">
-        {% include figure.liquid loading="eager" path="assets/img/project_photos/Caterpiller_2.png" title="Caterpiller_2" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_photos/Caterpillar_2.png" title="Caterpillar_2" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 

@@ -4,7 +4,7 @@ title: Conformal Receiver Coils
 summary: Our research focuses on the development of conformal, ultra-thin MRI receiver coils designed to improve imaging quality, patient comfort, and neuroimaging compatibility by integrating novel fabrication methods such as vacuum forming, electroless copper plating, and Twstr coil technology.
 img: assets/img/project_photos/Twister_1.png
 importance: 1
-category: Advancements in MRI Hardware
+category: MRI Hardware
 related_publications: false
 ---
 

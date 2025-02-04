@@ -5,7 +5,7 @@ description: a project that redirects to another website
 img: assets/img/7.jpg
 redirect: https://unsplash.com
 importance: 1
-category: Advanced reconstruction methods + Computational MRI
+category: Computational MRI
 ---
 
 Every project has a beautiful feature showcase page.
