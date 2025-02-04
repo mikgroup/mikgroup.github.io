@@ -5,7 +5,7 @@ title: people
 permalink: /people/
 nav: true
 nav_order: 5
-display_categories: [Principle Investigator, Postdocs, PhD Students, MS Students, Undergraduate Students]
+display_categories: [Principle Investigator, Postdocs, PhD Students, Undergraduate Students]
 ---
 
 <!-- pages/projects.md -->

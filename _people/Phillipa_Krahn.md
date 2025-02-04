@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Phillipa Krahn
+title: Philippa Krahn
 summary:
 img: assets/img/people/philippa.jpg
 importance: 4
