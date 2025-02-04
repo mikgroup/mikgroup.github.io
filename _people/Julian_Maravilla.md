@@ -4,5 +4,5 @@ title: Julian Maravilla
 summary: co-advised by Ana Claudia Arias
 img: assets/img/people/julian.png
 importance: 3
-category: Graduate Students
+category: PhD Students
 ---
