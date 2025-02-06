@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Rinni Bhansali
-summary: Rinni is actually a blue cheetah before she writes something about herself
-img: assets/img/people/bluecheetah.png
+summary: 
+img: assets/img/people/rinni.png
 importance: 6
-category: none
+category: PhD Students
 ---
