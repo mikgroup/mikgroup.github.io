@@ -1,7 +1,7 @@
 ---
 # layout: about
 layout: page
-title: home
+title: 
 permalink: /
 #subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc. -->
 
@@ -19,8 +19,10 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-<div class="row">
-    <div class="col-sm mt-1 mt-md-0">
+# Mikgroup @ UC Berkeley
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-1 mt-md-0">
         {% include figure.liquid loading="eager" path="/assets/img/dce.gif" title="Frank Ong PhD, 2018" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>

@@ -5,7 +5,9 @@ permalink: /research/
 description:
 nav: true
 nav_order: 2
-display_categories: [Advanced Acquisition Methods, Computational MRI, MRI Hardware, Motion Sensing and Correction in MRI, Phantoms, Wearable & Implantable Sensors within the MRI]
+# Removing unfinished categories for now. Add back when people complete them
+# display_categories: [Advanced Acquisition Methods, Computational MRI, MRI Hardware, Motion Sensing and Correction in MRI, Phantoms, Wearable & Implantable Sensors within the MRI]
+display_categories: [Advanced Acquisition Methods, MRI Hardware, Wearable & Implantable Sensors within the MRI]
 horizontal: false
 ---
 <!-- pages/projects.md -->
@@ -64,6 +66,7 @@ horizontal: false
 </div>
 
 
+<br>
 
 ### Lecture videos
 - NIBIB New Horizon Lecture, ["When Fast is not Fast Enough: The Challenging Path Towards Pediatric MRI Without Anesthesia](https://www.ismrm.org/18/plenaryvideos/04-Tuesday/), ISMRM 2018

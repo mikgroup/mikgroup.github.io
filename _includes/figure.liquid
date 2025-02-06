@@ -78,7 +78,13 @@
     >
   </picture>
 
-  {% if include.caption %}
+  {% if include.caption and include.subcaption %}
+    <figcaption>    
+    <h2>{{ include.caption }}</h2>
+    <p>{{ include.subcaption }}</p>
+    </figcaption>
+  {% elsif include.caption %}
     <figcaption class="caption">{{ include.caption }}</figcaption>
   {% endif %}
+
 </figure>
