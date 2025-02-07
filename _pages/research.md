@@ -7,7 +7,7 @@ nav: true
 nav_order: 2
 # Removing unfinished categories for now. Add back when people complete them
 # display_categories: [Advanced Acquisition Methods, Computational MRI, MRI Hardware, Motion Sensing and Correction in MRI, Phantoms, Wearable & Implantable Sensors within the MRI]
-display_categories: [Advanced Acquisition Methods, MRI Hardware, Wearable & Implantable Sensors within the MRI]
+display_categories: [Advanced Acquisition Methods, MRI Hardware, Phantoms, Wearable & Implantable Sensors within the MRI]
 horizontal: false
 ---
 <!-- pages/projects.md -->
