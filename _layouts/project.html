@@ -16,25 +16,25 @@ layout: default
   {% for uname in page.people %}
     {% assign person = site.data.people | where: 'name', uname | first %}
     {% if person %}
-      <div class="person-entry" style="display:flex; align-items:center; margin-bottom: 1.5rem;">
-        <div style="margin-right: 1rem;">
+      <div class="person-entry">
+        <div class="person-image-container">
           {% include person-image.html person=person %}
         </div>
-        <div style="flex: 1;">
-          <div style="display:flex; align-items:center; margin-bottom: 0.25rem;">
-            <h5 style="margin: 0; font-weight:600;">{{ person.name }}</h5>
+        <div class="person-info">
+          <div class="person-header">
+            <h5 class="person-name">{{ person.name }}</h5>
             {% if person.rank %}
-              <span class="badge badge-secondary ml-2">{{ person.rank | capitalize }}</span>
+              <span class="badge badge-secondary">{{ person.rank | capitalize }}</span>
             {% endif %}
           </div>
           {% if person.description %}
-            <div class="text-muted">{{ person.description }}</div>
+            <div class="person-description">{{ person.description }}</div>
           {% endif %}
           {% if person.current_position %}
-            <div class="text-info"><small><strong>Current:</strong> {{ person.current_position }}</small></div>
+            <div class="person-current-position"><strong>Current:</strong> {{ person.current_position }}</div>
           {% endif %}
           {% if person.links %}
-            <div class="person-links mt-2">
+            <div class="person-links">
               {% for link in person.links %}
                 {% if link.type == 'home' and person.home_url %}
                   <a href="{{ person.home_url }}" class="btn btn-sm btn-outline-primary mr-1" target="_blank">

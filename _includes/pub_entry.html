@@ -8,16 +8,16 @@
 {% endif %}
 
 <tr>
-  <td style="width: 25%; vertical-align: top;">
+  <td style="width: 25%; vertical-align: top;" class="pub-image-cell">
     {% if pub.picture %}
-      <img src="{{ pub.picture }}" alt="{{ pub.title }}" style="width: 100%; max-width: 200px; height: auto;">
+      <img src="{{ pub.picture }}" alt="{{ pub.title }}" class="pub-image">
     {% endif %}
   </td>
   <td style="vertical-align: top;">
     <div class="publication-entry">
-      <h5 style="margin-bottom: 0.5rem;">{{ pub.title }}</h5>
-      <p style="margin-bottom: 0.5rem;"><em>{{ pub.authors }}</em></p>
-      <p style="margin-bottom: 0.5rem;">{{ pub.venue }}</p>
+      <h5 class="pub-title">{{ pub.title }}</h5>
+      <p class="pub-authors"><em>{{ pub.authors }}</em></p>
+      <p class="pub-venue">{{ pub.venue }}</p>
       
       {% if pub.note %}
         <p style="margin-bottom: 0.5rem; font-size: 0.9rem; color: #666;">{{ pub.note }}</p>
