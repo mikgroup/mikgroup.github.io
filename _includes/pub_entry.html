@@ -30,37 +30,26 @@
       {% if pub.links %}
         <div class="publication-links">
           {% for link in pub.links %}
-            {% if link.type == 'pdf' %}
+            {% if link.type == 'abstract' %}
+              <button class="btn btn-sm btn-outline-secondary mr-1" onclick="toggleAbstract('{{ pub.title | slugify }}')">
+                <i class="fa fa-file-text-o"></i> Abstract
+              </button>
+            {% elsif link.type == 'html' %}
               <a href="{{ link.url }}" class="btn btn-sm btn-outline-primary mr-1" target="_blank">
-                <i class="fa fa-file-pdf-o"></i> PDF
-              </a>
-            {% elsif link.type == 'arxiv' %}
-              <a href="{{ link.url }}" class="btn btn-sm btn-outline-secondary mr-1" target="_blank">
-                <i class="ai ai-arxiv"></i> arXiv
-              </a>
-            {% elsif link.type == 'website' %}
-              <a href="{{ link.url }}" class="btn btn-sm btn-outline-info mr-1" target="_blank">
-                <i class="fa fa-globe"></i> Website
+                <i class="fa fa-external-link"></i> HTML
               </a>
             {% elsif link.type == 'code' %}
               <a href="{{ link.url }}" class="btn btn-sm btn-outline-dark mr-1" target="_blank">
                 <i class="fa fa-code"></i> Code
               </a>
-            {% elsif link.type == 'video' %}
-              <a href="{{ link.url }}" class="btn btn-sm btn-outline-danger mr-1" target="_blank">
-                <i class="fa fa-video-camera"></i> Video
-              </a>
-            {% elsif link.type == 'talk' %}
-              <a href="{{ link.url }}" class="btn btn-sm btn-outline-warning mr-1" target="_blank">
-                <i class="fa fa-chalkboard-teacher"></i> Talk
-              </a>
-            {% elsif link.type == 'doi' %}
-              <a href="{{ link.url }}" class="btn btn-sm btn-outline-success mr-1" target="_blank">
-                <i class="ai ai-doi"></i> DOI
-              </a>
             {% endif %}
           {% endfor %}
         </div>
+        {% if pub.links contains 'abstract' %}
+          <div id="abstract-{{ pub.title | slugify }}" class="abstract-content" style="display: none; margin-top: 0.5rem; padding: 0.5rem; background-color: #f8f9fa; border-radius: 4px; font-size: 0.9rem;">
+            {{ pub.abstract | default: "Abstract not available." }}
+          </div>
+        {% endif %}
       {% endif %}
     </div>
   </td>

@@ -106,3 +106,14 @@ layout: default
 <p class="text-muted"><small>Last updated: {{ page.last-updated }}</p>
 {% endif %}
 
+<script>
+function toggleAbstract(abstractId) {
+  const abstractContent = document.getElementById('abstract-' + abstractId);
+  if (abstractContent.style.display === 'none') {
+    abstractContent.style.display = 'block';
+  } else {
+    abstractContent.style.display = 'none';
+  }
+}
+</script>
+

@@ -31,15 +31,12 @@
   note: '* denotes equal contribution.'
   projects:
     - example_project
+  abstract: "We present GABRIL, a gaze-based regularization approach for mitigating causal confusion in imitation learning. Our method leverages human gaze data to guide the learning process and improve generalization."
   links:
-    - type: pdf
-      display: PDF
-      url: /pdfs/publications/banayeeanzade2025gabril.pdf
-    - type: arxiv
-      display: arXiv
-      url: https://arxiv.org/abs/2507.19647
-    - type: website
-      display: Website
+    - type: abstract
+      display: Abstract
+    - type: html
+      display: HTML
       url: https://liralab.usc.edu/gabril/
     - type: code
       display: Code 1
@@ -62,12 +59,12 @@
   note: '* denotes equal contribution.'
   projects:
     - human_robot_interaction
+  abstract: "We present RAILGUN, a unified convolutional policy for multi-agent path finding that works across different environments and tasks. Our approach demonstrates improved performance and generalization."
   links:
-    - type: pdf
-      display: PDF
-      url: /pdfs/publications/tang2025railgun.pdf
-    - type: arxiv
-      display: arXiv
+    - type: abstract
+      display: Abstract
+    - type: html
+      display: HTML
       url: https://arxiv.org/abs/2503.02992
   bibtex: '@inproceedings{tang2025railgun,
       title={RAILGUN: A Unified Convolutional Policy for Multi-Agent Path Finding Across Different Environments and Tasks},
@@ -85,15 +82,12 @@
   specialnote: 'Oral presentation. Also received the best paper award at the OOD workshop and a best paper nomination at RoboReps Workshop at RSS 2025.'
   projects:
     - example_project
+  abstract: "ReWiND introduces language-guided rewards to teach robot policies without requiring new demonstrations. Our approach leverages natural language instructions to improve learning efficiency."
   links:
-    - type: pdf
-      display: PDF
-      url: /pdfs/publications/zhang2025rewind.pdf
-    - type: arxiv
-      display: arXiv
-      url: https://arxiv.org/abs/2505.10911
-    - type: website
-      display: Website
+    - type: abstract
+      display: Abstract
+    - type: html
+      display: HTML
       url: https://rewind-reward.github.io/
   bibtex: '@inproceedings{zhang2025rewind,
       title={ReWiND: Language-Guided Rewards Teach Robot Policies without New Demonstrations}, 
@@ -110,12 +104,12 @@
   specialnote: 'Outstanding Paper Award on Empirical Reinforcement Learning Research.'
   projects:
     - example_project
+  abstract: "We address the suboptimality of deterministic policy gradients in complex Q-functions and propose mitigation strategies that improve learning performance in reinforcement learning tasks."
   links:
-    - type: pdf
-      display: PDF
-      url: /pdfs/publications/jain2025mitigating.pdf
-    - type: arxiv
-      display: arXiv
+    - type: abstract
+      display: Abstract
+    - type: html
+      display: HTML
       url: https://arxiv.org/abs/2410.11833
   bibtex: '@inproceedings{jain2025mitigating,
       title={Mitigating Suboptimality of Deterministic Policy Gradients in Complex Q-functions}, 
@@ -160,22 +154,16 @@
   picture: /images/publications/korkmaz2025mile.png
   projects:
     - example_project
+  abstract: "MILE presents a model-based intervention learning approach that improves robot learning through strategic interventions and model-based planning."
   links:
-    - type: pdf
-      display: PDF
-      url: /pdfs/publications/korkmaz2025mile.pdf
-    - type: arxiv
-      display: arXiv
-      url: https://arxiv.org/abs/2502.13519
-    - type: website
-      display: Website
+    - type: abstract
+      display: Abstract
+    - type: html
+      display: HTML
       url: https://liralab.usc.edu/mile/
     - type: code
       display: Code
       url: https://github.com/USC-Lira/mile-code
-    - type: video
-      display: Video
-      url: https://youtu.be/jmykh0uniII
   bibtex: '@inproceedings{korkmaz2025mile,
       title={MILE: Model-based Intervention Learning}, 
       author={Yigit Korkmaz and Erdem Bıyık},
