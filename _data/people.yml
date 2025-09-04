@@ -6,6 +6,7 @@
   home_url: https://ebiyik.github.io
   description: Erdem is an Assistant Professor of Computer Science and of Electrical and Computer Engineering - Systems. His research interests broadly cover robot learning, human-robot interaction, and multi-agent systems. He is especially interested in developing algorithms that enable robots to efficiently learn from various forms of human feedback.
   rank: faculty
+  current_position: Assistant Professor, USC
   links:
     - type: scholar
       url: https://scholar.google.com/citations?user=P-G3sjYAAAAJ
@@ -20,6 +21,7 @@
   home_url: http://aliang8.github.io
   description: Anthony is a PhD student in the Computer Science Department. He is interested in leveraging human and learned priors for improving RL training efficiency and generalization. He is also interested in meta-RL and generative models with applications in robotics.
   rank: phd
+  current_position: PhD Student, USC
   coadvisor: Stephen Tu
   links:
     - type: scholar
@@ -98,8 +100,9 @@
 - name: Bo-Ruei Huang
   picture: /images/people/boruei.png
   home_url: https://borueihuang.com/
-  description: Bo-Ruei is a PhD student in the Computer Science Department.
-  rank: phd
+  description: Bo-Ruei was a PhD student in the Computer Science Department working on robot learning and human-robot interaction.
+  rank: alumni
+  current_position: Research Scientist, Google DeepMind
   links:
     - type: scholar
       url: https://scholar.google.com/citations?user=EN01AeQAAAAJ

@@ -5,6 +5,7 @@ description: |
 people:
   - Erdem Bıyık
   - Yigit Korkmaz
+  - Bo-Ruei Huang
 layout: project
 image: "/images/research/robot_learning.png"
 last-updated: 2025-09-03

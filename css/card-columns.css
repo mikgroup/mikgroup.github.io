@@ -71,3 +71,41 @@
 .noprofile text {
   fill: #6c757d;
 }
+
+/* Project page styling */
+.project-header-image {
+  margin-bottom: 2rem;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.project-header-image img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+/* Person entry styling */
+.person-entry {
+  border: 1px solid #e9ecef;
+  border-radius: 8px;
+  padding: 1rem;
+  background-color: #f8f9fa;
+  transition: all 0.2s ease;
+}
+
+.person-entry:hover {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transform: translateY(-1px);
+}
+
+.person-links .btn {
+  font-size: 0.8rem;
+  padding: 0.25rem 0.5rem;
+}
+
+.badge {
+  font-size: 0.75rem;
+  padding: 0.25rem 0.5rem;
+}

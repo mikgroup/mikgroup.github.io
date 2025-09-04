@@ -2,6 +2,12 @@
 layout: default
 ---
 
+{% if page.image %}
+<div class="project-header-image">
+  <img src="{{ page.image }}" alt="{{ page.title }}" class="img-fluid mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
+</div>
+{% endif %}
+
 {{ content }}
 
 {% if page.people %}
@@ -10,22 +16,69 @@ layout: default
   {% for uname in page.people %}
     {% assign person = site.data.people | where: 'name', uname | first %}
     {% if person %}
-      <div class="person-entry" style="display:flex; align-items:center; margin-bottom: 1rem;">
-        {% include person-image.html person=person %}
-        <div style="margin-left: 0.75rem;">
-          <div style="font-weight:600;">{{ person.name }}</div>
-          {% if person.description %}<div class="text-muted">{{ person.description }}</div>{% endif %}
+      <div class="person-entry" style="display:flex; align-items:center; margin-bottom: 1.5rem;">
+        <div style="margin-right: 1rem;">
+          {% include person-image.html person=person %}
+        </div>
+        <div style="flex: 1;">
+          <div style="display:flex; align-items:center; margin-bottom: 0.25rem;">
+            <h5 style="margin: 0; font-weight:600;">{{ person.name }}</h5>
+            {% if person.rank %}
+              <span class="badge badge-secondary ml-2">{{ person.rank | capitalize }}</span>
+            {% endif %}
+          </div>
+          {% if person.description %}
+            <div class="text-muted">{{ person.description }}</div>
+          {% endif %}
+          {% if person.current_position %}
+            <div class="text-info"><small><strong>Current:</strong> {{ person.current_position }}</small></div>
+          {% endif %}
+          {% if person.links %}
+            <div class="person-links mt-2">
+              {% for link in person.links %}
+                {% if link.type == 'home' and person.home_url %}
+                  <a href="{{ person.home_url }}" class="btn btn-sm btn-outline-primary mr-1" target="_blank">
+                    <i class="fa fa-home"></i> Website
+                  </a>
+                {% elsif link.type == 'scholar' %}
+                  <a href="{{ link.url }}" class="btn btn-sm btn-outline-primary mr-1" target="_blank">
+                    <i class="ai ai-google-scholar"></i> Scholar
+                  </a>
+                {% elsif link.type == 'github' %}
+                  <a href="https://github.com/{{ link.url }}" class="btn btn-sm btn-outline-dark mr-1" target="_blank">
+                    <i class="fab fa-github"></i> GitHub
+                  </a>
+                {% elsif link.type == 'twitter' %}
+                  <a href="https://twitter.com/{{ link.url | replace: '@', '' }}" class="btn btn-sm btn-outline-info mr-1" target="_blank">
+                    <i class="fab fa-twitter"></i> Twitter
+                  </a>
+                {% endif %}
+              {% endfor %}
+            </div>
+          {% endif %}
         </div>
       </div>
     {% endif %}
   {% endfor %}
   {% if page.people_long %}
     {% for person_obj in page.people_long %}
-      <div class="person-entry" style="display:flex; align-items:center; margin-bottom: 1rem;">
-        {% include person-image.html person=person_obj %}
-        <div style="margin-left: 0.75rem;">
-          <div style="font-weight:600;">{{ person_obj.name }}</div>
-          {% if person_obj.description %}<div class="text-muted">{{ person_obj.description }}</div>{% endif %}
+      <div class="person-entry" style="display:flex; align-items:center; margin-bottom: 1.5rem;">
+        <div style="margin-right: 1rem;">
+          {% include person-image.html person=person_obj %}
+        </div>
+        <div style="flex: 1;">
+          <div style="display:flex; align-items:center; margin-bottom: 0.25rem;">
+            <h5 style="margin: 0; font-weight:600;">{{ person_obj.name }}</h5>
+            {% if person_obj.rank %}
+              <span class="badge badge-secondary ml-2">{{ person_obj.rank | capitalize }}</span>
+            {% endif %}
+          </div>
+          {% if person_obj.description %}
+            <div class="text-muted">{{ person_obj.description }}</div>
+          {% endif %}
+          {% if person_obj.current_position %}
+            <div class="text-info"><small><strong>Current:</strong> {{ person_obj.current_position }}</small></div>
+          {% endif %}
         </div>
       </div>
     {% endfor %}
@@ -34,6 +87,6 @@ layout: default
 {% endif %}
 
 {% if page.last-updated %}
-<p>Last updated: {{ page.last-updated }}</p>
+<p class="text-muted"><small>Last updated: {{ page.last-updated }}</small></p>
 {% endif %}
 
