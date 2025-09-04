@@ -1,0 +1,73 @@
+/* Card columns styling for research projects */
+.card-columns {
+  column-count: 3;
+  column-gap: 1.25rem;
+}
+
+.card-columns .card {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 1.25rem;
+}
+
+@media (max-width: 768px) {
+  .card-columns {
+    column-count: 1;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+  .card-columns {
+    column-count: 2;
+  }
+}
+
+/* Project card styling */
+.card {
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+.card-body {
+  padding: 1.25rem;
+}
+
+.card-title {
+  margin-bottom: .75rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.card-subtitle {
+  margin-top: -.375rem;
+  margin-bottom: 0;
+}
+
+.card-text {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.card-footer {
+  padding: .75rem 1.25rem;
+  background-color: rgba(0,0,0,.03);
+  border-top: 1px solid rgba(0,0,0,.125);
+}
+
+/* Person image styling */
+.profile {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.noprofile {
+  background-color: #e9ecef;
+  fill: #6c757d;
+}
+
+.noprofile text {
+  fill: #6c757d;
+}

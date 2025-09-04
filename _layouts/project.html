@@ -9,13 +9,15 @@ layout: default
 <section class="people project-people">
   {% for uname in page.people %}
     {% assign person = site.data.people | where: 'name', uname | first %}
-    <div class="person-entry" style="display:flex; align-items:center; margin-bottom: 1rem;">
-      {% include person-image.html person=person %}
-      <div style="margin-left: 0.75rem;">
-        <div style="font-weight:600;">{{ person.name }}</div>
-        {% if person.description %}<div class="text-muted">{{ person.description }}</div>{% endif %}
+    {% if person %}
+      <div class="person-entry" style="display:flex; align-items:center; margin-bottom: 1rem;">
+        {% include person-image.html person=person %}
+        <div style="margin-left: 0.75rem;">
+          <div style="font-weight:600;">{{ person.name }}</div>
+          {% if person.description %}<div class="text-muted">{{ person.description }}</div>{% endif %}
+        </div>
       </div>
-    </div>
+    {% endif %}
   {% endfor %}
   {% if page.people_long %}
     {% for person_obj in page.people_long %}
