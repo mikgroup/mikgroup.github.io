@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+{{ content }}
+
+{% if page.people %}
+<h2>People</h2>
+<section class="people project-people">
+  {% for uname in page.people %}
+    {% assign person = site.data.people | where: 'name', uname | first %}
+    <div class="person-entry" style="display:flex; align-items:center; margin-bottom: 1rem;">
+      {% include person-image.html person=person %}
+      <div style="margin-left: 0.75rem;">
+        <div style="font-weight:600;">{{ person.name }}</div>
+        {% if person.description %}<div class="text-muted">{{ person.description }}</div>{% endif %}
+      </div>
+    </div>
+  {% endfor %}
+  {% if page.people_long %}
+    {% for person_obj in page.people_long %}
+      <div class="person-entry" style="display:flex; align-items:center; margin-bottom: 1rem;">
+        {% include person-image.html person=person_obj %}
+        <div style="margin-left: 0.75rem;">
+          <div style="font-weight:600;">{{ person_obj.name }}</div>
+          {% if person_obj.description %}<div class="text-muted">{{ person_obj.description }}</div>{% endif %}
+        </div>
+      </div>
+    {% endfor %}
+  {% endif %}
+</section>
+{% endif %}
+
+{% if page.last-updated %}
+<p>Last updated: {{ page.last-updated }}</p>
+{% endif %}
+

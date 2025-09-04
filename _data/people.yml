@@ -1,0 +1,324 @@
+# For ranks and link types, see people_disp_order variable in _config.yml
+
+# PI
+- name: Erdem Bıyık
+  picture: /images/people/erdem.jpg
+  home_url: https://ebiyik.github.io
+  description: Erdem is an Assistant Professor of Computer Science and of Electrical and Computer Engineering - Systems. His research interests broadly cover robot learning, human-robot interaction, and multi-agent systems. He is especially interested in developing algorithms that enable robots to efficiently learn from various forms of human feedback.
+  rank: faculty
+  links:
+    - type: scholar
+      url: https://scholar.google.com/citations?user=P-G3sjYAAAAJ
+    - type: github
+      url: https://github.com/erdem-biyik
+    - type: twitter
+      url: https://x.com/ebiyik_
+
+# Phd students      
+- name: Anthony Liang
+  picture: /images/people/anthony.jpg
+  home_url: http://aliang8.github.io
+  description: Anthony is a PhD student in the Computer Science Department. He is interested in leveraging human and learned priors for improving RL training efficiency and generalization. He is also interested in meta-RL and generative models with applications in robotics.
+  rank: phd
+  coadvisor: Stephen Tu
+  links:
+    - type: scholar
+      url: https://scholar.google.co.il/citations?user=LjmRrbUAAAAJ&hl=en
+    - type: github
+      url: https://github.com/aliang8/
+    - type: twitter
+      url: https://x.com/Anthony66108836/
+
+- name: Pavel Czempin
+  picture: /images/people/pavel.jpg
+  home_url: https://www.czemp.in/
+  description: Pavel is a PhD student in the Computer Science Department. He works on improving reinforcement learning from human feedback for large pretrained models and unsupervised learning from videos for sequential decision making.
+  rank: phd
+  links:
+    - type: scholar
+      url: https://scholar.google.com/citations?user=1O1nONQAAAAJ
+    - type: github
+      url: https://github.com/PavelCz
+    - type: twitter
+      url: https://x.com/pczempin
+      
+- name: Yigit Korkmaz
+  picture: /images/people/yigit.png
+  home_url: https://ygtkorkmaz.github.io/
+  description: Yigit is a PhD student in the Computer Science Department. He is interested in robot learning from various forms of human feedback, including explicit forms such as demonstrations and comparisons, and more implicit forms like gestures.
+  rank: phd
+  links:
+    - type: scholar
+      url: https://scholar.google.com/citations?user=7y3MPVYAAAAJ&hl=en 
+    - type: github
+      url: https://github.com/ygtkorkmaz
+    - type: twitter
+      url: https://x.com/yigitkkorkmaz
+      
+- name: Yimin Tang
+  picture: /images/people/yimin.jpg
+  home_url: https://sites.google.com/view/yimintang
+  description: Yimin is a PhD student in the Computer Science Department. His research is focused on Multi-Agent Path Finding (MAPF). He is also interested in foundation models, world models, and deep reinforcement learning.
+  rank: phd
+  coadvisor: Sven Koenig
+  links:
+    - type: scholar
+      url: https://scholar.google.com/citations?user=OrBSEjAAAAAJ&hl=en
+    - type: github
+      url: https://github.com/TachikakaMin
+    - type: twitter
+      url: https://x.com/YIMINTANG4
+
+- name: Yutai Zhou
+  picture: /images/people/yutai.png
+  description: Yutai is a PhD student in the Computer Science Department. He is broadly interested in inverse reinforcement learning from human preferences and imitation learning from partially observable data. He is currently keen on learning more about Bayesian deep learning and JAX.
+  rank: phd
+  links:
+    - type: scholar
+      url: https://scholar.google.com/citations?user=035GLzIAAAAJ&hl=en
+    - type: github
+      url: https://github.com/yutaizhou
+    - type: twitter
+      url: https://x.com/yutai95
+      
+- name: Ayano Hiranaka
+  picture: /images/people/ayano.jpg
+  home_url: https://misoshiruseijin.github.io/
+  description: Ayano is a PhD student in the Computer Science Department.
+  rank: phd
+  coadvisor: Daniel Seita
+  links:
+    - type: scholar
+      url: https://scholar.google.com/citations?hl=en&user=KWZsjx8AAAAJ
+    - type: github
+      url: https://github.com/misoshiruseijin
+    - type: twitter
+      url: https://x.com/ayano_hiranaka
+
+- name: Bo-Ruei Huang
+  picture: /images/people/boruei.png
+  home_url: https://borueihuang.com/
+  description: Bo-Ruei is a PhD student in the Computer Science Department.
+  rank: phd
+  links:
+    - type: scholar
+      url: https://scholar.google.com/citations?user=EN01AeQAAAAJ
+    - type: github
+      url: https://github.com/rayray2002
+    - type: twitter
+      url: https://x.com/borueihuang
+
+
+# MS students      
+- name: Dhanush Varma
+  picture: /images/people/dhanush.png
+  description: Dhanush is an MS student in the Electrical and Computer Engineering Department.
+  rank: ms
+  links:
+    - type: github
+      url: https://github.com/Dhanushvarma
+
+- name: Matthew Hong
+  picture: /images/people/matthew.png
+  home_url: https://matthewh6.github.io/
+  description: Matthew is an MS student in the Computer Science Department.
+  rank: ms
+  links:
+    - type: github
+      url: https://github.com/matthewh6
+    - type: twitter
+      url: https://x.com/matthewh6_
+      
+- name: Yusen Luo
+  picture: /images/people/yusen.png
+  description: Yusen is an MS student in the Computer Science Department.
+  rank: ms
+  links:
+    - type: github
+      url: https://github.com/AndreasL9z
+    - type: twitter
+      url: https://x.com/yusen_2001
+
+
+# Undergraduates
+- name: Jaiv Doshi
+  picture: /images/people/jaiv.png
+  description: Jaiv is an undergraduate in the Computer Science Department.
+  rank: ug
+  links:
+    - type: github
+      url: https://github.com/jaivdoshiatusc
+    - type: twitter
+      url: https://x.com/jaivdoshi   
+
+- name: Urvi Bhuwania
+  picture: /images/people/urvi.jpg
+  description: Urvi is an undergraduate in the Computer Science Department.
+  rank: ug
+  links:
+    - type: github
+      url: https://github.com/urvib3
+      
+- name: Kevin Kim
+  picture: /images/people/kevin.png
+  home_url: https://jundyque.life/
+  description: Kevin is an undergrduate in the Computer Science and Mathematics Departments.
+  rank: ug
+  links:
+    - type: github
+      url: https://github.com/minjunkevink
+    - type: twitter
+      url: https://x.com/minjunkevink
+      
+- name: Ashley Lan
+  picture: /images/people/ashley.png
+  home_url: https://www.linkedin.com/in/ashleylan/
+  description: Ashley is an undergraduate in the Computer Science and Business Administration Departments.
+  rank: ug
+  links:
+    - type: github
+      url: https://github.com/ashleylan111
+
+# Visiting researchers
+- name: Xinhu Li
+  picture: /images/people/xinhu.png
+  description: Xinhu is a visiting researcher in Lira Lab.
+  rank: visiting
+  links:
+    - type: github
+      url: https://github.com/xhlsgit
+
+
+# Alumni PhDs
+- name: Jesse Zhang
+  picture: /images/people/jesse.jpg
+  home_url: http://jesbu1.github.io/
+  description: 'PhD, CS (Next: Postdoc at University of Washington)'
+  rank: alumnidrs
+  coadvisor: Joseph Lim and Jesse Thomason
+  thesis_title: Scaling Robot Adaptation with Large Model Guidance
+  thesis_url: /pdfs/publications/zhang2025scaling.pdf
+  links:
+    - type: scholar
+      url: https://scholar.google.com/citations?user=fSXCOfEAAAAJ&hl=en
+    - type: github
+      url: https://github.com/jesbu1
+    - type: twitter
+      url: https://x.com/Jesse_Y_Zhang
+
+- name: Ayush Jain
+  picture: /images/people/ayush.png
+  home_url: https://ayushj240.github.io/
+  description: 'PhD, CS (Next: Research Scientist at Meta)'
+  rank: alumnidrs
+  coadvisor: Joseph Lim
+  thesis_title: Decision Making in Complex Action Spaces
+  thesis_url: /pdfs/publications/jain2024decision.pdf
+  links:
+    - type: scholar
+      url: https://scholar.google.com/citations?user=-zEc_sAAAAAJ&hl=en
+    - type: github
+      url: https://github.com/ayushj240/
+    - type: twitter
+      url: https://x.com/Ayushj240
+
+- name: Sumedh Sontakke
+  picture: /images/people/sumedh.png
+  home_url: https://sumedh7.github.io/
+  description: 'PhD, CS (Next: Applied Scientist at Amazon Robotics)'
+  rank: alumnidrs
+  coadvisor: Laurent Itti
+  thesis_title: Foundation Models for Embodied AI
+  thesis_url: /pdfs/publications/sontakke2024foundation.pdf
+  links:
+    - type: scholar
+      url: https://scholar.google.com/citations?user=sUb_eyUAAAAJ
+    - type: github
+      url: https://github.com/sumedh7
+    - type: twitter
+      url: https://x.com/SOTA_kke
+
+# Other alumni
+- name: Zhaojing Yang
+  picture: /images/people/zhaojing.png
+  home_url: https://yang-zj1026.github.io/
+  description: 'MS, CS (Next: PhD at UC San Diego)'
+  rank: alumni
+  links:
+    - type: github
+      url: https://github.com/yang-zj1026
+    - type: scholar
+      url: https://scholar.google.com/citations?user=Olo1IfYAAAAJ&hl=en
+    - type: twitter
+      url: https://x.com/zhaojingy_1026
+      
+- name: Jiahui Zhang
+  picture: /images/people/jiahui.png
+  home_url: https://jiahui-3205.github.io/
+  description: 'MS, EE (Next: PhD at UT Dallas)'
+  rank: alumni
+  links:
+    - type: scholar
+      url: https://scholar.google.com/citations?hl=en&user=vnoxtkKTVsoC
+    - type: twitter
+      url: https://x.com/JiahuiZhang__32
+
+- name: Sunny Agrawal
+  picture: /images/people/sunny.jpg
+  description: 'Research Intern (Next: Continuing studies at Ohio State University)'
+  rank: alumni
+  links:
+
+- name: Eisuke Hirota
+  picture: /images/people/eisuke.png
+  home_url: https://ei5uke.github.io/
+  description: 'Research Intern (Next: MIT Lincoln Laboratory)'
+  rank: alumni
+  links:
+    - type: scholar
+      url: https://scholar.google.com/citations?user=NBvMsAMAAAAJ&hl=en
+    - type: github
+      url: https://github.com/ei5uke
+      
+- name: Megumi Ondo
+  picture: /images/people/megumi.jpg
+  description: 'Research Intern (Next: Continuing studies at UC Santa Barbara)'
+  rank: alumni
+  links:
+      
+- name: Shreya Ramanujam
+  picture: /images/people/shreya.jpg
+  description: 'Research Intern (Next: MS at Stanford University)'
+  rank: alumni
+  links:
+  
+- name: Zijian Zhang
+  picture: /images/people/zijian.jpg
+  description: 'Research Intern (Next: Continuing studies at Tsinghua University)'
+  rank: alumni
+  links:
+
+- name: James Qian
+  picture: /images/people/james.png
+  description: 'Undergraduate, CS (Next: Transferred to Stanford University)'
+  rank: alumni
+  links:
+
+- name: Miru Jun
+  picture: /images/people/miru.png
+  description: 'Undergraduate, CS (Next: Data Engineer at US Navy)'
+  rank: alumni
+  links:
+    - type: github
+      url: https://github.com/lemonlemonde
+
+- name: Thomas Reeves
+  picture: /images/people/thomas.png
+  home_url: https://reevest29.github.io/
+  description: 'MS, CS (Next: PhD at USC)'
+  rank: alumni
+  links:
+    - type: github
+      url: https://github.com/Reevest29
+    - type: scholar
+      url: https://scholar.google.com/citations?user=zVDNPpvMya0C

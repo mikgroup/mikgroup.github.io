@@ -1,0 +1,47 @@
+{% assign project = include.project %}
+
+{% if project.link %}
+    {% assign proj_url = project.link %}
+{% else %}
+    {% capture proj_url %}{{ site.baseurl }}{{ project.url }}{% endcapture %}
+{% endif %}
+<div class="card">
+  <div class="card-body">
+    {% if project.image %}
+      {% assign imgurl = project.image %}
+      {% capture init %}{{ project.image | slice: 0,1 }}{% endcapture %}
+      {% if init == "/" %}
+        {% capture imgurl %}{{ site.baseurl }}{{ project.image }}{% endcapture %}
+      {% endif %}
+      <a href="{{ proj_url }}">
+        <div class="text-center">
+          <img class="img-fluid mb-3" src="{{ imgurl }}" alt="{{ project.title }}" />
+        </div>
+      </a>
+    {% endif %}
+    {% if project.notitle != true %}
+      <h4 class="card-title">{{ project.title }}</h4>
+    {% endif %}
+    {% if project.subtitle %}
+      <h6 class="card-subtitle mb-2 text-muted">{{ project.subtitle }}</h6>
+    {% endif %}
+    <div class="card-text">{{ project.description | markdownify }}</div>
+    {% if project.no-link != true or project.link %}
+      <a href="{{ proj_url }}">Read more »</a>
+    {% endif %}
+  </div>
+  {% if project.people %}
+    <div class="card-footer d-flex flex-row flex-wrap justify-content-center">
+      {% for uname in project.people %}
+        <div>
+          {% assign found = site.data.people | where: 'name', uname | first %}
+          {% assign person = found %}
+          {% if person %}
+            {% include person-image.html person=person %}
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+  {% endif %}
+</div>
+

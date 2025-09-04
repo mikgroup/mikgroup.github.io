@@ -1,0 +1,30 @@
+{% assign person = include.person %}
+
+{% if person.picture or person.image %}
+  {% assign img_src = person.picture | default: person.image %}
+  {% capture image %}
+    <img class="rounded-circle profile"
+         alt="{{ person.name | default: person.display_name }}"
+         title="{{ person.name | default: person.display_name }}"
+         src="{{ img_src }}" />
+  {% endcapture %}
+{% else %}
+  {% capture image %}
+    <svg class="profile noprofile" viewBox="0 0 100 100">
+      <title>{{ person.name | default: person.display_name }}</title>
+      <circle r="50" cx="50" cy="50" />
+      <text x="50" y="50" font-size="70" text-anchor="middle" dominant-baseline="central">
+        {{ (person.name | default: person.display_name) | slice: 0 }}
+      </text>
+    </svg>
+  {% endcapture %}
+{% endif %}
+
+{% if person.home_url or person.webpage %}
+  <a href="{{ person.home_url | default: person.webpage | escape }}" style="text-decoration: none">
+    {{ image }}
+  </a>
+{% else %}
+  {{ image }}
+{% endif %}
+

@@ -1,0 +1,13 @@
+{% assign person = include.person %}
+<div class="person" style="margin-bottom: 1rem;">
+  <div style="display:flex; align-items:center;">
+    {% include person-image.html person=person %}
+    <div style="margin-left: 0.75rem;">
+      <div style="font-weight:600;">{{ person.name | default: person.display_name }}</div>
+      {% if person.description or person.bio %}
+        <div class="text-muted">{{ person.description | default: person.bio }}</div>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
