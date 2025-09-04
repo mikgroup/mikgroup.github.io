@@ -1,0 +1,67 @@
+{% assign pub = include.pub %}
+{% assign prev_year = include.prev_year %}
+
+{% capture pub_year %}{{ pub.venue | split: ',' | last | strip }}{% endcapture %}
+{% if pub_year != prev_year %}
+  {% assign prev_year = pub_year %}
+  <tr><td colspan="2"><h4>{{ pub_year }}</h4></td></tr>
+{% endif %}
+
+<tr>
+  <td style="width: 25%; vertical-align: top;">
+    {% if pub.picture %}
+      <img src="{{ pub.picture }}" alt="{{ pub.title }}" style="width: 100%; max-width: 200px; height: auto;">
+    {% endif %}
+  </td>
+  <td style="vertical-align: top;">
+    <div class="publication-entry">
+      <h5 style="margin-bottom: 0.5rem;">{{ pub.title }}</h5>
+      <p style="margin-bottom: 0.5rem;"><em>{{ pub.authors }}</em></p>
+      <p style="margin-bottom: 0.5rem;">{{ pub.venue }}</p>
+      
+      {% if pub.note %}
+        <p style="margin-bottom: 0.5rem; font-size: 0.9rem; color: #666;">{{ pub.note }}</p>
+      {% endif %}
+      
+      {% if pub.specialnote %}
+        <p style="margin-bottom: 0.5rem; font-size: 0.9rem; color: #007bff; font-weight: bold;">{{ pub.specialnote }}</p>
+      {% endif %}
+      
+      {% if pub.links %}
+        <div class="publication-links">
+          {% for link in pub.links %}
+            {% if link.type == 'pdf' %}
+              <a href="{{ link.url }}" class="btn btn-sm btn-outline-primary mr-1" target="_blank">
+                <i class="fa fa-file-pdf-o"></i> PDF
+              </a>
+            {% elsif link.type == 'arxiv' %}
+              <a href="{{ link.url }}" class="btn btn-sm btn-outline-secondary mr-1" target="_blank">
+                <i class="ai ai-arxiv"></i> arXiv
+              </a>
+            {% elsif link.type == 'website' %}
+              <a href="{{ link.url }}" class="btn btn-sm btn-outline-info mr-1" target="_blank">
+                <i class="fa fa-globe"></i> Website
+              </a>
+            {% elsif link.type == 'code' %}
+              <a href="{{ link.url }}" class="btn btn-sm btn-outline-dark mr-1" target="_blank">
+                <i class="fa fa-code"></i> Code
+              </a>
+            {% elsif link.type == 'video' %}
+              <a href="{{ link.url }}" class="btn btn-sm btn-outline-danger mr-1" target="_blank">
+                <i class="fa fa-video-camera"></i> Video
+              </a>
+            {% elsif link.type == 'talk' %}
+              <a href="{{ link.url }}" class="btn btn-sm btn-outline-warning mr-1" target="_blank">
+                <i class="fa fa-chalkboard-teacher"></i> Talk
+              </a>
+            {% elsif link.type == 'doi' %}
+              <a href="{{ link.url }}" class="btn btn-sm btn-outline-success mr-1" target="_blank">
+                <i class="ai ai-doi"></i> DOI
+              </a>
+            {% endif %}
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
+  </td>
+</tr>

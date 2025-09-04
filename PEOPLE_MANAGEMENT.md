@@ -70,3 +70,30 @@ The project page will automatically display:
 - Description
 - Current position (if alumni)
 - Social links
+
+## Publication Integration
+
+Projects automatically show related publications from `_data/publications.yml`. To link a publication to a project:
+
+1. Add a `projects:` field to the publication in `_data/publications.yml`
+2. List the project IDs (filename without .md extension) that the publication relates to
+
+Example:
+```yaml
+- title: 'Your Publication Title'
+  authors: 'Author Names'
+  venue: 'Conference Name'
+  projects:
+    - example_project
+    - human_robot_interaction
+  links:
+    - type: pdf
+      url: /pdfs/publications/paper.pdf
+```
+
+The project page will automatically display:
+- Publication title and authors
+- Venue information
+- Publication image (if available)
+- All links (PDF, arXiv, code, etc.)
+- Organized by year

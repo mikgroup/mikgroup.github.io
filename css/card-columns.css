@@ -109,3 +109,38 @@
   font-size: 0.75rem;
   padding: 0.25rem 0.5rem;
 }
+
+/* Publication styling */
+.related-publications {
+  margin-top: 2rem;
+}
+
+.publication-entry {
+  padding: 1rem;
+  border: 1px solid #e9ecef;
+  border-radius: 8px;
+  background-color: #f8f9fa;
+  margin-bottom: 1rem;
+}
+
+.publication-entry:hover {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transform: translateY(-1px);
+  transition: all 0.2s ease;
+}
+
+.publication-links .btn {
+  font-size: 0.8rem;
+  padding: 0.25rem 0.5rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.table-borderless {
+  border: none;
+}
+
+.table-borderless td {
+  border: none;
+  padding: 0.5rem;
+}

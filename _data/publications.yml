@@ -29,6 +29,8 @@
   venue: International Conference on Intelligent Robots and Systems (IROS), October 2025
   picture: /images/publications/banayeeanzade2025gabril.png
   note: '* denotes equal contribution.'
+  projects:
+    - example_project
   links:
     - type: pdf
       display: PDF
@@ -58,6 +60,8 @@
   venue: International Conference on Intelligent Robots and Systems (IROS), October 2025
   picture: /images/publications/tang2025railgun.png
   note: '* denotes equal contribution.'
+  projects:
+    - human_robot_interaction
   links:
     - type: pdf
       display: PDF
@@ -79,6 +83,8 @@
   picture: /images/publications/zhang2025rewind.png
   note: '* denotes equal contribution. Also presented at various workshops at RSS 2025 and RLC 2025.'
   specialnote: 'Oral presentation. Also received the best paper award at the OOD workshop and a best paper nomination at RoboReps Workshop at RSS 2025.'
+  projects:
+    - example_project
   links:
     - type: pdf
       display: PDF
@@ -102,6 +108,8 @@
   venue: 2nd Reinforcement Learning Conference (RLC), August 2025
   picture: /images/publications/jain2025mitigating.png
   specialnote: 'Outstanding Paper Award on Empirical Reinforcement Learning Research.'
+  projects:
+    - example_project
   links:
     - type: pdf
       display: PDF
@@ -150,6 +158,8 @@
   authors: Yigit Korkmaz, Erdem Bıyık
   venue: International Conference on Robotics and Automation (ICRA), May 2025
   picture: /images/publications/korkmaz2025mile.png
+  projects:
+    - example_project
   links:
     - type: pdf
       display: PDF

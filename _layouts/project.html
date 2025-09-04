@@ -86,7 +86,23 @@ layout: default
 </section>
 {% endif %}
 
+{% assign project_id = page.path | split: '/' | last | split: '.' | first %}
+{% assign related_pubs = site.data.publications | where_exp: "pub", "pub.projects contains project_id" %}
+{% if related_pubs.size > 0 %}
+<h2>Related Publications</h2>
+<section class="related-publications">
+  <table class="table table-borderless">
+    <tbody>
+      {% assign prev_year = 1000 %}
+      {% for pub in related_pubs %}
+        {% include pub_entry.html pub=pub prev_year=prev_year %}
+      {% endfor %}
+    </tbody>
+  </table>
+</section>
+{% endif %}
+
 {% if page.last-updated %}
-<p class="text-muted"><small>Last updated: {{ page.last-updated }}</small></p>
+<p class="text-muted"><small>Last updated: {{ page.last-updated }}</p>
 {% endif %}
 
