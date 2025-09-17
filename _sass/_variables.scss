@@ -55,10 +55,14 @@ $darken-2: rgba(#000,.125) !default;
 $darken-3: rgba(#000,.25) !default;
 $darken-4: rgba(#000,.5) !default;
 
+// Berkeley Colors
+$berkeley-blue: #002676 !default;
+$berkeley-gold: #FDB515 !default;
+
 
 // Links
-$link-color: $usc-red;
-$link-hover-color: darken($usc-red, 40%);
+$link-color: $berkeley-blue;
+$link-hover-color: $berkeley-gold;
 
 // Breakpoints
 $breakpoint-md: '(min-width: 52em)';

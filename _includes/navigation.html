@@ -1,7 +1,7 @@
 {% assign default_paths = site.pages | map: "path" %}
 {% assign page_paths = site.header_pages | default: default_paths %}
 
-<nav class="site-nav" id="links" style="margin-top:20px;">
+<nav class="site-nav" id="links" style="margin-top:75px;">
 {% for path in page_paths %}
     
     {% assign page_orig = site.pages | where: "path", path | first %}
@@ -15,8 +15,6 @@
     {% endif %}
 
 {% endfor %}
-<a href="https://www.youtube.com/{{ site.youtube_handle }}" target="_blank">Videos</a>
-<a href="{{ site.baseurl }} /contact">Contact</a>
 
 {% if site.show_social_icons %}
   <!--<div class="social-icons" style="float: right;">
@@ -98,7 +96,7 @@
 
 
 
-<nav class="site-nav" id="dropdown" style="margin-top:20px;">
+<nav class="site-nav" id="dropdown" style="margin-top:75px;">
 <select onchange="location = this.value;">
 <option value="{{ site.url }}">Home</option>
 {% for path in page_paths %}

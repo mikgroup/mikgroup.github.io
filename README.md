@@ -1,5 +1,5 @@
 # USC Lira Lab
-USC Lira Lab's website, hosted on GitHub Pages!
+MikGroup's website, hosted on GitHub Pages!
 
 This fork integrates a REX-lab style Research Projects section using a Jekyll collection.
 

@@ -5,6 +5,10 @@ permalink: /people/
 tags: people
 ---
 
+<style>
+table.people.no-photos td:first-child { display: none; }
+table.people.no-photos td { padding-left: 0; }
+</style>
 <div class="home">
   {% for rank in site.people_ranks %}
     {% assign counter = 0 %}
@@ -15,17 +19,17 @@ tags: people
 	{% endfor %}
 	{% if counter > 0 %}
 	  <h1 class="h3">{{ rank.display }}</h1>
-	  <table class="people">
+	  <table class="people {% if rank.keyword == 'alumnidrs' or rank.keyword == 'alumni' %}no-photos{% endif %}">
         {% for person in site.data.people %}
 		  {% if rank.keyword == person.rank %}
           <tr>
             <td width="105">
 			{% if person.home_url.size > 0 %}
 			  <a href="{{ person.home_url }}" class="people"><img src="{{ person.picture | default: '/images/people/default-white.png' }}" width="100" style="border-radius:15%;" /></a></td>
-			  <td><a href="{{ person.home_url }}" class="people">{{ person.name }}</a>
+			  <td><a href="{{ person.home_url }}" class="people"><strong>{{ person.name }}</strong></a>
 			{% else %}
 			  <img src="{{ person.picture | default: '/images/people/default-white.png' }}" width="100" style="border-radius:15%;" /></td>
-			  <td>{{ person.name }}
+			  <td><strong>{{ person.name }}</strong>
 			{% endif %}&nbsp;
 			{% if person.home_url.size > 0 %}
 			  <a href="{{ person.home_url }}" class="people"><button class="btn"><i class="{{ site.people_buttons['home'] }}"></i> </button></a>

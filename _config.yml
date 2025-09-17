@@ -1,15 +1,16 @@
 # Site settings
-title:       USC Lira Lab
+title:       Berkeley MikGroup
 email:       
-author:      USC Lira Lab
-description: "USC Learning and Interactive Robot Autonomy Lab"
+author:      Berkeley MikGroup
+description: "Berkeley MikGroup - Advanced MRI Methods and Technologies"
 baseurl:     ""
-url:         "https://liralab.usc.edu"
+url:         "https://berkeley_mri_lab.github.io"
 date_format: "%b %-d, %Y"
 header_pages:
  - people.html
  - research.html
  - publications.html
+ - software.html
 
 # Google services
 google_verification:
@@ -21,7 +22,7 @@ bing_verification:
 animated:             false
 show_related_posts:   false
 show_post_footers:    false
-show_social_icons:    true
+show_social_icons:    false
 ajaxify_contact_form: false
 enable_mathjax: true
 extended_fonts: false
@@ -141,6 +142,8 @@ collections:
 people_ranks:
   - keyword: 'faculty'
     display: 'Faculty Members'
+  - keyword: 'staff'
+    display: 'Staff'
   - keyword: 'postdoc'
     display: 'Postdocs and Visiting Scholars'
   - keyword: 'phd'
@@ -171,5 +174,6 @@ people_buttons:
   home:     'fa fa-home'
   github:   'fab fa-github'
   twitter:  'fab fa-twitter'
+  linkedin: 'fab fa-linkedin'
   cv:       'ai ai-cv-square'
   thesis:   'fa fa-book'

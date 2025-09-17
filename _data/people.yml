@@ -1,327 +1,390 @@
 # For ranks and link types, see people_disp_order variable in _config.yml
 
 # PI
-- name: Erdem Bıyık
-  picture: /images/people/erdem.jpg
-  home_url: https://ebiyik.github.io
-  description: Erdem is an Assistant Professor of Computer Science and of Electrical and Computer Engineering - Systems. His research interests broadly cover robot learning, human-robot interaction, and multi-agent systems. He is especially interested in developing algorithms that enable robots to efficiently learn from various forms of human feedback.
+- name: Michael (Miki) Lustig
+  picture: /images/people/miki.jpg
+  home_url: https://www.linkedin.com/in/michael-lustig-888b50/
+  description: Michael (Miki) Lustig is a slightly above average Professor in EECS with well below average sense of humor. He joined the faculty of the EECS Department at UC Berkeley in Spring 2010. His research focuses on computational imaging methods in medical imaging, particularly Magnetic Resonance Imaging (MRI).
   rank: faculty
-  current_position: Assistant Professor, USC
+  current_position: Professor, UC Berkeley
   links:
     - type: scholar
-      url: https://scholar.google.com/citations?user=P-G3sjYAAAAJ
+      url: https://scholar.google.com/citations?user=EWY1qlkAAAAJ&hl=en
     - type: github
-      url: https://github.com/erdem-biyik
-    - type: twitter
-      url: https://x.com/ebiyik_
+      url: https://github.com/mikgroup
+
+# Staff
+- name: Karthik Gopalan
+  picture: /images/people/Karthik.jpeg
+  home_url: https://www.linkedin.com/in/karthik-gopalan-39260662/
+  description: Karthik is a Staff Scientist at MikGroup, UC Berkeley EECS. He completed his PhD in EECS at UC Berkeley with a thesis on "Anatomy Inspired Hardware for Magnetic Resonance Imaging" and now works on MRI phantom development and hardware design.
+  rank: staff
+  current_position: Staff Scientist, MikGroup
+  links:
+    - type: scholar
+      url: https://scholar.google.com/citations?user=uD1lKkQAAAAJ&hl=en
+    - type: linkedin
+      url: https://www.linkedin.com/in/karthik-gopalan-39260662/
+
+- name: Izabel Wu
+  picture: /images/people/Izabel.jpeg
+  home_url: https://www.linkedin.com/in/izjw/ 
+  description: Karthik is a Staff Scientist at MikGroup, UC Berkeley EECS. She works on MRI phantom development and hardware design.
+  rank: staff
+  current_position: Staff Scientist, MikGroup
+  links:
+
+# Postdoc students 
+- name: Fan Lam
+  picture: /images/people/Lam.jpg
+  home_url: https://lam.bioengineering.illinois.edu
+  description: Fan is a visiting professor from the University of Illinois Urbana-Champaign (UIUC). He develops integrative physics-based and computational-powered approaches for multidimensional, quantitative imaging, with applications to studying biochemical/molecular basis of brain function and disease.
+  rank: postdoc
+  current_position: Visiting Scholar, UC Berkeley
+  links:
+    - type: scholar
+      url: https://scholar.google.com/citations?user=UzCv-rwAAAAJ&hl=en
+    - type: linkedin
+      url: https://www.linkedin.com/in/fan-lam-7b229314/
+
+
+- name: Ekin Karasan
+  picture: /images/people/ekin.png
+  home_url: https://ekinkarasan.github.io
+  description: Ekin is a Postdoctoral Scholar at UC Berkeley EECS. Her research centers on developing novel MRI methods to study brain physiology, with a focus on non-invasive techniques that can trace venous blood flow back to its source along with developing innovative acquisition techniques and flexible hardware for MRI.
+  rank: postdoc
+  current_position: Postdoc, UC Berkeley
+  links:
+    - type: scholar
+      url: https://scholar.google.com/citations?user=6Rasfn4AAAAJ&hl=en
+    - type: linkedin
+      url: https://www.linkedin.com/in/ekin-karasan/
+
+- name: Gustavo Perez
+  picture: /images/people/gustavo.jpg
+  home_url: https://gperezs.com
+  description: Gustavo is a Postdoctoral Scholar at UC Berkeley EECS and a member of the Berkeley AI Research (BAIR) Lab working with Stella Yu and Miki Lustig. His interests lie in computer vision and machine learning focuses on finding effective ways to combine human and computational effort to facilitate accurate scientific measurement in large datasets.
+  rank: postdoc
+  coadvisor: Stella Yu
+  current_position: Postdoc, UC Berkeley
+  links:
+    - type: scholar
+      url: https://scholar.google.es/citations?hl=en&user=edsPpEwAAAAJ&view_op=list_works&sortby=pubdate 
+    - type: github
+      url: https://github.com/gperezs
+
+- name: Philippa Krahn
+  picture: /images/people/philippa.jpg
+  home_url: https://www.linkedin.com/in/philippa-krahn-627449106/
+  description: Philippa is a Postdoctoral Scholar at UC Berkeley EECS. Her research focuses on investigating motion sensing techniques for MRI and ultra-high field structural brain MRI.
+  rank: postdoc
+  coadvisor: Chunlei Liu
+  current_position: Postdoc, UC Berkeley
+  links:
+
 
 # Phd students      
-- name: Anthony Liang
-  picture: /images/people/anthony.jpg
-  home_url: http://aliang8.github.io
-  description: Anthony is a PhD student in the Computer Science Department. He is interested in leveraging human and learned priors for improving RL training efficiency and generalization. He is also interested in meta-RL and generative models with applications in robotics.
+- name: Alexander Chou
+  picture: /images/people/alex_chou.jpg
+  home_url: https://www.linkedin.com/in/alexanderchou01/
+  description: Alex is a PhD student in the EECS department at UC Berkeley. He received his undergraduate degree in EECS also from UC Berkeley in 2023. His interests include analog/mixed-signal ICs for medical devices, neural interfaces, and implantables.
   rank: phd
-  current_position: PhD Student, USC
-  coadvisor: Stephen Tu
+  current_position: PhD Student, UC Berkeley
+  coadvisor: Rikky Muller
   links:
-    - type: scholar
-      url: https://scholar.google.co.il/citations?user=LjmRrbUAAAAJ&hl=en
-    - type: github
-      url: https://github.com/aliang8/
-    - type: twitter
-      url: https://x.com/Anthony66108836/
 
-- name: Pavel Czempin
-  picture: /images/people/pavel.jpg
-  home_url: https://www.czemp.in/
-  description: Pavel is a PhD student in the Computer Science Department. He works on improving reinforcement learning from human feedback for large pretrained models and unsupervised learning from videos for sequential decision making.
+- name: Alfredo De Goyeneche 
+  picture: /images/people/alfredo.png
+  home_url: https://people.eecs.berkeley.edu/~asdegoyeneche/
+  description: Alfredo is a PhD candidate in the EECS at UC Berkeley and a member of the Berkeley AI Research (BAIR) Lab, co-advised by Stella Yu. He received his B.S. in electrical engineering from Pontificia Universidad Catolica de Chile in 2018. His research interests include deep learning, computer vision, robotics, reinforcement learning, medical imaging, and MRI.
   rank: phd
+  current_position: PhD Student, UC Berkeley
+  coadvisor: Stella Yu
   links:
     - type: scholar
-      url: https://scholar.google.com/citations?user=1O1nONQAAAAJ
+      url: https://scholar.google.com/citations?user=76crpgsAAAAJ
     - type: github
-      url: https://github.com/PavelCz
-    - type: twitter
-      url: https://x.com/pczempin
+      url: https://github.com/asdegoyeneche
+    - type: linkedin
+      url: https://www.linkedin.com/in/alfredo-de-goyeneche/
       
-- name: Yigit Korkmaz
-  picture: /images/people/yigit.png
-  home_url: https://ygtkorkmaz.github.io/
-  description: Yigit is a PhD student in the Computer Science Department. He is interested in robot learning from various forms of human feedback, including explicit forms such as demonstrations and comparisons, and more implicit forms like gestures.
+- name: Atakan Topcu
+  picture: /images/people/AtakanGit.png
+  home_url: https://attakuan.github.io/
+  description: Atakan is a PhD student in the EECS at UC Berkeley and a member of the Berkeley AI Research (BAIR) Lab. His interests are generative AI, representation learning, computational imaging, and inverse problems, with a strong focus on Magnetic Resonance Imaging (MRI).
   rank: phd
+  current_position: PhD Student, UC Berkeley
   links:
     - type: scholar
-      url: https://scholar.google.com/citations?user=7y3MPVYAAAAJ&hl=en 
+      url: https://scholar.google.com/citations?user=HA_66uMAAAAJ&hl=tr&authuser=1&oi=ao 
     - type: github
-      url: https://github.com/ygtkorkmaz
-    - type: twitter
-      url: https://x.com/yigitkkorkmaz
-      
-- name: Yimin Tang
-  picture: /images/people/yimin.jpg
-  home_url: https://sites.google.com/view/yimintang
-  description: Yimin is a PhD student in the Computer Science Department. His research is focused on Multi-Agent Path Finding (MAPF). He is also interested in foundation models, world models, and deep reinforcement learning.
-  rank: phd
-  coadvisor: Sven Koenig
-  links:
-    - type: scholar
-      url: https://scholar.google.com/citations?user=OrBSEjAAAAAJ&hl=en
-    - type: github
-      url: https://github.com/TachikakaMin
-    - type: twitter
-      url: https://x.com/YIMINTANG4
+      url: https://github.com/Attakuan
+    - type: linkedin
+      url: https://www.linkedin.com/in/atakan-topcu/
 
-- name: Yutai Zhou
-  picture: /images/people/yutai.png
-  description: Yutai is a PhD student in the Computer Science Department. He is broadly interested in inverse reinforcement learning from human preferences and imitation learning from partially observable data. He is currently keen on learning more about Bayesian deep learning and JAX.
+- name: Hossein Momeni
+  picture: /images/people/hossein.jpeg
+  home_url: https://www.linkedin.com/in/mhmomeni/
+  description: Hossein is a PhD student in the EECS at UC Berkeley and a member of the Berkeley AI Research (BAIR) Lab. His interests are unsupervised segmentation and classification, with a strong focus on Magnetic Resonance Imaging (MRI).
   rank: phd
+  current_position: PhD Student, UC Berkeley
   links:
     - type: scholar
-      url: https://scholar.google.com/citations?user=035GLzIAAAAJ&hl=en
+      url: https://scholar.google.com/citations?user=HbnzaIQAAAAJ&hl=en
     - type: github
-      url: https://github.com/yutaizhou
-    - type: twitter
-      url: https://x.com/yutai95
+      url: https://github.com/hossein-momeni
       
-- name: Ayano Hiranaka
-  picture: /images/people/ayano.jpg
-  home_url: https://misoshiruseijin.github.io/
-  description: Ayano is a PhD student in the Computer Science Department.
+- name: Julian Maravilla
+  picture: /images/people/julian.png
+  home_url: https://www.linkedin.com/in/julian-maravilla/
+  description: Julian is a PhD candidate in the EECS Department at UC Berkeley. He graduated from UC Santa Barbara in 2020 with a degree in Electrical Engineering. He is interested in MRI receiver coils, radio frequency (RF) circuits, and signal processing. 
   rank: phd
-  coadvisor: Daniel Seita
+  current_position: PhD Student, UC Berkeley
+  coadvisor: Ana Claudia Arias
   links:
-    - type: scholar
-      url: https://scholar.google.com/citations?hl=en&user=KWZsjx8AAAAJ
-    - type: github
-      url: https://github.com/misoshiruseijin
-    - type: twitter
-      url: https://x.com/ayano_hiranaka
+    - type: linkedin
+      url: https://www.linkedin.com/in/julian-maravilla/
 
-- name: Bo-Ruei Huang
-  picture: /images/people/boruei.png
-  home_url: https://borueihuang.com/
-  description: Bo-Ruei was a PhD student in the Computer Science Department working on robot learning and human-robot interaction.
-  rank: alumni
-  current_position: Research Scientist, Google DeepMind
+- name: Naz Khairallah
+  picture: /images/people/Naz.jpeg
+  home_url: https://www.linkedin.com/in/naz-khairallah/
+  description: Naz is a PhD student in the EECS Department at UC Berkeley. He is interested in conformable RF receiver coils and motion sensing in MRI systems, combining RF Hardware and Signal Processing.
+  rank: phd
+  current_position: PhD Student, UC Berkeley
+  coadvisor: Ana Claudia Arias
+  links:
+    - type: linkedin
+      url: https://www.linkedin.com/in/naz-khairallah/
+      
+- name: Rinni Bhansali
+  picture: /images/people/rinni.png
+  home_url: https://www.linkedin.com/in/rinni-bhan/
+  description: Rinni is a PhD student in the EECS department at UC Berkeley. She received her BS in Electrical Engineering & Math from Stanford in 2023. She is interested in clinical translation, motion correction for MRI, and signal processing.
+  rank: phd
+  current_position: PhD Student, UC Berkeley
+  links:
+
+- name: Shreya Ramachandran
+  picture: /images/people/shreya_2.jpg
+  home_url: https://www.linkedin.com/in/shreyar-456877117/
+  description: Shreya is a PhD student in the EECS department at UC Berkeley. She received her B.S. in electrical engineering at Caltech in 2019. Her research interests include signal processing, MRI acquisition and reconstruction methods.
+  rank: phd
+  current_position: PhD Student, UC Berkeley
   links:
     - type: scholar
-      url: https://scholar.google.com/citations?user=EN01AeQAAAAJ
-    - type: github
-      url: https://github.com/rayray2002
-    - type: twitter
-      url: https://x.com/borueihuang
+      url: https://scholar.google.com/citations?user=8mnnKqsAAAAJ&hl=en
+  
+- name: Shruthi Ravichandran
+  picture: /images/people/shruthi.jpeg
+  home_url: https://www.linkedin.com/in/shruthi-ravichandran-048866178/
+  description: Shruthi is a PhD student in the EECS at UC Berkeley. Her research interests include point-of-care diagnostics, electromagnetics-based biosensing, spectroscopy, microfluidics, and accessible healthcare.
+  rank: phd
+  current_position: PhD Student, UC Berkeley
+  coadvisor: Jun-Chau Chien
+  links:
+   
+- name: You?
+  picture: /images/people/Bear.jpg
+
+  description:  
+  rank: phd
+  coadvisor: 
+  links:
 
 
 # MS students      
-- name: Dhanush Varma
-  picture: /images/people/dhanush.png
-  description: Dhanush is an MS student in the Electrical and Computer Engineering Department.
+- name: Anjo Pagdanganan
+  picture: /images/people/Anjo Pagdanganan.jpg
+  home_url: https://www.linkedin.com/in/anjo-pagdanganan/
+  description: Anjo is an MS student in the EECS at UC Berkeley.
+  current_position: MS Student, UC Berkeley
   rank: ms
   links:
-    - type: github
-      url: https://github.com/Dhanushvarma
 
-- name: Matthew Hong
-  picture: /images/people/matthew.png
-  home_url: https://matthewh6.github.io/
-  description: Matthew is an MS student in the Computer Science Department.
+- name: Divya Ramesh
+  picture: /images/people/Divya-Ramesh.jpg
+  home_url: https://www.linkedin.com/in/divya-ramesh-/
+  description: Divya is an MS student in the EECS at UC Berkeley.
+  current_position: MS Student, UC Berkeley
   rank: ms
   links:
-    - type: github
-      url: https://github.com/matthewh6
-    - type: twitter
-      url: https://x.com/matthewh6_
+
       
-- name: Yusen Luo
-  picture: /images/people/yusen.png
-  description: Yusen is an MS student in the Computer Science Department.
+- name: Jack Kang
+  picture: /images/people/Jack.jpg
+  home_url: https://www.linkedin.com/in/dongwon900/
+  description: Jack is an MS student in the EECS at UC Berkeley.
+  current_position: MS Student, UC Berkeley
   rank: ms
   links:
-    - type: github
-      url: https://github.com/AndreasL9z
-    - type: twitter
-      url: https://x.com/yusen_2001
+
 
 
 # Undergraduates
-- name: Jaiv Doshi
-  picture: /images/people/jaiv.png
-  description: Jaiv is an undergraduate in the Computer Science Department.
+- name: Shoumik Roychowdhury
+  picture: /images/people/Shoumik.jpeg
+  home_url: https://www.linkedin.com/in/shoumik-roychowdhury-519a471a9/
+  description: Shoumik is an undergraduate in the EECS at UC Berkeley.
+  current_position: Undergraduate, UC Berkeley
   rank: ug
   links:
-    - type: github
-      url: https://github.com/jaivdoshiatusc
-    - type: twitter
-      url: https://x.com/jaivdoshi   
-
-- name: Urvi Bhuwania
-  picture: /images/people/urvi.jpg
-  description: Urvi is an undergraduate in the Computer Science Department.
-  rank: ug
-  links:
-    - type: github
-      url: https://github.com/urvib3
-      
-- name: Kevin Kim
-  picture: /images/people/kevin.png
-  home_url: https://jundyque.life/
-  description: Kevin is an undergrduate in the Computer Science and Mathematics Departments.
-  rank: ug
-  links:
-    - type: github
-      url: https://github.com/minjunkevink
-    - type: twitter
-      url: https://x.com/minjunkevink
-      
-- name: Ashley Lan
-  picture: /images/people/ashley.png
-  home_url: https://www.linkedin.com/in/ashleylan/
-  description: Ashley is an undergraduate in the Computer Science and Business Administration Departments.
-  rank: ug
-  links:
-    - type: github
-      url: https://github.com/ashleylan111
-
-# Visiting researchers
-- name: Xinhu Li
-  picture: /images/people/xinhu.png
-  description: Xinhu is a visiting researcher in Lira Lab.
-  rank: visiting
-  links:
-    - type: github
-      url: https://github.com/xhlsgit
 
 
 # Alumni PhDs
-- name: Jesse Zhang
-  picture: /images/people/jesse.jpg
-  home_url: http://jesbu1.github.io/
-  description: 'PhD, CS (Next: Postdoc at University of Washington)'
+- name: Biqi Rebekah Zhao
+  picture: /images/people/Rebekah.jpg
+  description: 'PhD, EECS (Next: Posdoc at Brown University)'
   rank: alumnidrs
-  coadvisor: Joseph Lim and Jesse Thomason
+  coadvisor: Rikky Muller
+  thesis_title: Miniature Wireless Sensor Implant with Data Communication and Localization via Magnetic Resonance Imaging
+  thesis_url: https://www2.eecs.berkeley.edu/Pubs/Dissertations/Faculty/mlustig.html
+  current_position: Posdoc at Brown University
+  links:
+    - type: scholar
+      url: https://scholar.google.fi/citations?user=AOSfGCMAAAAJ&hl=en
+    - type: linkedin
+      url: https://www.linkedin.com/in/biqi-rebekah-zhao-670379106/
+
+- name: Suma Anand
+  picture: /images/people/Suma.jpeg
+  description: 'PhD, EECS (Next: ML R&D at Ceribell)'
+  rank: alumnidrs
   thesis_title: Scaling Robot Adaptation with Large Model Guidance
-  thesis_url: /pdfs/publications/zhang2025scaling.pdf
+  thesis_url: https://www2.eecs.berkeley.edu/Pubs/Dissertations/Faculty/mlustig.html
+  current_position: ML R&D at Ceribell
   links:
     - type: scholar
-      url: https://scholar.google.com/citations?user=fSXCOfEAAAAJ&hl=en
-    - type: github
-      url: https://github.com/jesbu1
-    - type: twitter
-      url: https://x.com/Jesse_Y_Zhang
+      url: https://scholar.google.com/citations?user=TY2zV4kAAAAJ
+    - type: linkedin
+      url: https://www.linkedin.com/in/suma-anand-802032102/
+ 
 
-- name: Ayush Jain
-  picture: /images/people/ayush.png
-  home_url: https://ayushj240.github.io/
-  description: 'PhD, CS (Next: Research Scientist at Meta)'
+- name: Efrat Shimron
+  picture: /images/people/Efrat.jpg
+  home_url: https://www.efratshimron.com
+  description: 'Postdoc, EECS (Next: Faculty at Technion - Israel Institute of Technology)'
   rank: alumnidrs
-  coadvisor: Joseph Lim
-  thesis_title: Decision Making in Complex Action Spaces
-  thesis_url: /pdfs/publications/jain2024decision.pdf
+  current_position: Faculty, Technion - Israel Institute of Technology
   links:
     - type: scholar
-      url: https://scholar.google.com/citations?user=-zEc_sAAAAAJ&hl=en
-    - type: github
-      url: https://github.com/ayushj240/
-    - type: twitter
-      url: https://x.com/Ayushj240
+      url: https://scholar.google.com/citations?user=CylZPggAAAAJ&hl=en
+    - type: linkedin
+      url: https://www.linkedin.com/in/efrat-shimron/
 
-- name: Sumedh Sontakke
-  picture: /images/people/sumedh.png
-  home_url: https://sumedh7.github.io/
-  description: 'PhD, CS (Next: Applied Scientist at Amazon Robotics)'
+- name: Alan Dong
+  picture: /images/people/Bear.jpg
+  description: 'PhD, EECS (Next: Apple)'
   rank: alumnidrs
-  coadvisor: Laurent Itti
-  thesis_title: Foundation Models for Embodied AI
-  thesis_url: /pdfs/publications/sontakke2024foundation.pdf
-  links:
+  thesis_title: Metal Pad Sensing Theory, Application, Design, and Algorithms
+  thesis_url: https://www2.eecs.berkeley.edu/Pubs/Dissertations/Faculty/mlustig.html
+  current_position: Apple
+  links: 
+
+- name: Ke Wang
+  picture: /images/people/Ke_wang.jpg
+  description: 'PhD, EECS (Next: Adobe)'
+  home_url: https://kewang0622.github.io
+  coadvisor: Stella Yu
+  rank: alumnidrs
+  thesis_title: Magnetic Resonance Image Reconstruction with Greater Fidelity and Efficiency
+  thesis_url: https://www2.eecs.berkeley.edu/Pubs/Dissertations/Faculty/mlustig.html
+  current_position: Adobe
+  links: 
     - type: scholar
-      url: https://scholar.google.com/citations?user=sUb_eyUAAAAJ
-    - type: github
-      url: https://github.com/sumedh7
-    - type: twitter
-      url: https://x.com/SOTA_kke
+      url: https://scholar.google.com/citations?user=Iz3m3v4AAAAJ&hl=en
+
+- name: Karthik Gopalan 
+  picture: /images/people/Bear.jpg
+  description: 'PhD, EECS (Next: Staff at MikGroup)'
+  rank: alumnidrs
+  thesis_title: Anatomy Inspired Hardware for Magnetic Resonance Imaging
+  thesis_url: https://www2.eecs.berkeley.edu/Pubs/Dissertations/Faculty/mlustig.html
+  current_position: Staff, MikGroup
+  links: 
+
+- name: Michael Kellman
+  picture: /images/people/Bear.jpg
+  description: 'PhD, EECS (Next: Zendar)'
+  rank: alumnidrs
+  coadvisor: Laura Waller
+  thesis_title: Physics-based Learning for Large-scale Computational Imaging
+  current_position: Zendar
+  thesis_url: https://www2.eecs.berkeley.edu/Pubs/Dissertations/Faculty/mlustig.html
+  links: 
+
+- name: Zhiyong Zhang
+  picture: /images/people/Zhiyong.jpg
+  description: 'Postdoc, EECS (Next: Faculty at Shanghai Jiao Tong University)'
+  rank: alumnidrs
+  current_position: Faculty, Shanghai Jiao Tong University
+  links: 
+
+- name: Patrick Virtue
+  picture: /images/people/Bear.jpg
+  description: 'PhD, EECS (Next: Faculty at Carnegie Mellon University)'
+  rank: alumnidrs
+  coadvisor: Stella Yu
+  thesis_title: Complex-valued Deep Learning with Applications to Magnetic Resonance Image Synthesis
+  thesis_url: https://www2.eecs.berkeley.edu/Pubs/Dissertations/Faculty/mlustig.html
+  current_position: Faculty, Carnegie Mellon University
+  links: 
+
+- name: Jonathan (Jon) Tamir
+  picture: /images/people/Jon.jpg
+  description: 'PhD, EECS (Next: Faculty at UT Austin)'
+  home_url: https://users.ece.utexas.edu/~jtamir/
+  rank: alumnidrs
+  thesis_title: MR Shuffling Accelerated Single-Scan Multi-Contrast Magnetic Resonance Imaging
+  thesis_url: https://www2.eecs.berkeley.edu/Pubs/Dissertations/Faculty/mlustig.html
+  current_position: Faculty, UT Austin
+  links: 
+    - type: scholar
+      url: https://scholar.google.com/citations?user=F_6aatkAAAAJ&hl=en
+    - type: linkedin
+      url: https://www.linkedin.com/in/jon-tamir-62887220/
+
+- name: Frank Ong
+  picture: /images/people/Bear.jpg
+  description: 'PhD, EECS (Next: Roblox)'
+  home_url: https://frankong.com
+  rank: alumnidrs
+  thesis_title: Low Dimensional Methods for High Dimensional Magnetic Resonance Imaging
+  thesis_url: https://www2.eecs.berkeley.edu/Pubs/Dissertations/Faculty/mlustig.html
+  current_position: Roblox
+  links: 
+    - type: linkedin
+      url: https://www.linkedin.com/in/frank-ong/
+
+- name: Joseph Corea
+  picture: /images/people/Bear.jpg
+  description: 'PhD, EECS (Next: InkSpace Imaging)'
+  rank: alumnidrs
+  thesis_title: Screen Printed MRI Receive Coils
+  thesis_url: https://www2.eecs.berkeley.edu/Pubs/Dissertations/Faculty/mlustig.html
+  current_position: InkSpace Imaging
+  links: 
+    - type: linkedin
+      url: https://www.linkedin.com/in/joseph-corea-303124103/
+
+- name: Mark Murphy
+  picture: /images/people/Bear.jpg
+  description: 'PhD, EECS (Next: Research Scientist at DeepMind)'
+  rank: alumnidrs
+  coadvisor: Kurt Keutzer
+  thesis_title: Parallelism, Patterns, and Performance in Iterative MRI Reconstruction
+  thesis_url: https://www2.eecs.berkeley.edu/Pubs/Dissertations/Faculty/mlustig.html
+  current_position: Research Scientist, DeepMind
+  links: 
+    - type: linkedin
+      url: https://www.linkedin.com/in/mark-murphy-9b319711a/
+
 
 # Other alumni
-- name: Zhaojing Yang
-  picture: /images/people/zhaojing.png
-  home_url: https://yang-zj1026.github.io/
-  description: 'MS, CS (Next: PhD at UC San Diego)'
-  rank: alumni
-  links:
-    - type: github
-      url: https://github.com/yang-zj1026
-    - type: scholar
-      url: https://scholar.google.com/citations?user=Olo1IfYAAAAJ&hl=en
-    - type: twitter
-      url: https://x.com/zhaojingy_1026
-      
-- name: Jiahui Zhang
-  picture: /images/people/jiahui.png
-  home_url: https://jiahui-3205.github.io/
-  description: 'MS, EE (Next: PhD at UT Dallas)'
-  rank: alumni
-  links:
-    - type: scholar
-      url: https://scholar.google.com/citations?hl=en&user=vnoxtkKTVsoC
-    - type: twitter
-      url: https://x.com/JiahuiZhang__32
+#- name: Abigail Falk
+#  description: 
+#  rank: alumni
+#  links:
 
-- name: Sunny Agrawal
-  picture: /images/people/sunny.jpg
-  description: 'Research Intern (Next: Continuing studies at Ohio State University)'
-  rank: alumni
-  links:
 
-- name: Eisuke Hirota
-  picture: /images/people/eisuke.png
-  home_url: https://ei5uke.github.io/
-  description: 'Research Intern (Next: MIT Lincoln Laboratory)'
-  rank: alumni
-  links:
-    - type: scholar
-      url: https://scholar.google.com/citations?user=NBvMsAMAAAAJ&hl=en
-    - type: github
-      url: https://github.com/ei5uke
-      
-- name: Megumi Ondo
-  picture: /images/people/megumi.jpg
-  description: 'Research Intern (Next: Continuing studies at UC Santa Barbara)'
-  rank: alumni
-  links:
-      
-- name: Shreya Ramanujam
-  picture: /images/people/shreya.jpg
-  description: 'Research Intern (Next: MS at Stanford University)'
-  rank: alumni
-  links:
-  
-- name: Zijian Zhang
-  picture: /images/people/zijian.jpg
-  description: 'Research Intern (Next: Continuing studies at Tsinghua University)'
-  rank: alumni
-  links:
 
-- name: James Qian
-  picture: /images/people/james.png
-  description: 'Undergraduate, CS (Next: Transferred to Stanford University)'
-  rank: alumni
-  links:
 
-- name: Miru Jun
-  picture: /images/people/miru.png
-  description: 'Undergraduate, CS (Next: Data Engineer at US Navy)'
-  rank: alumni
-  links:
-    - type: github
-      url: https://github.com/lemonlemonde
-
-- name: Thomas Reeves
-  picture: /images/people/thomas.png
-  home_url: https://reevest29.github.io/
-  description: 'MS, CS (Next: PhD at USC)'
-  rank: alumni
-  links:
-    - type: github
-      url: https://github.com/Reevest29
-    - type: scholar
-      url: https://scholar.google.com/citations?user=zVDNPpvMya0C

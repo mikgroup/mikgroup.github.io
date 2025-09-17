@@ -19,15 +19,17 @@
 }
 
 .site-header nav a {
-  color: #666;
+  color: $berkeley-blue;
+  font-weight: bold;
+  transition: color 0.12s ease;
 }
 
 .site-header nav a:hover,
 .site-header nav a:focus,
 .site-header nav a:active {
-  color: #444;
+  color: $berkeley-gold !important;
   opacity: 1;
-  border-bottom: 0px solid #444;
+  border-bottom: 0px solid $berkeley-gold;
 }
 
 .site-nav a + a {
@@ -48,18 +50,23 @@
 .site-header .site-nav {
   text-align: center;
   float: left;
-  width: 60%;
+  width: 50%;
 }
 
 
 .site-header #left-logo, .site-header #right-logo {
   float: left;
-  width: 20%;
+  width: 25%;
+}
+
+// Nudge the left logo down to align with right-side logos
+.site-header #left-logo {
+  margin-top: 45px;
 }
 
 .site-header .site-nav#dropdown select {
   background-color: white;
-  color: $usc-red;
+  color: $berkeley-blue;
   height: 2.7rem;
   border-radius: 20px;
 }

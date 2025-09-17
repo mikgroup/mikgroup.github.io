@@ -2,7 +2,15 @@
 layout: default
 ---
 
-{% if page.image %}
+{% if page.images %}
+<div class="project-header-image mb-4" style="display:flex; flex-wrap:wrap; gap: 0.5rem;">
+  {% for img in page.images %}
+    <div style="flex: 1 1 calc(50% - 0.5rem); min-width: 280px;">
+      <img src="{{ img }}" alt="{{ page.title }} image {{ forloop.index }}" class="img-fluid" style="max-height: 400px; width: 100%; object-fit: contain;">
+    </div>
+  {% endfor %}
+  </div>
+{% elsif page.image %}
 <div class="project-header-image">
   <img src="{{ page.image }}" alt="{{ page.title }}" class="img-fluid mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
 </div>
@@ -24,12 +32,15 @@ layout: default
           <div class="person-header">
             <h5 class="person-name">{{ person.name }}</h5>
             {% if person.rank %}
-              <span class="badge badge-secondary">{{ person.rank | capitalize }}</span>
+              {% assign rank_label = person.rank %}
+              {% if rank_label == 'alumnidrs' or rank_label == 'alumni' %}
+                {% assign rank_label = 'Alumni' %}
+              {% else %}
+                {% assign rank_label = rank_label | capitalize %}
+              {% endif %}
+              <span class="badge badge-secondary">{{ rank_label }}</span>
             {% endif %}
           </div>
-          {% if person.description %}
-            <div class="person-description">{{ person.description }}</div>
-          {% endif %}
           {% if person.current_position %}
             <div class="person-current-position"><strong>Current:</strong> {{ person.current_position }}</div>
           {% endif %}
@@ -45,7 +56,13 @@ layout: default
                     <i class="ai ai-google-scholar"></i> Scholar
                   </a>
                 {% elsif link.type == 'github' %}
-                  <a href="https://github.com/{{ link.url }}" class="btn btn-sm btn-outline-dark mr-1" target="_blank">
+                  {% assign gh_url = link.url %}
+                  {% if gh_url contains 'http' %}
+                    {% assign gh_href = gh_url %}
+                  {% else %}
+                    {% capture gh_href %}https://github.com/{{ gh_url }}{% endcapture %}
+                  {% endif %}
+                  <a href="{{ gh_href }}" class="btn btn-sm btn-outline-dark mr-1" target="_blank">
                     <i class="fab fa-github"></i> GitHub
                   </a>
                 {% elsif link.type == 'twitter' %}
@@ -70,12 +87,15 @@ layout: default
           <div style="display:flex; align-items:center; margin-bottom: 0.25rem;">
             <h5 style="margin: 0; font-weight:600;">{{ person_obj.name }}</h5>
             {% if person_obj.rank %}
-              <span class="badge badge-secondary ml-2">{{ person_obj.rank | capitalize }}</span>
+              {% assign obj_rank_label = person_obj.rank %}
+              {% if obj_rank_label == 'alumnidrs' or obj_rank_label == 'alumni' %}
+                {% assign obj_rank_label = 'Alumni' %}
+              {% else %}
+                {% assign obj_rank_label = obj_rank_label | capitalize %}
+              {% endif %}
+              <span class="badge badge-secondary ml-2">{{ obj_rank_label }}</span>
             {% endif %}
           </div>
-          {% if person_obj.description %}
-            <div class="text-muted">{{ person_obj.description }}</div>
-          {% endif %}
           {% if person_obj.current_position %}
             <div class="text-info"><small><strong>Current:</strong> {{ person_obj.current_position }}</small></div>
           {% endif %}

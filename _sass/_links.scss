@@ -1,5 +1,6 @@
 a {
   color: $link-color;
+  text-decoration: none;
   //background-image: linear-gradient(to top,
   //  rgba(0,0,0,0) 13%,
   //  rgba($link-color,.8) 13%,
@@ -7,21 +8,18 @@ a {
   //  rgba(0,0,0,0) 17%
   //);
   text-shadow: white 1px 0px 0px, white -1px 0px 0px;
+  transition: color 0.12s ease;
 }
 
 a:hover,
 a:focus,
 a:active {
   border: 0;
-  color: $link-hover-color;
-  text-decoration: none;
-  background-image: linear-gradient(to top,
-    rgba(0,0,0,0) 13%,
-    rgba($link-hover-color,.8) 13%,
-    rgba($link-hover-color,.8) 17%,
-    rgba(0,0,0,0) 17%
-  );
+  color: $link-hover-color !important;
+  text-decoration: none !important;
+  background-image: none;
   text-shadow: white 1px 0px 0px, white -1px 0px 0px;
+  transition: color 0.12s ease;
 }
 
 // Correct issues with buttons
@@ -50,31 +48,94 @@ button,
     color: $link-hover-color;
     text-shadow: none;
     background-image: none;
+    transition: color 0.12s ease;
 }
 
 
 a.people {
 	text-decoration: none;
 	background-image: none;
+	color: $berkeley-blue;
 }
+
 small a {
 	color: $dark-gray;
 }
 
-
-.btn {
-    background-color: $usc-red;
-    border: none;
-    color: white;
-    padding: 0px 6px;
-    font-size: 13px;
-    cursor: pointer;
-	border-radius: 15%;
+/* Ensure all hyperlinks use Berkeley blue */
+a[href] {
+	color: $berkeley-blue;
 }
 
-/* Darker background on mouse-over */
+/* Person names and other text links */
+.person-name a,
+.person-info a,
+.person-links a,
+.person-current-position a {
+	color: $berkeley-blue !important;
+	transition: color 0.12s ease;
+}
+
+.person-name a:hover,
+.person-info a:hover,
+.person-links a:hover,
+.person-current-position a:hover {
+	color: $berkeley-gold !important;
+}
+
+/* Project people section specific styling */
+.project-people .person-name,
+.project-people .person-name a {
+	color: $berkeley-blue !important;
+	transition: color 0.12s ease;
+}
+
+.project-people .person-name:hover,
+.project-people .person-name a:hover {
+	color: $berkeley-gold !important;
+}
+
+/* Ensure all links in project pages use Berkeley blue */
+.project-people a,
+.related-publications a {
+	color: $berkeley-blue !important;
+	transition: color 0.12s ease;
+}
+
+.project-people a:hover,
+.related-publications a:hover {
+	color: $berkeley-gold !important;
+}
+
+/* Limit hover color to clickable anchors only */
+.person-entry .person-name a:hover,
+.person-entry .person-description a:hover,
+.person-entry .person-current-position a:hover {
+	color: $berkeley-gold !important;
+}
+
+/* Navigation text hover effects */
+.site-nav a {
+	font-weight: bold;
+}
+
+/* Remove global non-link hover color changes */
+
+
+.btn {
+    background-color: transparent;
+    border: none;
+    color: $berkeley-blue;
+    padding: 4px 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+/* Berkeley gold color on mouse-over */
 .btn:hover {
-    background-color: darken($usc-red, 40%);
+    background-color: transparent;
+    color: $berkeley-gold;
 }
 
 .people a.fa, a.ai {
@@ -83,11 +144,12 @@ small a {
 }
 
 .people .btn {
-	border-radius: 90%;
-	padding: 0px 6px;
-	margin-top: -8px;
+	border-radius: 0;
+	padding: 4px 6px;
+	margin-top: 0;
+	font-size: 16px;
 }
 
 .site-nav .current-page {
-	color: $usc-red;
+	color: $berkeley-blue;
 }

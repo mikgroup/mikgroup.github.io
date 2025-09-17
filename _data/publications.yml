@@ -24,1455 +24,380 @@
   #     url: https://doi.org/10.1109/hri53351.2022.9889650 
 
 
-- title: 'GABRIL: Gaze-Based Regularization for Mitigating Causal Confusion in Imitation Learning'
-  authors: Amin Banayeeanzade*, Fatemeh Bahrani*, Yutai Zhou, Erdem Bıyık 
-  venue: International Conference on Intelligent Robots and Systems (IROS), October 2025
-  picture: /images/publications/banayeeanzade2025gabril.png
-  note: '* denotes equal contribution.'
-  projects:
-    - example_project
-  abstract: "We present GABRIL, a gaze-based regularization approach for mitigating causal confusion in imitation learning. Our method leverages human gaze data to guide the learning process and improve generalization."
+# - title: 'GABRIL: Gaze-Based Regularization for Mitigating Causal Confusion in Imitation Learning'
+#   authors: Amin Banayeeanzade*, Fatemeh Bahrani*, Yutai Zhou, Erdem Bıyık 
+#   venue: International Conference on Intelligent Robots and Systems (IROS), October 2025
+#   picture: /images/publications/banayeeanzade2025gabril.png
+#   note: '* denotes equal contribution.'
+#   projects:
+#     - example_project
+#   abstract: "We present GABRIL, a gaze-based regularization approach for mitigating causal confusion in imitation learning. Our method leverages human gaze data to guide the learning process and improve generalization."
+#   specialnote: 'Oral presentation. Also received the best paper award at the OOD workshop and a best paper nomination at RoboReps Workshop at RSS 2025.'
+#   links:
+#     - type: abstract
+#       display: Abstract
+#     - type: html
+#       display: HTML
+#       url: https://liralab.usc.edu/gabril/
+#     - type: code
+#       display: Code 1
+#       url: https://github.com/nfbahrani/GABRIL-Atari
+#     - type: code
+#       display: Code 2
+#       url: https://github.com/aminbana/GABRIL-CARLA
+#   bibtex: '@inproceedings{banayeeanzade2025gabril,
+#       title={GABRIL: Gaze-Based Regularization for Mitigating Causal Confusion in Imitation Learning}, 
+#       author={Banayeeanzade, Amin and Bahrani, Fatemeh and Zhou, Yutai and Bıyık, Erdem},
+#       booktitle={International Conference on Intelligent Robots and Systems (IROS)},
+#       year={2025},
+#       month=oct
+# }'
+
+- title: 'MR perfusion source mapping depicts venous territories and reveals perfusion modulation during neural activation'
+  authors: Ekin Karasan, Jingjia Chen, Julian Adolfo Maravilla, Zhiyong Zhang, Chunlei Liu, Michael Lustig
+  venue: Nature Communications, 2025
+  picture: /images/publications/dispect_2.webp
+  projects: 
+    - DiSpect
   links:
-    - type: abstract
-      display: Abstract
     - type: html
       display: HTML
-      url: https://liralab.usc.edu/gabril/
-    - type: code
-      display: Code 1
-      url: https://github.com/nfbahrani/GABRIL-Atari
-    - type: code
-      display: Code 2
-      url: https://github.com/aminbana/GABRIL-CARLA
-  bibtex: '@inproceedings{banayeeanzade2025gabril,
-      title={GABRIL: Gaze-Based Regularization for Mitigating Causal Confusion in Imitation Learning}, 
-      author={Banayeeanzade, Amin and Bahrani, Fatemeh and Zhou, Yutai and Bıyık, Erdem},
-      booktitle={International Conference on Intelligent Robots and Systems (IROS)},
-      year={2025},
-      month=oct
-}'
+      url: https://www.nature.com/articles/s41467-025-59108-3
 
-- title: 'RAILGUN: A Unified Convolutional Policy for Multi-Agent Path Finding Across Different Environments and Tasks'
-  authors: Yimin Tang*, Xiao Xiong*, Jingyi Xi, Jiaoyang Li, Erdem Bıyık, Sven Koenig
-  venue: International Conference on Intelligent Robots and Systems (IROS), October 2025
-  picture: /images/publications/tang2025railgun.png
-  note: '* denotes equal contribution.'
-  projects:
-    - human_robot_interaction
-  abstract: "We present RAILGUN, a unified convolutional policy for multi-agent path finding that works across different environments and tasks. Our approach demonstrates improved performance and generalization."
+  bibtex: '@article{Karasan2025,
+    title = {MR perfusion source mapping depicts venous territories and reveals perfusion modulation during neural activation},
+    author = {Karasan, Ekin and Chen, Jingjia and Maravilla, Julian and Zhang, Zhiyong and Liu, Chunlei and Lustig, Michael},
+    journal = {Nature Communications},
+    volume = {16},
+    pages = {3890},
+    year = {2025},
+    doi = {10.1038/s41467-025-59108-3},
+    url = {https://www.nature.com/articles/s41467-025-59108-3}}'
+
+- title: 'Multiphoton simultaneous multislice imaging'
+  authors: Tanya Deniz Ipek, Victor Han, Julian Adolfo Maravilla, Michael Lustig, Chunlei Liu
+  venue: Magnetic Resonance in Medicine, 2024
+  picture: /images/publications/multiphoton.jpg
+  projects: 
+    
   links:
-    - type: abstract
-      display: Abstract
     - type: html
       display: HTML
-      url: https://arxiv.org/abs/2503.02992
-  bibtex: '@inproceedings{tang2025railgun,
-      title={RAILGUN: A Unified Convolutional Policy for Multi-Agent Path Finding Across Different Environments and Tasks},
-      author={Tang, Yimin and Xiong, Xiao and Xi, Jingyi and Li, Jiaoyang and Bıyık, Erdem and Koenig, Sven},
-      booktitle={International Conference on Intelligent Robots and Systems (IROS)},
-      year={2025},
-      month=oct
-}'
+      url: https://onlinelibrary.wiley.com/doi/full/10.1002/mrm.30148
 
-- title: 'ReWiND: Language-Guided Rewards Teach Robot Policies without New Demonstrations'
-  authors: Jiahui Zhang*, Yusen Luo*, Abrar Anwar*, Sumedh A. Sontakke, Joseph J. Lim, Jesse Thomason, Erdem Bıyık, Jesse Zhang
-  venue: Proceedings of the 9th Conference on Robot Learning (CoRL), September 2025
-  picture: /images/publications/zhang2025rewind.png
-  note: '* denotes equal contribution. Also presented at various workshops at RSS 2025 and RLC 2025.'
-  specialnote: 'Oral presentation. Also received the best paper award at the OOD workshop and a best paper nomination at RoboReps Workshop at RSS 2025.'
-  projects:
-    - example_project
-  abstract: "ReWiND introduces language-guided rewards to teach robot policies without requiring new demonstrations. Our approach leverages natural language instructions to improve learning efficiency."
-  links:
-    - type: abstract
-      display: Abstract
-    - type: html
-      display: HTML
-      url: https://rewind-reward.github.io/
-  bibtex: '@inproceedings{zhang2025rewind,
-      title={ReWiND: Language-Guided Rewards Teach Robot Policies without New Demonstrations}, 
-      author={Zhang, Jiahui and Luo, Yusen and Anwar, Abrar and Sontakke, Sumedh A. and Lim, Joseph J. and Thomason, Jesse and Bıyık, Erdem and Zhang, Jesse},
-      year={2025},
-      booktitle={Conference on Robot Learning (CoRL)}
-}'
+  bibtex: '@article{Ipek2024,
+    title        = {Multiphoton simultaneous multislice imaging},
+    author       = {Ipek, Tanya Deniz and Han, Victor and Maravilla, Julian Adolfo and Lustig, Michael and Liu, Chunlei},
+    journal      = {Magnetic Resonance in Medicine},
+    volume       = {92},
+    number       = {4},
+    pages        = {1584--1599},
+    year         = {2024},
+    doi          = {10.1002/mrm.30148},
+    url          = {https://onlinelibrary.wiley.com/doi/full/10.1002/mrm.30148}
+  }'
 
-
-- title: 'Mitigating Suboptimality of Deterministic Policy Gradients in Complex Q-functions'
-  authors: Ayush Jain, Norio Kosaka, Xinhu Li, Kyung-Min Kim, Erdem Bıyık, Joseph J. Lim
-  venue: 2nd Reinforcement Learning Conference (RLC), August 2025
-  picture: /images/publications/jain2025mitigating.png
-  specialnote: 'Outstanding Paper Award on Empirical Reinforcement Learning Research.'
-  projects:
-    - example_project
-  abstract: "We address the suboptimality of deterministic policy gradients in complex Q-functions and propose mitigation strategies that improve learning performance in reinforcement learning tasks."
-  links:
-    - type: abstract
-      display: Abstract
-    - type: html
-      display: HTML
-      url: https://arxiv.org/abs/2410.11833
-  bibtex: '@inproceedings{jain2025mitigating,
-      title={Mitigating Suboptimality of Deterministic Policy Gradients in Complex Q-functions}, 
-      author={Jain, Ayush and Kosaka, Norio and Li, Xinhu and Kim, Kyung-Min and Bıyık, Erdem and Lim, Joseph J.},
-      year={2025},
-      month=aug,
-      booktitle={2nd Reinforcement Learning Conference (RLC)}
-}'
-
-- title: 'NaVILA: Legged Robot Vision-Language-Action Model for Navigation'
-  authors: An-Chieh Cheng*, Yandong Ji*, Zhaojing Yang*, Xueyan Zou, Jan Kautz, Erdem Bıyık, Hongxu Yin, Sifei Liu, Xiaolong Wang
-  venue: 'Proceedings of Robotics: Science and Systems (RSS), June 2025'
-  picture: /images/publications/cheng2025navila.png
-  note: '* denotes equal contribution.'
-  links:
-    - type: pdf
-      display: PDF
-      url: /pdfs/publications/cheng2025navila.pdf
-    - type: arxiv
-      display: arXiv
-      url: https://arxiv.org/abs/2412.04453
-    - type: website
-      display: Website
-      url: https://navila-bot.github.io/
-    - type: code
-      display: Code 1
-      url: https://github.com/yang-zj1026/legged-loco
-    - type: code
-      display: Code 2
-      url: https://github.com/yang-zj1026/VLN-CE-Isaac
-  bibtex: '@inproceedings{cheng2025navila,
-      title={NaVILA: Legged Robot Vision-Language-Action Model for Navigation}, 
-      author={An-Chieh Cheng and Yandong Ji and Zhaojing Yang and Xueyan Zou and Jan Kautz and Erdem Bıyık and Hongxu Yin and Sifei Liu and Xiaolong Wang},
-      year={2025},
-      month=jun,
-      booktitle={Proceedings of Robotics: Science and Systems (RSS)}
-}'
-
-- title: 'MILE: Model-based Intervention Learning'
-  authors: Yigit Korkmaz, Erdem Bıyık
-  venue: International Conference on Robotics and Automation (ICRA), May 2025
-  picture: /images/publications/korkmaz2025mile.png
-  projects:
-    - example_project
-  abstract: "MILE presents a model-based intervention learning approach that improves robot learning through strategic interventions and model-based planning."
-  links:
-    - type: abstract
-      display: Abstract
-    - type: html
-      display: HTML
-      url: https://liralab.usc.edu/mile/
-    - type: code
-      display: Code
-      url: https://github.com/USC-Lira/mile-code
-  bibtex: '@inproceedings{korkmaz2025mile,
-      title={MILE: Model-based Intervention Learning}, 
-      author={Yigit Korkmaz and Erdem Bıyık},
-      booktitle={International Conference on Robotics and Automation (ICRA)},
-      year={2025},
-      month=may
-}'
-
-- title: 'Multi-Agent Inverse Q-Learning from Demonstrations'
-  authors: Nathaniel Haynam, Adam Khoja, Dhruv Kumar, Vivek Myers, Erdem Bıyık
-  venue: International Conference on Robotics and Automation (ICRA), May 2025
-  picture: /images/publications/haynam2025multi.png
-  links:
-    - type: pdf
-      display: PDF
-      url: /pdfs/publications/haynam2025multi.pdf
-    - type: arxiv
-      display: arXiv
-      url: https://arxiv.org/abs/2503.04679
-    - type: website
-      display: Website
-      url: https://sites.google.com/view/mamql/
-    - type: code
-      display: Code
-      url: https://github.com/USC-Lira/MAMQL
-  bibtex: '@inproceedings{haynam2025multi,
-      title={Multi-Agent Inverse Q-Learning from Demonstrations}, 
-      author={Nathaniel Haynam and Adam Khoja and Dhruv Kumar and Vivek Myers and Erdem Bıyık},
-      booktitle={International Conference on Robotics and Automation (ICRA)},
-      year={2025},
-      month=may
-}'
-
-- title: 'Scaling Robot Adaptation with Large Model Guidance'
-  authors: Jesse Zhang
-  venue: CS Department, University of Southern California, June 2025
-  picture: /images/publications/zhang2025scaling.png
-  note: Ph.D. Dissertation
-  links:
-    - type: pdf
-      display: PDF
-      url: /pdfs/publications/zhang2025scaling.pdf
-  bibtex: '@phdthesis{zhang2025scaling,
-  title={Scaling Robot Adaptation with Large Model Guidance},
-  author={Zhang, Jesse},
-  school = {CS Department, University of Southern California},
-  year={2025},
-  month=jun
-}'
-
-- title: 'HAND Me the Data: Fast Robot Adaptation via Hand Path Retrieval'
-  authors: Matthew Hong*, Anthony Liang*, Kevin Kim, Harshitha Rajaprakash, Jesse Thomason†, Erdem Bıyık†, Jesse Zhang†
-  venue: arXiv preprint, May 2025
-  picture: /images/publications/hong2025hand.png
-  note: '* denotes equal contribution. † denotes equal advising.'
-  links:
-    - type: pdf
-      display: PDF
-      url: /pdfs/publications/hong2025hand.pdf
-    - type: arxiv
-      display: arXiv
-      url: https://arxiv.org/abs/2505.20455
-    - type: website
-      display: Website
-      url: https://liralab.usc.edu/handretrieval/
-  bibtex: '@article{hong2025hand,
-      title={HAND Me the Data: Fast Robot Adaptation via Hand Path Retrieval}, 
-      author={Hong, Matthew and Liang, Anthony and Kim, Kevin and Rajaprakash, Harshitha and Thomason, Jesse and Bıyık, Erdem and Zhang, Jesse},
-      year={2025},
-      journal={arXiv preprint arXiv:2505.20455}
-}'
-
-
-- title: 'CLAM: Continuous Latent Action Models for Robot Learning from Unlabeled Demonstrations'
-  authors: Anthony Liang*, Pavel Czempin*, Matthew Hong, Yutai Zhou, Erdem Bıyık†, Stephen Tu†
-  venue: arXiv preprint, May 2025
-  picture: /images/publications/liang2025clam.png
-  note: '* denotes equal contribution. † denotes equal advising.'
-  links:
-    - type: pdf
-      display: PDF
-      url: /pdfs/publications/liang2025clam.pdf
-    - type: arxiv
-      display: arXiv
-      url: https://arxiv.org/abs/2505.04999
-  bibtex: '@article{liang2025clam,
-      title={CLAM: Continuous Latent Action Models for Robot Learning from Unlabeled Demonstrations}, 
-      author={Liang, Anthony and Czempin, Pavel and Hong, Matthew and Zhou, Yutai and Bıyık, Erdem and Tu, Stephen},
-      year={2025},
-      journal={arXiv preprint arXiv:2505.04999}
-}'
-
-- title: 'IMPACT: Intelligent Motion Planning with Acceptable Contact Trajectories via Vision-Language Models'
-  authors: Yiyang Ling*, Karan Owalekar*, Oluwatobiloba Adesanya, Erdem Bıyık, Daniel Seita
-  venue: arXiv preprint, March 2025
-  picture: /images/publications/ling2025impact.png
-  note: '* denotes equal contribution.'
-  links:
-    - type: pdf
-      display: PDF
-      url: /pdfs/publications/ling2025impact.pdf
-    - type: arxiv
-      display: arXiv
-      url: https://arxiv.org/abs/2503.10110
-    - type: website
-      display: Website
-      url: https://impact-planning.github.io/
-  bibtex: '@article{ling2025impact,
-      title={IMPACT: Intelligent Motion Planning with Acceptable Contact Trajectories via Vision-Language Models}, 
-      author={Ling, Yiyang and Owalekar, Karan and Adesanya, Oluwatobiloba and Bıyık, Erdem and Seita, Daniel},
-      year={2025},
-      journal={arXiv preprint arXiv:2503.10110}
-}'
 
   
-- title: 'Human-Interactive Robot Learning: Definition, Challenges, and Recommendations'
-  authors: Kim Baraka, Ifrah Idrees, et al.
-  venue: Submitted to the ACM Transactions on Human-Robot Interaction (THRI), 2025
-  picture: /images/publications/baraka2025human.png
+- title: 'Beat Pilot Tone (BPT): Simultaneous MRI and RF motion sensing at arbitrary frequencies'
+  authors: Suma Anand, Michael Lustig
+  venue: Magnetic Resonance in Medicine, 2024
+  picture: /images/publications/bpt_paper.jpg
+  projects: 
+    - BPT
   links:
-    - type: pdf
-      display: PDF
-      url: /pdfs/publications/baraka2025human.pdf
-  bibtex: '@article{baraka2025human,
-  title={Human-Interactive Robot Learning: Definition, Challenges, and Recommendations},
-  author={Baraka, Kim and Faulkner, Taylor Kessler and Bıyık, Erdem and Serena, Booth and Chetouani, Mohamed and Grollman, Daniel H and Saran, Akanksha and Senft, Emmanuel and Tulli, Silvia and Vollmer, Anna-Lisa and Andriella, Antonio and Beierling, Helen and Horter, Tiffany and Kober, Jens and Sheidlower, Isaac and Taylor, Matthew E and Waveren, Sanne Van and Xiao, Xuesu},
-  year={2025}
-}'
-  
-- title: 'DynaMITE-RL: A Dynamic Model for Improved Temporal Meta-Reinforcement Learning'
-  authors: Anthony Liang, Guy Tennenholtz, Chih-wei Hsu, Yinlam Chow, Erdem Bıyık, Craig Boutilier
-  venue: Conference on Neural Information Processing Systems (NeurIPS), December 2024
-  picture: /images/publications/liang2024dynamiterl.png
-  links:
-    - type: pdf
-      display: PDF
-      url: /pdfs/publications/liang2024dynamiterl.pdf
-    - type: arxiv
-      display: arXiv
-      url: https://arxiv.org/abs/2402.15957
-  bibtex: '@inproceedings{liang2024dynamiterl,
-      title={DynaMITE-RL: A Dynamic Model for Improved Temporal Meta-Reinforcement Learning}, 
-      author={Anthony Liang and Guy Tennenholtz and Chih-wei Hsu and Yinlam Chow and Erdem Bıyık and Craig Boutilier},
-      booktitle={Conference on Neural Information Processing Systems (NeurIPS)},
+    - type: html
+      display: HTML
+      url: https://onlinelibrary.wiley.com/doi/full/10.1002/mrm.30150
+    - type: code
+      display: Code
+      url: https://github.com/mikgroup/bpt_paper
+  bibtex: '@article{anand2024beat,
+      title={Beat Pilot Tone (BPT): Simultaneous MRI and RF motion sensing at arbitrary frequencies},
+      author={Anand, Suma and Lustig, Michael},
+      journal={Magnetic Resonance in Medicine},
       year={2024},
-      month=dec
-}'
+      publisher={Wiley Online Library},
+      html={https://onlinelibrary.wiley.com/doi/full/10.1002/mrm.30150},
+      code={https://github.com/mikgroup/bpt_paper}}'
 
-- title: 'Decision Making in Complex Action Spaces'
-  authors: Ayush Jain
-  venue: CS Department, University of Southern California, December 2024
-  picture: /images/publications/jain2024decision.png
-  note: Ph.D. Dissertation
+- title: 'Twstr: A Resonant, Matched MRI Coil without any Discrete Components'
+  authors: Julian A. Maravilla, Michael Lustig, Ana C. Arias
+  venue: IEEE MTT-S International Microwave Biomedical Conference (IMBioC), 2024
+  picture: /images/publications/twstr_preview.gif
+  projects: 
+    - Conformal Receiver Coils
   links:
-    - type: pdf
-      display: PDF
-      url: /pdfs/publications/jain2024decision.pdf
-  bibtex: '@phdthesis{jain2024decision,
-  title={Decision Making in Complex Action Spaces},
-  author={Jain, Ayush},
-  school = {CS Department, University of Southern California},
-  year={2024},
-  month=dec
-}'
-
-- title: 'Trajectory Improvement and Reward Learning from Comparative Language Feedback'
-  authors: Zhaojing Yang, Miru Jun, Jeremy Tien, Stuart J. Russell, Anca Dragan, Erdem Bıyık
-  venue: Proceedings of the 8th Conference on Robot Learning (CoRL), November 2024
-  picture: /images/publications/yang2024trajectory.png
-  note: 'Also presented at HRI Human-Interactive Robot Learning Workshop, March 2024 (<a href="/pdfs/publications/tien2024optimizing.pdf">PDF</a>).'
-  links:
-    - type: pdf
-      display: PDF
-      url: /pdfs/publications/yang2024trajectory.pdf
-    - type: arxiv
-      display: arXiv
-      url: https://arxiv.org/abs/2410.06401
-    - type: website
-      display: Website
-      url: https://liralab.usc.edu/comparative-language-feedback/
-    - type: code
-      display: Code
-      url: https://github.com/USC-Lira/language-preference-learning
-    - type: talk
-      display: Talk 1
-      url: https://www.youtube.com/watch?v=8xyuCQlTXEg
-    - type: talk
-      display: Talk 2
-      url: https://www.youtube.com/watch?v=v_62jnatv5I
-  bibtex: '@inproceedings{yang2024trajectory,
-      title={Trajectory Improvement and Reward Learning from Comparative Language Feedback}, 
-      author={Zhaojing Yang and Miru Jun and Jeremy Tien and Stuart J. Russell and Anca Dragan and Erdem Bıyık},
-      booktitle={Conference on Robot Learning (CoRL)},
+    - type: html
+      display: HTML
+      url: https://ieeexplore.ieee.org/abstract/document/10590497
+  bibtex: '@inproceedings{maravilla2024twstr,
+      title={Twstr: A Resonant, Matched MRI Coil without any Discrete Components},
+      author={Maravilla, Julian A and Lustig, Michael and Arias, Ana C},
+      booktitle={2024 IEEE MTT-S International Microwave Biomedical Conference (IMBioC)},
+      pages={128--130},
       year={2024},
-      month=nov
-}'
+      organization={IEEE}}'
 
-- title: 'EXTRACT: Efficient Policy Learning by Extracting Transferable Robot Skills from Offline Data'
-  authors: Jesse Zhang, Minho Heo, Zuxin Liu, Erdem Bıyık, Joseph J Lim, Yao Liu, Rasool Fakoor
-  venue: Proceedings of the 8th Conference on Robot Learning (CoRL), November 2024
-  picture: /images/publications/zhang2024extract.png
+- title: 'The MRDust: Wireless Data Uplink & Localization via Magnetic Resonance Image Modulation'
+  authors: Biqi Rebekah Zhao, Alexander Chou, Robert Peltekov, Elad Alon, Chunlei Liu, Rikky Muller, Michael Lustig
+  venue: 46th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC), 2024
+  picture: /images/publications/zhao6-p4-zhao-large.png
+  projects: 
+    - MRDust
   links:
-    - type: pdf
-      display: PDF
-      url: /pdfs/publications/zhang2024extract.pdf
-    - type: arxiv
-      display: arXiv
-      url: https://arxiv.org/abs/2406.17768
-    - type: website
-      display: Website
-      url: https://www.jessezhang.net/projects/extract/
+    - type: html
+      display: HTML
+      url: https://ieeexplore.ieee.org/abstract/document/10781942
+  bibtex: '@INPROCEEDINGS{Zhao2024_MrDust,
+    author={Zhao, Biqi Rebekah and Chou, Alexander and Peltekov, Robert and Alon, Elad and Liu, Chunlei and Muller, Rikky and Lustig, Michael},
+    booktitle={2024 46th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)}, 
+    title={The MRDust: Wireless Data Uplink & Localization via Magnetic Resonance Image Modulation}, 
+    year={2024},
+    volume={},
+    number={},
+    pages={1-4},
+    keywords={Location awareness;Wireless communication;Integrated circuits;Wireless sensor networks;Image registration;Magnetic resonance imaging;Modulation;Magnetic resonance;Implants;Uplink},
+    doi={10.1109/EMBC53108.2024.10781942}}'
+
+
+- title: 'ResoNet: a Physics-Informed DL Framework for Off-Resonance Correction in MRI Trained with Noise'
+  authors: Alfredo De Goyeneche, Shreya Ramachandran, Ke Wang, Ekin Karasan, Joseph Yitan Cheng, Stella X. Yu, Michael Lustig
+  venue: NeurIPS, 2023
+  picture: /images/publications/Off_resonet.png
+  projects: 
+    - ResoNet
+  links:
+    - type: html
+      display: HTML
+      url: https://openreview.net/forum?id=Ia4dmqst0Z
     - type: code
       display: Code
-      url: https://github.com/jesbu1/extract
-  bibtex: '@inproceedings{zhang2024extract,
-      title={EXTRACT: Efficient Policy Learning by Extracting Transferrable Robot Skills from Offline Data},
-      author={Jesse Zhang and Minho Heo and Zuxin Liu and Erdem Bıyık and Joseph J Lim and Yao Liu and Rasool Fakoor},
-      booktitle={Conference on Robot Learning (CoRL)},
-      year={2024},
-      month=nov
-}'
-
-- title: 'Accurate and Data-Efficient Toxicity Prediction when Annotators Disagree'
-  authors: Harbani Jaggi*, Kashyap Murali*, Eve Fleisig, Erdem Bıyık
-  venue: Conference on Empirical Methods in Natural Language Processing (EMNLP), November 2024
-  note: '* denotes equal contribution.'
+      url: https://github.com/mikgroup/ResoNet
+  bibtex: '@inproceedings{de2023resonet,
+      title={ResoNet: a Physics-Informed DL Framework for Off-Resonance Correction in MRI Trained with Noise},
+      author={De Goyeneche, Alfredo and Ramachandran, Shreya and Wang, Ke and Karasan, Ekin and Cheng, Joseph Yitan and Yu, Stella X and Lustig, Michael},
+      booktitle={Thirty-seventh Conference on Neural Information Processing Systems},
+      year={2023}}'
+- title: 'High-fidelity direct contrast synthesis from magnetic resonance fingerprinting'
+  authors: Ke Wang, Mariya Doneva, Jakob Meineke, Thomas Amthor, Ekin Karasan, Fei Tan, Jonathan I. Tamir, Stella X. Yu, Michael Lustig
+  venue: Magnetic Resonance in Medicine, 2023
+  picture: /images/publications/mrf.jpg
+  projects: 
+    - MRF Synthesis
   links:
-    - type: pdf
-      display: PDF
-      url: /pdfs/publications/jaggi2024accurate.pdf
-    - type: arxiv
-      display: arXiv
-      url: https://arxiv.org/abs/2410.12217
-    - type: doi
-      display: DOI
-      url: https://doi.org/10.18653/v1/2024.emnlp-main.1221
-  bibtex: '@inproceedings{jaggi2024accurate,
-      author    = {Jaggi, Harbani and Murali, Kashyap and Fleisig, Eve and Bıyık, Erdem},
-      title     = {Accurate and Data-Efficient Toxicity Prediction when Annotators Disagree},
-      booktitle   = {Conference on Empirical Methods in Natural Language Processing (EMNLP)},
-      year      = {2024},
-      month     = nov,
-      doi = {10.18653/v1/2024.emnlp-main.1221}
-}'
-
-- title: 'ViSaRL: Visual Reinforcement Learning Guided by Human Saliency'
-  authors: Anthony Liang, Jesse Thomason, Erdem Bıyık
-  venue: International Conference on Intelligent Robots and Systems (IROS), October 2024
-  picture: /images/publications/liang2023visarl.png
-  note: 'Also presented at ICRA Pretraining for Robotics Workshop, May 2023 (<a href="/pdfs/publications/liang2024visarl_workshop.pdf">PDF</a>).'
-  links:
-    - type: pdf
-      display: PDF
-      url: /pdfs/publications/liang2024visarl.pdf
-    - type: arxiv
-      display: arXiv
-      url: https://arxiv.org/abs/2403.10940
-    - type: website
-      display: Website
-      url: https://liralab.usc.edu/visarl/
+    - type: html
+      display: HTML
+      url: https://onlinelibrary.wiley.com/doi/abs/10.1002/mrm.29766
     - type: code
       display: Code
-      url: https://github.com/aliang8/visarl
-    - type: doi
-      display: DOI
-      url: https://doi.org/10.1109/iros58592.2024.10801388 
-  bibtex: '@inproceedings{liang2024visarl,
-      author    = {Liang, Anthony and Thomason, Jesse and Bıyık, Erdem},
-      title     = {ViSaRL: Visual Reinforcement Learning Guided by Human Saliency},
-      booktitle   = {International Conference on Intelligent Robots and Systems (IROS)},
-      year      = {2024},
-      month     = oct,
-      doi = {10.1109/iros58592.2024.10801388}
-}'
-
-
-
-- title: 'RL-VLM-F: Reinforcement Learning from Vision Language Foundation Model Feedback'
-  authors: Yufei Wang*, Zhanyi Sun*, Jesse Zhang, Zhou Xian, Erdem Bıyık, David Held†, Zackory Erickson†
-  venue: International Conference on Machine Learning (ICML), July 2024
-  picture: /images/publications/wang2024rlvlmf.png
-  note: '* denotes equal contribution. † denotes equal advising.'
-  links:
-    - type: pdf
-      display: PDF
-      url: /pdfs/publications/wang2024rlvlmf.pdf
-    - type: arxiv
-      display: arXiv
-      url: https://arxiv.org/abs/2402.03681
-    - type: website
-      display: Website
-      url: https://rlvlmf2024.github.io/
-    - type: code
-      display: Code
-      url: https://github.com/yufeiwang63/RL-VLM-F
-  bibtex: '@inproceedings{wang2024rlvlmf,
-      title={RL-VLM-F: Reinforcement Learning from Vision Language Foundation Model Feedback}, 
-      author={Yufei Wang and Zhanyi Sun and Jesse Zhang and Zhou Xian and Erdem Bıyık and David Held and Zackory Erickson},
-      booktitle={International Conference on Machine Learning (ICML)},
-      year={2024},
-      month=jul
-}'
-
-- title: 'Coprocessor Actor Critic: A Model-Based Reinforcement Learning Approach For Adaptive Brain Stimulation'
-  authors: Michelle Pan*, Mariah Schrum*, Vivek Myers, Erdem Bıyık, Anca Dragan
-  venue: International Conference on Machine Learning (ICML), July 2024
-  picture: /images/publications/pan2024coprocessor.png
-  note: '* denotes equal contribution.'
-  links:
-    - type: pdf
-      display: PDF
-      url: /pdfs/publications/pan2024coprocessor.pdf
-    - type: arxiv
-      display: arXiv
-      url: https://arxiv.org/abs/2406.06714
-    - type: code
-      display: Code
-      url: https://github.com/michelllepan/neural-coprocessors
-  bibtex: '@inproceedings{pan2024coprocessor,
-      title={Coprocessor Actor Critic: A Model-Based Reinforcement Learning Approach For Adaptive Brain Stimulation},
-      author={Michelle Pan and Mariah Schrum and Vivek Myers and Erdem Bıyık and Anca Dragan},
-      booktitle={International Conference on Machine Learning (ICML)},
-      year={2024},
-      month=jul
-}'
-
-- title: 'Foundation Models for Embodied AI'
-  authors: Sumedh Anand Sontakke
-  venue: CS Department, University of Southern California, May 2024
-  picture: 
-  note: Ph.D. Dissertation
-  links:
-    - type: pdf
-      display: PDF
-      url: /pdfs/publications/sontakke2024foundation.pdf
-  bibtex: '@phdthesis{sontakke2024foundation,
-  title={Foundation Models for Embodied AI},
-  author={Sontakke, Sumedh Anand},
-  school = {CS Department, University of Southern California},
-  year={2024},
-  month=may
-}'
-
-
-- title: 'Batch Active Learning of Reward Functions from Human Preferences'
-  authors: Erdem Bıyık, Nima Anari, Dorsa Sadigh
-  venue: ACM Transactions on Human-Robot Interaction (THRI), 2024
-  picture: /images/publications/biyik2024batch.png
-  links:
-    - type: pdf
-      display: PDF
-      url: /pdfs/publications/biyik2024batch.pdf
-    - type: arxiv
-      display: arXiv
-      url: https://arxiv.org/abs/2402.15757
-    - type: code
-      display: Code
-      url: https://bit.ly/381brBK
-    - type: video
-      display: Video 1
-      url: https://youtu.be/MaswyWRep5g
-    - type: video
-      display: Video 2
-      url: https://youtu.be/cQ7vvUg9rU4
-    - type: doi
-      display: DOI
-      url: https://doi.org/10.1145/3649885
-  bibtex: '@article{biyik2024batch,
-  title={Batch Active Learning of Reward Functions from Human Preferences},
-  author={Biyik, Erdem and Anari, Nima and Sadigh, Dorsa},
-  journal={ACM Transactions on Human-Robot Interaction (THRI)},
-  year={2024},
-  doi={10.1145/3649885}
-}'
-
-
-- title: 'A Generalized Acquisition Function for Preference-based Reward Learning'
-  authors: Evan Ellis, Gaurav R. Ghosal, Stuart J. Russell, Anca Dragan, Erdem Bıyık
-  venue: International Conference on Robotics and Automation (ICRA), May 2024
-  links:
-    - type: pdf
-      display: PDF
-      url: /pdfs/publications/ellis2024generalized.pdf
-    - type: arxiv
-      display: arXiv
-      url: https://arxiv.org/abs/2403.06003
-    - type: talk
-      display: Talk
-      url: https://youtu.be/pvUptFwthkI
-    - type: doi
-      display: DOI
-      url: https://doi.org/10.1109/icra57147.2024.10611472
-  bibtex: '@inproceedings{ellis2024generalized,
-  title={A Generalized Acquisition Function for Preference-based Reward Learning},
-  author={Ellis, Evan and Ghosal, Gaurav R. and Russell, Stuart J. and Dragan, Anca and Biyik, Erdem},
-  booktitle={International Conference on Robotics and Automation (ICRA)},
-  year={2024},
-  month=may,
-  doi={10.1109/icra57147.2024.10611472}
-}'
-
-- title: 'Active Preference-Based Gaussian Process Regression for Reward Learning and Optimization'
-  authors: Erdem Bıyık, Nicolas Huynh, Mykel J. Kochenderfer, Dorsa Sadigh
-  venue: International Journal of Robotics Research (IJRR), 2024
-  picture: /images/publications/biyik2020active.png
-  links:
-    - type: pdf
-      display: PDF
-      url: /pdfs/publications/biyik2024active.pdf
-    - type: code
-      display: Code
-      url: https://github.com/Stanford-ILIAD/active-preference-based-gpr
-    - type: video
-      display: Video
-      url: https://youtu.be/SLSO2lBj9Mw
-    - type: doi
-      display: DOI
-      url: https://doi.org/10.1177/02783649231208729
-  bibtex: '@article{biyik2024active,
-  title={Active Preference-Based Gaussian Process Regression for Reward Learning and Optimization},
-  author={Biyik, Erdem and Huynh, Nicolas and Kochenderfer, Mykel J. and Sadigh, Dorsa},
-  journal={The International Journal of Robotics Research},
-  volume={43},
-  number={5},
-  pages={665-684},
-  year={2024},
-  doi={10.1177/02783649231208729}
-}'
-
-- title: 'Preference Elicitation with Soft Attributes in Interactive Recommendation'
-  authors: Erdem Bıyık, Fan Yao, Yinlam Chow, Alex Haig, Chih-wei Hsu, Mohammad Ghavamzadeh, Craig Boutilier
-  venue: arXiv preprint, November 2023
-  links:
-    - type: pdf
-      display: PDF
-      url: /pdfs/publications/biyik2023preference.pdf
-    - type: arxiv
-      display: arXiv
-      url: https://arxiv.org/abs/2311.02085
-  bibtex: '@article{biyik2023preference,
-      title={Preference Elicitation with Soft Attributes in Interactive Recommendation}, 
-      author={Erdem Biyik and Fan Yao and Yinlam Chow and Alex Haig and Chih-wei Hsu and Mohammad Ghavamzadeh and Craig Boutilier},
+      url: https://github.com/mikgroup/DCSNet
+  bibtex: '@article{wang2023high,
+      title={High-fidelity direct contrast synthesis from magnetic resonance fingerprinting},
+      author={Wang, Ke and Doneva, Mariya and Meineke, Jakob and Amthor, Thomas and Karasan, Ekin and Tan, Fei and Tamir, Jonathan I and Yu, Stella X and Lustig, Michael},
+      journal={Magnetic Resonance in Medicine},
       year={2023},
-      journal={arXiv preprint arXiv:2311.02085}
-}'
-
-- title: 'RoboCLIP: One Demonstration is Enough to Learn Robot Policies'
-  authors: Sumedh A. Sontakke, Jesse Zhang, Sébastien M. R. Arnold, Karl Pertsch, Erdem Bıyık, Dorsa Sadigh, Chelsea Finn, Laurent Itti
-  venue: Conference on Neural Information Processing Systems (NeurIPS), December 2023
-  picture: /images/publications/sontakke2023roboclip.png
+      publisher={Wiley Online Library}}'
+- title: 'Caterpillar traps: A highly flexible, distributed system of toroidal cable traps'
+  authors: Ekin Karasan, Alison Hammerschmidt, Ana C. Arias, Victor Taracila, Fraser Robb, Michael Lustig
+  venue: Magnetic Resonance in Medicine, 2023
+  picture: /images/publications/ctraps.png
+  projects: 
+    - Caterpillar Traps
   links:
-    - type: pdf
-      display: PDF
-      url: /pdfs/publications/sontakke2023roboclip.pdf
-    - type: arxiv
-      display: arXiv
-      url: https://arxiv.org/abs/2310.07899
-    - type: website
-      display: Website
-      url: https://sites.google.com/view/roboclip/home
+    - type: html
+      display: HTML
+      url: https://onlinelibrary.wiley.com/doi/full/10.1002/mrm.29584
     - type: code
       display: Code
-      url: https://github.com/sumedh7/RoboCLIP/
-  bibtex: '@inproceedings{sontakke2023roboclip,
-  title={RoboCLIP: One Demonstration is Enough to Learn Robot Policies},
-  author={Sumedh A Sontakke and Jesse Zhang and Sébastien M. R. Arnold and Karl Pertsch and Erdem Biyik and Dorsa Sadigh and Chelsea Finn and Laurent Itti},
-  booktitle={Conference on Neural Information Processing Systems (NeurIPS)},
-  year={2023},
-  month=dec
-}'
-
-- title: 'Open Problems and Fundamental Limitations of Reinforcement Learning from Human Feedback'
-  authors: Stephen Casper*, Xander Davies*, et al.
-  venue: Transactions on Machine Learning Research (TMLR), 2023
-  picture: /images/publications/casper2023open.png
-  note: '* denotes equal contribution.'
-  specialnote: 'Outstanding paper finalist.'
+      url: https://github.com/mikgroup/Caterpillar-Traps
+  bibtex: '@article{karasan2023caterpillar,
+      title={Caterpillar traps: A highly flexible, distributed system of toroidal cable traps},
+      author={Karasan, Ekin and Hammerschmidt, Alison and Arias, Ana C and Taracila, Victor and Robb, Fraser and Lustig, Michael},
+      journal={Magnetic Resonance in Medicine},
+      volume={89},
+      number={6},
+      pages={2471--2484},
+      year={2023},
+      publisher={Wiley Online Library}}'
+- title: 'Vacuum formed coils for MRI'
+  authors: Karthik Gopalan, Julian Maravilla, Jaren Mendelsohn, Ana C. Arias, Michael Lustig
+  venue: Magnetic Resonance in Medicine, 2023
+  picture: /images/publications/vacuumformedcoils.png
+  projects: 
+    - Conformal Receiver Coils
   links:
-    - type: pdf
-      display: PDF
-      url: /pdfs/publications/casper2023open.pdf
-    - type: arxiv
-      display: arXiv
-      url: https://arxiv.org/abs/2307.15217
-  bibtex: '@article{casper2023open,
-  title={Open Problems and Fundamental Limitations of Reinforcement Learning from Human Feedback},
-  author={Casper, Stephen and Davies, Xander and Shi, Claudia and Gilbert, Thomas Krendl and Scheurer, Jeremy and Rando, Javier and Freedman, Rachel and Korbak, Tomasz and Lindner, David and Freire, Pedro and Wang, Tony and Marks, Samuel and Segerie, Charbel-Raphaël and Carroll, Micah and Peng, Andi and Christoffersen, Phillip and Damani, Mehul and Slocum, Stewart and Anwar, Usman and Siththaranjan, Anand and Nadeau, Max and Michaud, Eric J. and Pfau, Jacob and Krasheninnikov, Dmitrii and Chen, Xin and Langosco, Lauro and Hase, Peter and Biyik, Erdem and Dragan, Anca and Krueger, David and Sadigh, Dorsa and Hadfield-Menell, Dylan},
-  journal={Transactions on Machine Learning Research (TMLR)},
-  year={2023},
-}'
-
-- title: 'Active Reward Learning from Online Preferences'
-  authors: Vivek Myers, Erdem Bıyık, Dorsa Sadigh
-  venue: International Conference on Robotics and Automation (ICRA), May 2023
-  picture: /images/publications/myers2023active.png
-  links:
-    - type: pdf
-      display: PDF
-      url: /pdfs/publications/myers2023active.pdf
-    - type: arxiv
-      display: arXiv
-      url: https://arxiv.org/abs/2302.13507
-    - type: website
-      display: Website
-      url: https://sites.google.com/view/onlineactivepreferences
+    - type: html
+      display: HTML
+      url: https://onlinelibrary.wiley.com/doi/full/10.1002/mrm.29546
     - type: code
       display: Code
-      url: https://github.com/Stanford-ILIAD/online-active-querying
-    - type: doi
-      display: DOI
-      url: https://doi.org/10.1109/ICRA48891.2023.10160439
-  bibtex: '@inproceedings{myers2023active,
-  title={Active Reward Learning from Online Preferences},
-  author={Myers, Vivek and Biyik, Erdem and Sadigh, Dorsa},
-  booktitle={International Conference on Robotics and Automation (ICRA)},
-  year={2023},
-  month=may,
-  doi={10.1109/ICRA48891.2023.10160439}
-}'
-
-- title: 'Assistive Teaching of Motor Control Tasks to Humans'
-  authors: Megha Srivastava, Erdem Bıyık, Suvir Mirchandani, Noah Goodman, Dorsa Sadigh
-  venue: Conference on Neural Information Processing Systems (NeurIPS), November 2022
-  picture: /images/publications/srivastava2022assistive.png
+      url: https://github.com/mikgroup/Vacuum-Forming-Sim
+  bibtex: '@article{gopalan2023vacuum,
+      title={Vacuum formed coils for MRI},
+      author={Gopalan, Karthik and Maravilla, Julian and Mendelsohn, Jaren and Arias, Ana C and Lustig, Michael},
+      journal={Magnetic Resonance in Medicine},
+      volume={89},
+      number={4},
+      pages={1684--1696},
+      year={2023},
+      publisher={Wiley Online Library}}'
+- title: 'High fidelity deep learning-based MRI reconstruction with instance-wise discriminative feature matching loss'
+  authors: Ke Wang, Jonathan I. Tamir, Alfredo De Goyeneche, Uri Wollner, Rafi Brada, Stella X. Yu, Michael Lustig
+  venue: Magnetic Resonance in Medicine, 2022
+  picture: /images/publications/ufloss.png
   links:
-    - type: pdf
-      display: PDF
-      url: /pdfs/publications/srivastava2022assistive.pdf
-    - type: arxiv
-      display: arXiv
-      url: http://arxiv.org/abs/2211.14003
-    - type: talk
-      display: Talk
-      url: https://youtu.be/nS0ftKe9i80
-  bibtex: '@inproceedings{srivastava2022assistive,
-  title={Assistive Teaching of Motor Control Tasks to Humans},
-  author={Srivastava, Megha and Biyik, Erdem and Mirchandani, Suvir and Goodman, Noah and Sadigh, Dorsa},
-  booktitle={Conference on Neural Information Processing Systems (NeurIPS)},
-  year={2022},
-  month=nov
-}'
-
-- title: 'How do People Incorporate Advice from Artificial Agents when Making Physical Judgments?'
-  authors: Erik Brockbank*, Haoliang Wang*, Justin Yang, Suvir Mirchandani, Erdem Bıyık, Dorsa Sadigh, Judith Fan
-  venue: Cognitive Science Society Conference (CogSci), July 2022
-  picture: /images/publications/brockbank2022people.png
-  note: '* denotes equal contribution.'
-  links:
-    - type: pdf
-      display: PDF
-      url: /pdfs/publications/brockbank2022people.pdf
-    - type: arxiv
-      display: arXiv
-      url: https://arxiv.org/abs/2205.11613
-    - type: talk
-      display: Talk
-      url: https://youtu.be/KrD-OaZ0pYA
-  specialnote: 'Oral presentation.'
-  bibtex: '@inproceedings{brockbank2022people,
-  title={How do People Incorporate Advice from Artificial Agents when Making Physical Judgments?},
-  author={Brockbank, Erik and Wang, Haoliang and Yang, Justin and Mirchandani, Suvir and Biyik, Erdem and Sadigh, Dorsa and Fan, Judith},
-  booktitle={Cognitive Science Society Conference (CogSci)},
-  year={2022},
-  month=jul
-}'
-
-- title: 'Learning Preferences For Interactive Autonomy'
-  authors: Erdem Bıyık
-  venue: EE Department, Stanford University, May 2022
-  picture: /images/publications/biyik2022learning.png
-  note: Ph.D. Dissertation
-  links:
-    - type: pdf
-      display: PDF
-      url: /pdfs/publications/biyik2022learning.pdf
-    - type: arxiv
-      display: arXiv
-      url: https://arxiv.org/abs/2210.10899
-  bibtex: '@phdthesis{biyik2022learning,
-  title={Learning Preferences For Interactive Autonomy},
-  author={Biyik, Erdem},
-  school = {EE Department, Stanford University},
-  year={2022},
-  month=may
-}'
-
-- title: 'Leveraging Smooth Attention Prior for Multi-Agent Trajectory Prediction'
-  authors: Zhangjie Cao, Erdem Bıyık, Guy Rosman, Dorsa Sadigh
-  venue: International Conference on Robotics and Automation (ICRA), May 2022
-  picture: /images/publications/cao2022leveraging.png
-  links:
-    - type: pdf
-      display: PDF
-      url: /pdfs/publications/cao2022leveraging.pdf
-    - type: arxiv
-      display: arXiv
-      url: https://arxiv.org/abs/2203.04421
-    - type: website
-      display: Website
-      url: https://sites.google.com/view/smoothness-attention
-    - type: talk
-      display: Talk
-      url: https://youtu.be/tKMcWWuPPVs
-    - type: doi
-      display: DOI
-      url: https://doi.org/10.1109/ICRA46639.2022.9811718
-  bibtex: '@inproceedings{cao2022leveraging,
-  title={Leveraging Smooth Attention Prior for Multi-Agent Trajectory Prediction},
-  author={Cao, Zhangjie and Biyik, Erdem and Rosman, Guy and Sadigh, Dorsa},
-  booktitle={International Conference on Robotics and Automation (ICRA)},
-  year={2022},
-  month=may,
-  doi={10.1109/ICRA46639.2022.9811718}
-}'
-
-- title: 'APReL: A Library for Active Preference-based Reward Learning Algorithms'
-  authors: Erdem Bıyık, Aditi Talati, Dorsa Sadigh
-  venue: 17th ACM/IEEE International Conference on Human-Robot Interaction (HRI), March 2022
-  picture: /images/publications/biyik2022aprel.png
-  note: 'Also presented at Artificial Intelligence for Human-Robot Interaction (AI-HRI) at AAAI Fall Symposium Series, November 2021 (<a href="/pdfs/publications/biyik2022aprel_workshop.pdf">PDF</a>).'
-  links:
-    - type: pdf
-      display: PDF
-      url: /pdfs/publications/biyik2022aprel.pdf
-    - type: arxiv
-      display: arXiv
-      url: https://arxiv.org/abs/2108.07259
-    - type: website
-      display: Website
-      url: https://aprel.readthedocs.io
+    - type: html
+      display: HTML
+      url: https://onlinelibrary.wiley.com/doi/full/10.1002/mrm.29227
     - type: code
       display: Code
-      url: https://github.com/Stanford-ILIAD/APReL
-    - type: video
-      display: Video
-      url: https://youtu.be/HvwlBNy3l40
-    - type: talk
-      display: Talk
-      url: https://youtu.be/HExrlibCxdI
-    - type: doi
-      display: DOI
-      url: https://doi.org/10.1109/hri53351.2022.9889650 
-  bibtex: '@inproceedings{biyik2022aprel,
-  title={APReL: A Library for Active Preference-based Reward Learning Algorithms},
-  author={Biyik, Erdem and Talati, Aditi and Sadigh, Dorsa},
-  booktitle={17th ACM/IEEE International Conference on Human-Robot Interaction (HRI)},
-  year={2022},
-  month=mar,
-  doi={10.1109/hri53351.2022.9889650},
-}'
-
-- title: 'Learning from Humans for Adaptive Interaction'
-  authors: Erdem Bıyık
-  venue: The 17th Annual Human-Robot Interaction Pioneers Workshop (HRI Pioneers), March 2022
-  picture: /images/publications/biyik2022pioneers.jpg
+      url: https://github.com/mikgroup/UFLoss
+  bibtex: '@article{wang2022high,
+      title={High fidelity deep learning-based MRI reconstruction with instance-wise discriminative feature matching loss},
+      author={Wang, Ke and Tamir, Jonathan I and De Goyeneche, Alfredo and Wollner, Uri and Brada, Rafi and Yu, Stella X and Lustig, Michael},
+      journal={Magnetic Resonance in Medicine},
+      volume={88},
+      number={1},
+      pages={476--491},
+      year={2022},
+      publisher={Wiley Online Library}}'
+- title: 'Implicit data crimes: Machine learning bias arising from misuse of public data'
+  authors: Efrat Shimron, Jonathan I. Tamir, Ke Wang, Michael Lustig
+  venue: Proceedings of the National Academy of Sciences, 2022
+  picture: /images/publications/datacrimes.png
   links:
-    - type: pdf
-      display: PDF
-      url: /pdfs/publications/biyik2022pioneers.pdf
-    - type: talk
-      display: Talk
-      url: https://youtu.be/ARAFD4iiyWs
-    - type: doi
-      display: DOI
-      url: https://doi.org/10.1109/hri53351.2022.9889436
-  bibtex: '@inproceedings{biyik2022pioneers,
-  title={Learning from Humans for Adaptive Interaction},
-  author={Biyik, Erdem},
-  booktitle={The 17th Annual Human-Robot Interaction Pioneers Workshop (HRI Pioneers)},
-  year={2022},
-  month=mar,
-  doi={10.1109/hri53351.2022.9889436},
-}'
-
-- title: 'Partner-Aware Algorithms in Decentralized Cooperative Bandit Teams'
-  authors: Erdem Bıyık, Anusha Lalitha, Rajarshi Saha, Andrea Goldsmith, Dorsa Sadigh
-  venue: Proceedings of the 36th AAAI Conference on Artificial Intelligence, February 2022
-  picture: /images/publications/biyik2022partner.png
-  note: 'Also presented at Artificial Intelligence for Human-Robot Interaction (AI-HRI) at AAAI Fall Symposium Series, November 2021 (<a href="/pdfs/publications/biyik2022partner_workshop.pdf">PDF</a>).'
-  links:
-    - type: pdf
-      display: PDF
-      url: /pdfs/publications/biyik2022partner.pdf
-    - type: arxiv
-      display: arXiv
-      url: https://arxiv.org/abs/2110.00751
-    - type: website
-      display: Website
-      url: https://sites.google.com/view/partner-aware-ucb
+    - type: html
+      display: HTML
+      url: https://www.pnas.org/doi/abs/10.1073/pnas.2117203119
     - type: code
       display: Code
-      url: https://github.com/Stanford-ILIAD/partner-aware-ucb
-    - type: video
-      display: Video
-      url: https://youtu.be/MCHXAYvaB5Y
-    - type: talk
-      display: Talk
-      url: https://youtu.be/-ruZxCQclcw
-    - type: doi
-      display: DOI
-      url: https://doi.org/10.1609/aaai.v36i9.21158
-  specialnote: 'Oral presentation.'
-  bibtex: '@inproceedings{biyik2022partner,
-  title={Partner-Aware Algorithms in Decentralized Cooperative Bandit Teams},
-  author={Biyik, Erdem and Lalitha, Anusha and Saha, Rajarshi and Goldsmith, Andrea and Sadigh, Dorsa},
-  booktitle={Proceedings of the 36th AAAI Conference on Artificial Intelligence},
-  year={2022},
-  month=feb,
-  doi={10.1609/aaai.v36i9.21158}
-}'
-
-- title: 'Learning Multimodal Rewards from Rankings'
-  authors: Vivek Myers, Erdem Bıyık, Nima Anari, Dorsa Sadigh
-  venue: Proceedings of the 5th Conference on Robot Learning (CoRL), November 2021
-  picture: /images/publications/myers2021learning.png
+      url: https://github.com/mikgroup/data_crimes
+  bibtex: '@article{shimron2022implicit,
+      title={Implicit data crimes: Machine learning bias arising from misuse of public data},
+      author={Shimron, Efrat and Tamir, Jonathan I and Wang, Ke and Lustig, Michael},
+      journal={Proceedings of the National Academy of Sciences},
+      volume={119},
+      number={13},
+      pages={e2117203119},
+      year={2022}}'
+- title: 'DiSpect: Displacement spectrum imaging of flow and tissue perfusion using spin-labeling and stimulated echoes'
+  authors: Zhiyong Zhang, Ekin Karasan, Karthik Gopalan, Chunlei Liu, Michael Lustig
+  venue: Magnetic Resonance in Medicine, 2021
+  picture: /images/publications/dispect.png
+  projects: 
+    - DiSpect
   links:
-    - type: pdf
-      display: PDF
-      url: /pdfs/publications/myers2021learning.pdf
-    - type: arxiv
-      display: arXiv
-      url: http://arxiv.org/abs/2109.12750
-    - type: website
-      display: Website
-      url: https://sites.google.com/view/multimodal-reward-learning/
+    - type: html
+      display: HTML
+      url: https://onlinelibrary.wiley.com/doi/full/10.1002/mrm.28882
     - type: code
       display: Code
-      url: https://github.com/Stanford-ILIAD/multimodal-rewards-from-rankings
-    - type: video
-      display: Video
-      url: https://youtu.be/Jj9Qz2-bl7w
-  specialnote: 'Oral presentation.'
-  bibtex: '@inproceedings{myers2021learning,
-  title={Learning Multimodal Rewards from Rankings},
-  author={Myers, Vivek and Biyik, Erdem and Anari, Nima and Sadigh, Dorsa},
-  booktitle={Proceedings of the 5th Conference on Robot Learning (CoRL)},
-  year={2021},
-  month=nov
-}'
-
-- title: 'Learning Reward Functions from Scale Feedback'
-  authors: Nils Wilde*, Erdem Bıyık*, Dorsa Sadigh, Stephen L. Smith
-  venue: Proceedings of the 5th Conference on Robot Learning (CoRL), November 2021
-  picture: /images/publications/wilde2021learning.png
-  note: '* denotes equal contribution.'
-  links:
-    - type: pdf
-      display: PDF
-      url: /pdfs/publications/wilde2021learning.pdf
-    - type: arxiv
-      display: arXiv
-      url: https://arxiv.org/abs/2110.00284
-    - type: website
-      display: Website
-      url: https://sites.google.com/view/reward-learning-scale-feedback
-    - type: code
-      display: Code
-      url: https://github.com/Stanford-ILIAD/reward-learning-scale-feedback
-    - type: video
-      display: Video
-      url: https://youtu.be/5dJ7bGCnjOM
-  bibtex: '@inproceedings{wilde2021learning,
-  title={Learning Reward Functions from Scale Feedback},
-  author={Wilde, Nils and Biyik, Erdem and Sadigh, Dorsa and Smith, Stephen L.},
-  booktitle={Proceedings of the 5th Conference on Robot Learning (CoRL)},
-  year={2021},
-  month=nov
-}'
-
-- title: 'Learning Reward Functions from Diverse Sources of Human Feedback: Optimally Integrating Demonstrations and Preferences'
-  authors: Erdem Bıyık, Dylan P. Losey, Malayandi Palan, Nicholas C. Landolfi, Gleb Shevchuk, Dorsa Sadigh
-  venue: The International Journal of Robotics Research (IJRR), 2021
-  picture: /images/publications/biyik2021learning.jpg
-  links:
-    - type: pdf
-      display: PDF
-      url: /pdfs/publications/biyik2021learning.pdf
-    - type: arxiv
-      display: arXiv
-      url: https://arxiv.org/abs/2006.14091
-    - type: video
-      display: Video
-      url: https://youtu.be/JIs43cO_g18
-    - type: doi
-      display: DOI
-      url: https://doi.org/10.1177/02783649211041652
-  bibtex: '@article{biyik2021learning,
-  title={Learning Reward Functions from Diverse Sources of Human Feedback: Optimally Integrating Demonstrations and Preferences},
-  author={Biyik, Erdem and Losey, Dylan P. and Palan, Malayandi and Landolfi, Nicholas C. and Shevchuk, Gleb and Sadigh, Dorsa},
-  journal={The International Journal of Robotics Research (IJRR)},
-  year={2021},
-  doi={10.1177/02783649211041652}
-}'
-
-- title: 'Learning How to Dynamically Route Autonomous Vehicles on Shared Roads'
-  authors: Daniel A. Lazar*, Erdem Bıyık*, Dorsa Sadigh, Ramtin Pedarsani
-  venue: 'Transportation Research Part C: Emerging Technologies (TR_C), September 2021'
-  picture: /images/publications/lazar2021learning.png
-  note: '* denotes equal contribution.'
-  links:
-    - type: pdf
-      display: PDF
-      url: /pdfs/publications/lazar2021learning.pdf
-    - type: arxiv
-      display: arXiv
-      url: https://arxiv.org/abs/1909.03664
-    - type: code
-      display: Code
-      url: https://github.com/Stanford-ILIAD/RL_Routing
-    - type: video
-      display: Video
-      url: https://youtu.be/XwdSJuUb09o
-    - type: doi
-      display: DOI
-      url: https://doi.org/10.1016/j.trc.2021.103258
-  bibtex: '@article{lazar2021learning,
-  title={Learning How to Dynamically Route Autonomous Vehicles on Shared Roads},
-  author={Lazar, Daniel A. and Biyik, Erdem and Sadigh, Dorsa and Pedarsani, Ramtin},
-  journal={Transportation Research Part C: Emerging Technologies},
-  volume = {130},
-  pages = {103258},
-  year = {2021},
-  month = sep,
-  issn = {0968-090X},
-  publisher={Elsevier},
-  doi={10.1016/j.trc.2021.103258}
-}'
-
-- title: 'Emergent Prosociality in Multi-Agent Games Through Gifting'
-  authors: Woodrow Z. Wang*, Mark Beliaev*, Erdem Bıyık*, Daniel A. Lazar, Ramtin Pedarsani, Dorsa Sadigh
-  venue: '30th International Joint Conference on Artificial Intelligence (IJCAI), August 2021'
-  picture: /images/publications/wang2021emergent.png
-  note: '* denotes equal contribution.'
-  links:
-    - type: pdf
-      display: PDF
-      url: /pdfs/publications/wang2021emergent.pdf
-    - type: arxiv
-      display: arXiv
-      url: https://arxiv.org/abs/2105.06593
-    - type: code
-      display: Code
-      url: https://github.com/Stanford-ILIAD/emergent-prosociality-through-gifting
-    - type: talk
-      display: Talk
-      url: https://youtu.be/QxyWFvmCO7k
-    - type: doi
-      display: DOI
-      url: https://doi.org/10.24963/ijcai.2021/61
-  bibtex: '@inproceedings{wang2021emergent,
-  title = {Emergent Prosociality in Multi-Agent Games Through Gifting},
-  author = {Wang, Woodrow Z. and Beliaev, Mark and Biyik, Erdem and Lazar, Daniel A. and Pedarsani, Ramtin and Sadigh, Dorsa},
-  booktitle={30th International Joint Conference on Artificial Intelligence (IJCAI)},
-  year = {2021},
-  month = aug,
-  doi = {10.24963/ijcai.2021/61}
-}'
-
-- title: "Incentivizing Efficient Equilibria in Traffic Networks with Mixed Autonomy"
-  authors: Erdem Bıyık*, Daniel A. Lazar*, Ramtin Pedarsani, Dorsa Sadigh
-  venue: IEEE Transactions on Control of Network Systems (TCNS), 2021
-  picture: /images/publications/biyik2021incentivizing.png
-  note: '* denotes equal contribution.'
-  links:
-    - type: pdf
-      display: PDF
-      url: /pdfs/publications/biyik2021incentivizing.pdf
-    - type: arxiv
-      display: arXiv
-      url: https://arxiv.org/abs/2106.04678
-    - type: doi
-      display: DOI
-      url: https://doi.org/10.1109/TCNS.2021.3084045
-  bibtex: "@article{biyik2021incentivizing,
-  title={Incentivizing Efficient Equilibria in Traffic Networks with Mixed Autonomy},
-  author={Biyik, Erdem and Lazar, Daniel A. and Pedarsani, Ramtin and Sadigh, Dorsa},
-  journal={IEEE Transactions on Control of Network Systems (TCNS)},
-  year={2021},
-  doi={10.1109/TCNS.2021.3084045}
-}"
-
-- title: 'ROIAL: Region of Interest Active Learning for Characterizing Exoskeleton Gait Preference Landscapes'
-  authors: Kejun Li, Maegan Tucker, Erdem Bıyık, Ellen Novoseller, Joel W. Burdick, Yanan Sui, Dorsa Sadigh, Yisong Yue, Aaron D. Ames
-  venue: 'International Conference on Robotics and Automation (ICRA), May 2021'
-  picture: /images/publications/li2021roial.png
-  note:
-  links:
-    - type: pdf
-      display: PDF
-      url: /pdfs/publications/li2021roial.pdf
-    - type: arxiv
-      display: arXiv
-      url: https://arxiv.org/abs/2011.04812
-    - type: website
-      display: Website
-      url: https://sites.google.com/view/roial-icra2021
-    - type: code
-      display: Code
-      url: https://github.com/kli58/ROIAL
-    - type: video
-      display: Video
-      url: https://youtu.be/JtWFYp591w4
-    - type: talk
-      display: Talk
-      url: https://youtu.be/Tv9j2kMCUdk
-    - type: doi
-      display: DOI
-      url: https://doi.org/10.1109/ICRA48506.2021.9560840
-  bibtex: '@inproceedings{li2021roial,
-  title = {ROIAL: Region of Interest Active Learning for Characterizing Exoskeleton Gait Preference Landscapes},
-  author = {Li, Kejun and Tucker, Maegan and Biyik, Erdem and Novoseller, Ellen and Burdick, Joel W. and Sui, Yanan and Sadigh, Dorsa and Yue, Yisong and Ames, Aaron D.},
-  booktitle={International Conference on Robotics and Automation (ICRA)},
-  year = {2021},
-  month = may,
-  doi = {10.1109/ICRA48506.2021.9560840}
-}'
-
-- title: 'Incentivizing Routing Choices for Safe and Efficient Transportation in the Face of the COVID-19 Pandemic'
-  authors: Mark Beliaev, Erdem Bıyık, Daniel A. Lazar, Woodrow Z. Wang, Dorsa Sadigh, Ramtin Pedarsani
-  venue: '12th ACM/IEEE International Conference on Cyber-Physical Systems (ICCPS), May 2021'
-  picture: /images/publications/beliaev2021incentivizing.png
-  note:
-  links:
-    - type: pdf
-      display: PDF
-      url: /pdfs/publications/beliaev2021incentivizing.pdf
-    - type: arxiv
-      display: arXiv
-      url: https://arxiv.org/abs/2012.15749
-    - type: talk
-      display: Talk
-      url: https://youtu.be/XeffxOXrIIM
-    - type: doi
-      display: DOI
-      url: https://doi.org/10.1145/3450267.3450546
-  bibtex: '@inproceedings{beliaev2021incentivizing,
-  title = {Incentivizing Routing Choices for Safe and Efficient Transportation in the Face of the COVID-19 Pandemic},
-  author = {Beliaev, Mark and Biyik, Erdem and Lazar, Daniel A. and Wang, Woodrow Z. and Sadigh, Dorsa and Pedarsani, Ramtin},
-  booktitle={12th ACM/IEEE International Conference on Cyber-Physical Systems (ICCPS)},
-  year = {2021},
-  month = may,
-  doi = {10.1145/3450267.3450546}
-}'
-
-- title: 'Preference-based learning of reward function features'
-  authors: Sydney M Katz*, Amir Maleki*, Erdem Bıyık, Mykel J Kochenderfer
-  venue: arXiv preprint, March 2021
-  picture: /images/publications/katz2021preference.png
-  note: '* denotes equal contribution.'
-  links:
-    - type: pdf
-      display: PDF
-      url: /pdfs/publications/katz2021preference.pdf
-    - type: arxiv
-      display: arXiv
-      url: https://arxiv.org/abs/2103.02727
-  bibtex: '@article{katz2021preference,
-      title={Preference-based learning of reward function features}, 
-      author={Katz, Sydney M and Maleki, Amir and Bıyık, Erdem and Kochenderfer, Mykel J},
+      url: https://github.com/mikgroup/DiSpectMRI
+  bibtex: '@article{zhang2021dispect,
+      title={DiSpect: Displacement spectrum imaging of flow and tissue perfusion using spin-labeling and stimulated echoes},
+      author={Zhang, Zhiyong and Karasan, Ekin and Gopalan, Karthik and Liu, Chunlei and Lustig, Michael},
+      journal={Magnetic Resonance in Medicine},
+      volume={86},
+      number={5},
+      pages={2468--2481},
       year={2021},
-      journal={arXiv preprint arXiv:2103.02727}
-}'
-
-- title: 'Multi-Agent Safe Planning with Gaussian Processes'
-  authors: Zheqing Zhu, Erdem Bıyık, Dorsa Sadigh
-  venue: Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), October 2020
-  picture: /images/publications/zhu2020multi.png
-  note:
+      publisher={Wiley Online Library}}'
+- title: 'Quantitative anatomy mimicking slice phantoms'
+  authors: Karthik Gopalan, Jonathan I. Tamir, Ana C. Arias, Michael Lustig
+  venue: Magnetic Resonance in Medicine, 2021
+  picture: /images/publications/qphantoms.png
+  projects: 
+    - QPhantom
   links:
-    - type: pdf
-      display: PDF
-      url: /pdfs/publications/zhu2020multi.pdf
-    - type: arxiv
-      display: arXiv
-      url: https://arxiv.org/abs/2008.04452
-    - type: video
-      display: Video
-      url: https://youtu.be/l76glwgF67k
-    - type: talk
-      display: Talk
-      url: https://youtu.be/7NOzrNX4UNI
-    - type: doi
-      display: DOI
-      url: https://doi.org/10.1109/IROS45743.2020.9341169
-  bibtex: '@inproceedings{zhu2020multi,
-  title={Multi-Agent Safe Planning with Gaussian Processes},
-  author={Zhu, Zheqing and Biyik, Erdem and Sadigh, Dorsa},
-  booktitle={Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
-  year={2020},
-  month=oct,
-  doi={10.1109/IROS45743.2020.9341169}
-}'
-
-- title: 'Active Preference-Based Gaussian Process Regression for Reward Learning'
-  authors: Erdem Bıyık*, Nicolas Huynh*, Mykel J. Kochenderfer, Dorsa Sadigh
-  venue: 'Proceedings of Robotics: Science and Systems (RSS), July 2020'
-  picture: /images/publications/biyik2020active.png
-  note: '* denotes equal contribution.'
-  links:
-    - type: pdf
-      display: PDF
-      url: /pdfs/publications/biyik2020active.pdf
-    - type: arxiv
-      display: arXiv
-      url: https://arxiv.org/abs/2005.02575
+    - type: html
+      display: HTML
+      url: https://onlinelibrary.wiley.com/doi/full/10.1002/mrm.28740
     - type: code
       display: Code
-      url: https://github.com/Stanford-ILIAD/active-preference-based-gpr
-    - type: video
-      display: Video
-      url: https://youtu.be/SLSO2lBj9Mw
-    - type: talk
-      display: Talk
-      url: https://youtu.be/90_tjGtP26s
-    - type: doi
-      display: DOI
-      url: https://doi.org/10.15607/rss.2020.xvi.041
-  bibtex: '@inproceedings{biyik2020active,
-  title={Active Preference-Based Gaussian Process Regression for Reward Learning},
-  author={Biyik, Erdem and Huynh, Nicolas and Kochenderfer, Mykel J. and Sadigh, Dorsa},
-  booktitle={Proceedings of Robotics: Science and Systems (RSS)},
-  year={2020},
-  month=jul,
-  doi={10.15607/rss.2020.xvi.041}
-}'
-
-- title: 'Reinforcement Learning based Control of Imitative Policies for Near-Accident Driving'
-  authors: Zhangjie Cao*, Erdem Bıyık*, Woodrow Z. Wang, Allan Raventos, Adrien Gaidon, Guy Rosman, Dorsa Sadigh
-  venue: 'Proceedings of Robotics: Science and Systems (RSS), July 2020'
-  picture: /images/publications/cao2020reinforcement.png
-  note: '* denotes equal contribution.'
+      url: https://github.com/mikgroup/phantom-building
+  bibtex: '@article{gopalan2021quantitative,
+      title={Quantitative anatomy mimicking slice phantoms},
+      author={Gopalan, Karthik and Tamir, Jonathan I and Arias, Ana C and Lustig, Michael},
+      journal={Magnetic Resonance in Medicine},
+      volume={86},
+      number={2},
+      pages={1159--1166},
+      year={2021},
+      publisher={Wiley Online Library}}'
+- title: 'Memory-efficient learning for high-dimensional MRI reconstruction'
+  authors: Ke Wang, Michael Kellman, Christopher M. Sandino, Kevin Zhang, Shreyas S. Vasanawala, Jonathan I. Tamir, Stella X. Yu, Michael Lustig
+  venue: MICCAI, 2021
+  picture: /images/publications/memefficientmri.jpg
   links:
-    - type: pdf
-      display: PDF
-      url: /pdfs/publications/cao2020reinforcement.pdf
-    - type: arxiv
-      display: arXiv
-      url: https://arxiv.org/abs/2007.00178
-    - type: video
-      display: Video
-      url: https://youtu.be/CY24zlC_HdI
-    - type: talk
-      display: Talk
-      url: https://youtu.be/envT7b5YRts
-    - type: doi
-      display: DOI
-      url: https://doi.org/10.15607/rss.2020.xvi.039
-  bibtex: '@inproceedings{cao2020reinforcement,
-  title={Reinforcement Learning based Control of Imitative Policies for Near-Accident Driving},
-  author={Cao, Zhangjie and Biyik, Erdem and Wang, Woodrow Z. and Raventos, Allan and Gaidon, Adrien and Rosman, Guy and Sadigh, Dorsa},
-  booktitle={Proceedings of Robotics: Science and Systems (RSS)},
-  year={2020},
-  month=jul,
-  doi={10.15607/rss.2020.xvi.039}
-}'
-
-- title: 'Emergent Correlated Equilibrium through Synchronized Exploration'
-  authors: Mark Beliaev*, Woodrow Z. Wang*, Daniel A. Lazar, Erdem Bıyık, Dorsa Sadigh, Ramtin Pedarsani
-  venue: 'RSS 2020 Workshop on Emergent Behaviors in Human-Robot Systems, July 2020'
-  picture:
-  note:
-  links:
-    - type: pdf
-      display: PDF
-      url: /pdfs/publications/beliaev2020emergent.pdf
-    - type: talk
-      display: Talk
-      url: https://youtu.be/t1dsHHaeHDQ
-  bibtex: '@inproceedings{beliaev2020emergent,
-  title = {Emergent Correlated Equilibrium through Synchronized Exploration},
-  author = {Beliaev, Mark and Wang, Woodrow Z., and Lazar, Daniel A. and Biyik, Erdem and Sadigh, Dorsa and Pedarsani, Ramtin},
-  booktitle = {RSS 2020 Workshop on Emergent Behaviors in Human-Robot Systems},
-  year = {2020},
-  month = jul
-}'
-
-- title: "When Humans Aren't Optimal: Robots that Collaborate with Risk-Aware Humans"
-  authors: Minae Kwon, Erdem Bıyık, Aditi Talati, Karan Bhasin, Dylan P. Losey, Dorsa Sadigh
-  venue: ACM/IEEE International Conference on Human-Robot Interaction (HRI), March 2020
-  picture: /images/publications/kwon2020when.png
-  note: 'Also presented at Cooperative AI NeurIPS Workshop 2021, December 2021 (<a href="/pdfs/publications/kwon2021when_workshop.pdf">PDF</a>).'
-  specialnote: Honorable mention award.
-  links:
-    - type: pdf
-      display: PDF
-      url: /pdfs/publications/kwon2020when.pdf
-    - type: arxiv
-      display: arXiv
-      url: https://arxiv.org/abs/2001.04377
-    - type: video
-      display: Video
-      url: https://youtu.be/PnBNI1ms0iw
-    - type: talk
-      display: Talk
-      url: https://youtu.be/_tlSyFvS1iE
-    - type: doi
-      display: DOI
-      url: https://doi.org/10.1145/3319502.3374832
-  bibtex: "@inproceedings{kwon2020when,
-  title={When Humans Aren\\'t Optimal: Robots that Collaborate with Risk-Aware Humans},
-  author={Kwon, Minae and Biyik, Erdem and Talati, Aditi and Bhasin, Karan and Losey, Dylan P. and Sadigh, Dorsa},
-  booktitle={ACM/IEEE International Conference on Human-Robot Interaction (HRI)},
-  year={2020},
-  month=mar,
-  doi={10.1145/3319502.3374832}
-}"
-
-- title: 'The Green Choice: Learning and Influencing Human Decisions on Shared Roads'
-  authors: Erdem Bıyık, Daniel A. Lazar, Dorsa Sadigh, Ramtin Pedarsani
-  venue: Proceedings of the 58th IEEE Conference on Decision and Control (CDC), December 2019
-  picture: /images/publications/biyik2019green.png
-  note:
-  links:
-    - type: pdf
-      display: PDF
-      url: /pdfs/publications/biyik2019green.pdf
-    - type: arxiv
-      display: arXiv
-      url: https://arxiv.org/abs/1904.02209
-    - type: doi
-      display: DOI
-      url: https://doi.org/10.1109/CDC40024.2019.9030169
-  bibtex: '@inproceedings{biyik2019green,
-  title={The Green Choice: Learning and Influencing Human Decisions on Shared Roads},
-  author={Biyik, Erdem and Lazar, Daniel A. and Sadigh, Dorsa and Pedarsani, Ramtin},
-  booktitle={Proceedings of the 58th IEEE Conference on Decision and Control (CDC)},
-  year={2019},
-  month=dec,
-  doi={10.1109/CDC40024.2019.9030169}
-}'
-
-- title: 'Active Learning of Reward Dynamics from Hierarchical Queries'
-  authors: Chandrayee Basu, Erdem Bıyık, Zhixun He, Mukesh Singhal, Dorsa Sadigh
-  venue: Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), November 2019
-  picture: /images/publications/basu2019active.png
-  note:
-  links:
-    - type: pdf
-      display: PDF
-      url: /pdfs/publications/basu2019active.pdf
-    - type: doi
-      display: DOI
-      url: https://doi.org/10.1109/IROS40897.2019.8968522
-  bibtex: '@inproceedings{basu2019active,
-  title={Active Learning of Reward Dynamics from Hierarchical Queries},
-  author={Basu, Chandrayee and Biyik, Erdem and He, Zhixun and Singhal, Mukesh and Sadigh, Dorsa},
-  booktitle={Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
-  year={2019},
-  month=nov,
-  doi={10.1109/IROS40897.2019.8968522}
-}'
-
-- title: 'Asking Easy Questions: A User-Friendly Approach to Active Reward Learning'
-  authors: Erdem Bıyık, Malayandi Palan, Nicholas C. Landolfi, Dylan P. Losey, Dorsa Sadigh
-  venue: Proceedings of the 3rd Conference on Robot Learning (CoRL), October 2019
-  picture: /images/publications/biyik2019asking.png
-  note:
-  links:
-    - type: pdf
-      display: PDF
-      url: /pdfs/publications/biyik2019asking.pdf
-    - type: arxiv
-      display: arXiv
-      url: https://arxiv.org/abs/1910.04365
+    - type: html
+      display: HTML
+      url: https://link.springer.com/chapter/10.1007/978-3-030-87231-1_45
     - type: code
       display: Code
-      url: https://github.com/Stanford-ILIAD/easy-active-learning
-    - type: video
-      display: Video
-      url: https://youtu.be/JIs43cO_g18
-    - type: talk
-      display: Talk
-      url: https://youtu.be/1hbJvz9a6Ns
-  bibtex: '@inproceedings{biyik2019asking,
-  title={Asking Easy Questions: A User-Friendly Approach to Active Reward Learning},
-  author={Biyik, Erdem and Palan, Malayandi and Landolfi, Nicholas C. and Losey, Dylan P. and Sadigh, Dorsa},
-  booktitle={Proceedings of the 3rd Conference on Robot Learning (CoRL)},
-  year={2019},
-  month=oct
-}'
-
-- title: 'Efficient and Safe Exploration in Deterministic Markov Decision Processes with Unknown Transition Models'
-  authors: Erdem Bıyık*, Jonathan Margoliash*, Shahrouz R. Alimo, Dorsa Sadigh
-  venue: Proceedings of the American Control Conference (ACC), July 2019
-  picture: /images/publications/biyik2019efficient.png
-  note: '* denotes equal contribution.'
+      url: https://github.com/mikgroup/MEL_MRI
+  bibtex: '@inproceedings{wang2021memory,
+      title={Memory-efficient learning for high-dimensional MRI reconstruction},
+      author={Wang, Ke and Kellman, Michael and Sandino, Christopher M and Zhang, Kevin and Vasanawala, Shreyas S and Tamir, Jonathan I and Yu, Stella X and Lustig, Michael},
+      booktitle={Medical Image Computing and Computer Assisted Intervention--MICCAI 2021},
+      pages={461--470},
+      year={2021},
+      organization={Springer}}'
+- title: 'SURE-based automatic parameter selection for ESPIRiT calibration'
+  authors: Siddharth Iyer, Frank Ong, Kawin Setsompop, Mariya Doneva, Michael Lustig
+  venue: Magnetic Resonance in Medicine, 2020
+  picture: /images/publications/sure.png
   links:
-    - type: pdf
-      display: PDF
-      url: /pdfs/publications/biyik2019efficient.pdf
-    - type: arxiv
-      display: arXiv
-      url: https://arxiv.org/abs/1904.01068
-    - type: doi
-      display: DOI
-      url: https://doi.org/10.23919/ACC.2019.8815276
-  bibtex: '@inproceedings{biyik2019efficient,
-  title={Efficient and Safe Exploration in Deterministic Markov Decision Processes with Unknown Transition Models},
-  author={Biyik, Erdem and Margoliash, Jonathan and Alimo, Shahrouz R. and Sadigh, Dorsa},
-  booktitle={Proceedings of the American Control Conference (ACC)},
-  year={2019},
-  month=jul,
-  doi = {10.23919/ACC.2019.8815276}
-}'
-
-- title: 'Batch Active Learning Using Determinantal Point Processes'
-  authors: Erdem Bıyık, Kenneth Wang, Nima Anari, Dorsa Sadigh
-  venue: arXiv preprint, June 2019
-  picture: /images/publications/biyik2019batch.png
-  note:
-  links:
-    - type: arxiv
-      display: arXiv
-      url: https://arxiv.org/abs/1906.07975
+    - type: html
+      display: HTML
+      url: https://onlinelibrary.wiley.com/doi/full/10.1002/mrm.28386
     - type: code
       display: Code
-      url: https://github.com/Stanford-ILIAD/DPP-Batch-Active-Learning
-  bibtex: '@article{biyik2019batch,
-  title={Batch Active Learning Using Determinantal Point Processes},
-  author={Biyik, Erdem and Wang, Kenneth and Anari, Nima and Sadigh, Dorsa},
-  journal={arXiv preprint arXiv:1906.07975},
-  year={2019}
-}'
-
-- title: 'Altruistic Autonomy: Beating Congestion on Shared Roads'
-  authors: 'Erdem Bıyık*, Daniel A. Lazar*, Ramtin Pedarsani, Dorsa Sadigh'
-  venue: Proceedings of the 13th International Workshop on Algorithmic Foundations of Robotics (WAFR), December 2018
-  picture: /images/publications/biyik2018altruistic.png
-  note: '* denotes equal contribution.'
+      url: https://github.com/mikgroup/auto-espirit
+  bibtex: '@article{iyer2020sure,
+      title={SURE-based automatic parameter selection for ESPIRiT calibration},
+      author={Iyer, Siddharth and Ong, Frank and Setsompop, Kawin and Doneva, Mariya and Lustig, Michael},
+      journal={Magnetic Resonance in Medicine},
+      volume={84},
+      number={6},
+      pages={3423--3437},
+      year={2020},
+      publisher={Wiley Online Library}}'
+- title: 'Extreme MRI: Large-scale volumetric dynamic imaging from continuous non-gated acquisitions'
+  authors: Frank Ong, Xucheng Zhu, Joseph Y. Cheng, Kevin M. Johnson, Peder EZ Larson, Shreyas S. Vasanawala, Michael Lustig
+  venue: Magnetic Resonance in Medicine, 2020
+  picture: /images/publications/extrememri.png
   links:
-    - type: pdf
-      display: PDF
-      url: /pdfs/publications/biyik2018altruistic.pdf
-    - type: arxiv
-      display: arXiv
-      url: https://arxiv.org/abs/1810.11978
-    - type: video
-      display: Video
-      url: https://youtu.be/Hy2S6zbL6Z0
-    - type: doi
-      display: DOI
-      url: https://doi.org/10.1007/978-3-030-44051-0_51
-  bibtex: '@inproceedings{biyik2018altruistic,
-  title={Altruistic Autonomy: Beating Congestion on Shared Roads},
-  author={Biyik, Erdem and Lazar, Daniel A and Pedarsani, Ramtin and Sadigh, Dorsa},
-  booktitle={Workshop on Algorithmic Foundations of Robotics (WAFR)},
-  year={2018},
-  month=dec,
-  doi={10.1007/978-3-030-44051-0\_51}
-}'
-
-- title: Batch Active Preference-Based Learning of Reward Functions
-  authors: Erdem Bıyık, Dorsa Sadigh
-  venue: Proceedings of the 2nd Conference on Robot Learning (CoRL), October 2018
-  picture: /images/publications/biyik2018batch.png
-  links:
-    - type: pdf
-      display: PDF
-      url: /pdfs/publications/biyik2018batch.pdf
-    - type: arxiv
-      display: arXiv
-      url: https://arxiv.org/abs/1810.04303
+    - type: html
+      display: HTML
+      url: https://onlinelibrary.wiley.com/doi/full/10.1002/mrm.28235
     - type: code
       display: Code
-      url: https://github.com/Stanford-ILIAD/batch-active-preference-based-learning
-    - type: video
-      display: Video 1
-      url: https://youtu.be/MaswyWRep5g
-    - type: video
-      display: Video 2
-      url: https://youtu.be/cQ7vvUg9rU4
-    - type: talk
-      display: Talk
-      url: https://youtu.be/j5gZ9JEjJlg
-  specialnote: 'Oral presentation.'
-  bibtex: '@inproceedings{biyik2018batch,
-  title={Batch Active Preference-Based Learning of Reward Functions},
-  author={Biyik, Erdem and Sadigh, Dorsa},
-  booktitle={Proceedings of the 2nd Conference on Robot Learning (CoRL)},
-  year={2018},
-  pages={519--528},
-  volume={87},
-  series={Proceedings of Machine Learning Research},
-  publisher={PMLR},
-  month=oct
-}'
-
-- title: Real-Time Detection, Tracking and Classification of Multiple Moving Objects in UAV Videos
-  authors: Hüseyin C. Baykara*, Erdem Bıyık*, Gamze Gül*, Deniz Onural*, Ahmet S. Öztürk*, İlkay Yıldız*
-  venue: International Conference on Tools with Artificial Intelligence (ICTAI), November 2017
-  picture: /images/publications/baykara2017real.png
+      url: https://github.com/mikgroup/extreme_mri.git
+  bibtex: '@article{ong2020extreme,
+      title={Extreme MRI: Large-scale volumetric dynamic imaging from continuous non-gated acquisitions},
+      author={Ong, Frank and Zhu, Xucheng and Cheng, Joseph Y and Johnson, Kevin M and Larson, Peder EZ and Vasanawala, Shreyas S and Lustig, Michael},
+      journal={Magnetic Resonance in Medicine},
+      volume={84},
+      number={4},
+      pages={1763--1780},
+      year={2020},
+      publisher={Wiley Online Library}}'
+- title: 'Memory-efficient learning for large-scale computational imaging'
+  authors: Michael Kellman, Kevin Zhang, Eric Markley, Jonathan Tamir, Emrah Bostan, Michael Lustig, Laura Waller
+  venue: IEEE Transactions on Computational Imaging, 2020
+  picture: /images/publications/memoryefficient.jpg
   links:
-    - type: pdf
-      display: PDF
-      url: /pdfs/publications/baykara2017real.pdf
-    - type: video
-      display: Video
-      url: https://youtu.be/8U_mKmUoXV8
-    - type: doi
-      display: DOI
-      url: https://doi.org/10.1109/ICTAI.2017.00145
-  note: '* denotes equal contribution.'
-  bibtex: '@inproceedings{baykara2017real,
-  title={Real-Time Detection, Tracking and Classification of Multiple Moving Objects in UAV Videos},
-  author={Baykara, Huseyin C. and Biyik, Erdem and Gul, Gamze and Onural, Deniz and Ozturk, Ahmet S. and Yildiz, Ilkay},
-  booktitle={2017 IEEE 29th International Conference on Tools with Artificial Intelligence (ICTAI)},
-  pages={945--950},
-  year={2017},
-  organization={IEEE},
-  month=nov,
-  doi={10.1109/ICTAI.2017.00145}
-}'
+    - type: html
+      display: HTML
+      url: https://ieeexplore.ieee.org/abstract/document/9204455
+  bibtex: '@article{kellman2020memory,
+      title={Memory-efficient learning for large-scale computational imaging},
+      author={Kellman, Michael and Zhang, Kevin and Markley, Eric and Tamir, Jon and Bostan, Emrah and Lustig, Michael and Waller, Laura},
+      journal={IEEE Transactions on Computational Imaging},
+      volume={6},
+      pages={1403--1414},
+      year={2020},
+      publisher={IEEE}}'
+  
+

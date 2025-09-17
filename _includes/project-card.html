@@ -7,11 +7,18 @@
 {% endif %}
 <div class="card">
   <div class="card-body">
-    {% if project.image %}
-      {% assign imgurl = project.image %}
-      {% capture init %}{{ project.image | slice: 0,1 }}{% endcapture %}
+    {% assign has_single_image = project.image %}
+    {% assign has_images_array = project.images %}
+    {% if has_single_image or has_images_array %}
+      {% if has_single_image %}
+        {% assign chosen_img = project.image %}
+      {% else %}
+        {% assign chosen_img = project.images | first %}
+      {% endif %}
+      {% assign imgurl = chosen_img %}
+      {% capture init %}{{ chosen_img | slice: 0,1 }}{% endcapture %}
       {% if init == "/" %}
-        {% capture imgurl %}{{ site.baseurl }}{{ project.image }}{% endcapture %}
+        {% capture imgurl %}{{ site.baseurl }}{{ chosen_img }}{% endcapture %}
       {% endif %}
       <a href="{{ proj_url }}">
         <div class="text-center">

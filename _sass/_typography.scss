@@ -1,3 +1,7 @@
+// Berkeley Colors
+$berkeley-blue: #002676;
+$berkeley-gold: #FDB515;
+
 html {
   font-size: $base-font-size;
 }
@@ -21,4 +25,20 @@ sup {
   position: relative;
   vertical-align: middle;
   top: -0.9ex;
+}
+
+/* (Hover color limited to clickable elements in links stylesheet) */
+
+/* Data content styling */
+.data-content {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.data-content i {
+  font-style: italic;
+  font-weight: normal;
 }

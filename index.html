@@ -83,7 +83,7 @@ img {vertical-align: middle}
 }
 
 /* Fading animation */
-.fade {
+.slideshow-fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
   animation-name: fade;
@@ -103,7 +103,7 @@ img {vertical-align: middle}
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 450px) {
   .prev, .next,.text {font-size: 11px}
-  .mySlides img {height: 300px}
+  .mySlides img {max-height: 300px}
 }
 </style>
 
@@ -111,9 +111,9 @@ img {vertical-align: middle}
   <div class="slideshow-container">
     {% assign image_count = site.data.home_images | size %}
     {% for image in site.data.home_images %}
-	  <div class="mySlides fade">
+	  <div class="mySlides slideshow-fade">
 	    <!--<div class="numbertext">1 / {{ image_count }}</div>-->
-	    <img src="{{ site.baseurl }}/images/gallery/{{ image.filename }}" style="width:100%; height:600px; object-fit: cover;">
+	    <img src="{{ site.baseurl }}/images/gallery/{{ image.filename }}" style="width:100%; height:600px; object-fit: contain;">
         {% if image.caption %}
 	      <div class="text">{{ image.caption }}</div>
         {% endif %}
@@ -127,16 +127,17 @@ img {vertical-align: middle}
 	  <span class="dot" onclick="currentSlide({{ i }})"></span> 
 	{% endfor %}
   </div>
-  <p style="padding-left:15px; padding-right:15px;">
-    USC Learning and Interactive Robot Autonomy Lab (LiraLab) develops algorithms for robot learning, safe and efficient human-robot interaction and multi-agent systems.
-    Our mission is to equip robots, or more generally agents powered with artificial intelligence (AI), with the capabilities that will enable them to intelligently <i>learn</i>, <i>adapt to</i>, and <i>influence</i> the humans and other AI agents.
-    We take a two-step approach to this problem. First, machine learning techniques that we develop enable robots to model the behaviors and goals of the other agents by leveraging different forms of information they leak or explicitly provide. Second, these robots interact with the others to achieve online adaptation by leveraging the learned behaviors and goals while making sure this adaptation is beneficial and sustainable.
+  <p style="padding-left:15px; padding-right:15px; text-align: justify; line-height: 1.6;">
+    Mikgroup @ <a href="https://www.berkeley.edu/" target="_blank">UC Berkeley</a> develops advanced methods and technologies to expand the capabilities of MRI. Our mission is to utilize AI, computational imaging, and innovative hardware to make MRI faster, safer, and more informative. 
+  </p>
+  
+  <p style="padding-left:15px; padding-right:15px; text-align: justify; line-height: 1.6;">
+    We take a two-step approach to this challenge. First, we design new acquisition strategies, hardware components, phantoms, and implantable or wearable sensors that push the limits of what can be measured inside the scanner. Second, we address the resulting inverse problems with advanced reconstruction algorithms to transform raw measurements into sharper, higher-quality images. By uniting breakthroughs in acquisition, hardware, sensing, and computational reconstruction, we aim to redefine what MRI can achieve for science and medicine.
+  </p>
 
-<!-- 	Using the tools from artificial intelligence, control theory, robotics, machine learning, and optimization, we develop practical algorithms and the theoretical foundations for interactive robots working with people in uncertain, and safety-critical environments.
- -->  </p>
-
+  <!--
   <h1 class="h3">Recent News</h1>
-  <i>Check out our <a href="https://www.youtube.com/@uscliralab/">YouTube channel</a> for latest talks and supplementary videos for our publications.</i>
+  <i style="font-size: 0.9em;">Check out our <a href="https://www.youtube.com/@uscliralab/">YouTube channel</a> for latest talks and supplementary videos for our publications.</i>
   <table class="news">
     {% for entry in site.data.news limit:5 %}
     <tr>
@@ -156,19 +157,21 @@ img {vertical-align: middle}
 	</tr>
   </tbody>
   </table>
-  
-  {% if site.data.talks %}
-    <h1 class="h3">Recent Talk</h1>
-    {% for entry in site.data.talks %}
-    <!--<b>{{ entry.date | date: site.date_format}}:</b> --><i>{{ entry.description }}</i><br>
-    <div style="position: relative; width: 80%; padding-bottom: 45%; height: 0; margin: auto;"> <!-- 45% corresponds to 9:16 * 80% -->
-      <iframe width="560" height="315" style="position: absolute; top: 5px; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/{{ entry.youtube_code }}?rel=0&hd=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-    {% endfor %}
-  {% endif %}
+-->
 </div>
-
-
+{% if site.data.talks %}
+<h1 class="h3">Talks</h1>
+<div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
+{% for entry in site.data.talks %}
+<div style="flex: 0 1 300px; margin-bottom: 20px;">
+  <p class="data-content"><i>{{ entry.description }}</i></p>
+  <div style="position: relative; width: 100%; padding-bottom: 56.25%; height: 0;"> <!-- 16:9 aspect ratio -->
+    <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/{{ entry.youtube_code }}?rel=0&hd=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+</div>
+{% endfor %}
+</div>
+{% endif %}
 <script>
 var slideIndex = 1;
 showSlides(slideIndex);

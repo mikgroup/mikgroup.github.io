@@ -87,7 +87,7 @@ img {vertical-align: middle}
 }
 
 /* Fading animation */
-.fade {
+.slideshow-fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
   animation-name: fade;
@@ -115,7 +115,7 @@ img {vertical-align: middle}
 <div class="home">
   <div class="slideshow-container">
     {% for image in site.data.gallery_images %}
-	  <div class="mySlides fade">
+	  <div class="mySlides slideshow-fade">
 	    <img src="{{ site.baseurl }}/images/gallery/{{ image.filename }}" style="width:100%; object-fit: cover;">
         {% if image.caption %}
 	      <div class="text">{{ image.caption }}</div>

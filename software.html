@@ -1,0 +1,340 @@
+---
+layout: page
+title: Software
+permalink: /software/
+---
+
+<style>
+.repo-cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.repo-cards.compact {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+}
+
+.repo-card {
+  background: white;
+  border: 1px solid #d0d7de;
+  border-radius: 12px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.2s ease;
+}
+
+.repo-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.repo-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.repo-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+  fill: #0969da;
+}
+
+.repo-name {
+  font-size: 16px;
+  font-weight: 600;
+  color: #0969da;
+  text-decoration: none;
+  margin: 0;
+}
+
+.repo-name:hover {
+  text-decoration: underline;
+}
+
+.repo-description {
+  color: #656d76;
+  font-size: 14px;
+  line-height: 1.4;
+  margin-bottom: 16px;
+}
+
+.repo-meta {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-size: 12px;
+}
+
+.repo-language {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.language-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.language-dot.c { background-color: #555555; }
+.language-dot.python { background-color: #3776ab; }
+.language-dot.matlab { background-color: #e16737; }
+.language-dot.jupyter { background-color: #f37626; }
+
+.repo-stats {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: #656d76;
+}
+
+.repo-stats svg {
+  width: 16px;
+  height: 16px;
+  fill: currentColor;
+}
+
+.repo-stats.stars {
+  color: #0969da;
+}
+
+.repo-stats.forks {
+  color: #0969da;
+}
+</style>
+
+
+<h3 id="bart">BART</h3>
+<p style="padding-left:15px; padding-right:15px; text-align: justify; line-height: 1.6;">The Berkeley Advanced Reconstruction Toolbox (BART) is a free and open-source image-reconstruction framework for Magnetic Resonance Imaging (MRI). It consists of a programming library and a toolbox of command-line programs. The library provides common operations on multi-dimensional arrays, Fourier and wavelet transforms, as well as generic implementations of iterative optimization algorithms. The command-line tools provide direct access to basic operations on multi-dimensional arrays as well as efficient implementations of many calibration and reconstruction algorithms for parallel imaging and compressed sensing.</p>
+<div class="repo-cards">
+  <div class="repo-card">
+    <div class="repo-header">
+      <svg class="repo-icon" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">
+        <path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"></path>
+      </svg>
+      <a href="https://github.com/mrirecon/bart" class="repo-name">mrirecon/bart</a>
+    </div>
+    <p class="repo-description">BART: Toolbox for Computational Magnetic Resonance Imaging</p>
+    <div class="repo-meta">
+      <div class="repo-language">
+        <span class="language-dot c"></span>
+        <span>C</span>
+      </div>
+      <div class="repo-stats stars">
+        <svg viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">
+          <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"></path>
+        </svg>
+        <span>336</span>
+      </div>
+      <div class="repo-stats forks">
+        <svg viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">
+          <path fill-rule="evenodd" d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h1.5v2.128a2.251 2.251 0 101.5 0V8.5h1.5a2.25 2.25 0 002.25-2.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75H11v2.128a2.251 2.251 0 101.5 0V8.5h1.5a.75.75 0 00.75-.75v-.878a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 0011.25 5H9.75a2.25 2.25 0 00-2.25 2.25v.878zm-3 3.378a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm3 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"></path>
+        </svg>
+        <span>171</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="repo-card">
+    <div class="repo-header">
+      <svg class="repo-icon" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">
+        <path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"></path>
+      </svg>
+      <a href="https://github.com/mrirecon/bart-workshop" class="repo-name">mrirecon/bart-workshop</a>
+    </div>
+    <p class="repo-description">Material for BART demos.</p>
+    <div class="repo-meta">
+      <div class="repo-language">
+        <span class="language-dot jupyter"></span>
+        <span>Jupyter Notebook</span>
+      </div>
+      <div class="repo-stats stars">
+        <svg viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">
+          <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"></path>
+        </svg>
+        <span>56</span>
+      </div>
+      <div class="repo-stats forks">
+        <svg viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">
+          <path fill-rule="evenodd" d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h1.5v2.128a2.251 2.251 0 101.5 0V8.5h1.5a2.25 2.25 0 002.25-2.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75H11v2.128a2.251 2.251 0 101.5 0V8.5h1.5a.75.75 0 00.75-.75v-.878a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 0011.25 5H9.75a2.25 2.25 0 00-2.25 2.25v.878zm-3 3.378a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm3 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"></path>
+        </svg>
+        <span>22</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<h3 id="sigpy">SigPy</h3>
+<p style="padding-left:15px; padding-right:15px; text-align: justify; line-height: 1.6;">SigPy is a package for signal processing, with emphasis on iterative methods. This package is built to operate directly on numpy arrays on CPU and cupy arrays on GPU. Its main features include: a unified CPU/GPU interface to signal processing functions, Linear operator classes, Proximal operator classes (Prox), Iterative algorithm classes (Alg), and Application classes (App) that wrap Alg, Linop, and Prox to form a final deliverable for each application.</p>
+<p style="padding-left:15px; padding-right:15px; text-align: justify; line-height: 1.6;">SigPy also provides a submodule <code>sigpy.mri</code> for MRI iterative reconstruction methods. It includes Apps for common MRI reconstruction methods such as SENSE reconstruction, l1-wavelet reconstruction, total-variation reconstruction, and JSENSE reconstruction. This module also includes convenient simulation and sampling functions, including poisson-disc sampling and Shepp–Logan phantom generation.</p>
+<div class="repo-cards">
+  <div class="repo-card">
+    <div class="repo-header">
+      <svg class="repo-icon" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">
+        <path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"></path>
+      </svg>
+      <a href="https://github.com/mikgroup/sigpy" class="repo-name">mikgroup/sigpy</a>
+    </div>
+    <p class="repo-description">SigPy is a package for signal processing, with emphasis on iterative methods.</p>
+    <div class="repo-meta">
+      <div class="repo-language">
+        <span class="language-dot python"></span>
+        <span>Python</span>
+      </div>
+      <div class="repo-stats stars">
+        <svg viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">
+          <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"></path>
+        </svg>
+        <span>98</span>
+      </div>
+      <div class="repo-stats forks">
+        <svg viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">
+          <path fill-rule="evenodd" d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h1.5v2.128a2.251 2.251 0 101.5 0V8.5h1.5a2.25 2.25 0 002.25-2.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75H11v2.128a2.251 2.251 0 101.5 0V8.5h1.5a.75.75 0 00.75-.75v-.878a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 0011.25 5H9.75a2.25 2.25 0 00-2.25 2.25v.878zm-3 3.378a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm3 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"></path>
+        </svg>
+        <span>45</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="repo-card">
+    <div class="repo-header">
+      <svg class="repo-icon" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">
+        <path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"></path>
+      </svg>
+      <a href="https://github.com/mikgroup/sigpy-mri-tutorial" class="repo-name">mikgroup/sigpy-mri-tutorial</a>
+    </div>
+    <p class="repo-description">SigPy MRI tutorial materials and examples.</p>
+    <div class="repo-meta">
+      <div class="repo-language">
+        <span class="language-dot jupyter"></span>
+        <span>Jupyter Notebook</span>
+      </div>
+      <div class="repo-stats stars">
+        <svg viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">
+          <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"></path>
+        </svg>
+        <span>32</span>
+      </div>
+      <div class="repo-stats forks">
+        <svg viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">
+          <path fill-rule="evenodd" d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h1.5v2.128a2.251 2.251 0 101.5 0V8.5h1.5a2.25 2.25 0 002.25-2.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75H11v2.128a2.251 2.251 0 101.5 0V8.5h1.5a.75.75 0 00.75-.75v-.878a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 0011.25 5H9.75a2.25 2.25 0 00-2.25 2.25v.878zm-3 3.378a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm3 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"></path>
+        </svg>
+        <span>18</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<h3 id="espirit">ESPIRiT</h3>
+<p style="padding-left:15px; padding-right:15px; text-align: justify; line-height: 1.6;">ESPIRiT estimates coil sensitivities by finding the subspace of multi-coil data from a calibration region in k-space using a series of eigenvalue decompositions in k-space and image space. References: Uecker et al., “ESPIRiT – An Eigenvalue Approach to Autocalibrating Parallel MRI: Where SENSE meets GRAPPA.”</p>
+<p style="padding-left:15px; padding-right:15px; text-align: justify; line-height: 1.6;"> Demos:</p>
+<ul>
+  <li><a href="https://mikgroup.github.io/software/demo_espirit_maps/">ESPIRiT Maps</a></li>
+  <li><a href="https://mikgroup.github.io/software/demo_espirit_recon/">ESPIRiT Reconstruction</a></li>
+  <li><a href="https://mikgroup.github.io/software/demo_espirit_l1_recon/">L1-ESPIRiT Reconstruction</a></li>
+  <li><a href="https://mikgroup.github.io/software/demo_sake_espirit/">SAKE and ESPIRiT Reconstruction</a></li>
+  
+</ul>
+<div class="repo-cards">
+  <div class="repo-card">
+    <div class="repo-header">
+      <svg class="repo-icon" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">
+        <path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"></path>
+      </svg>
+      <a href="https://github.com/mikgroup/espirit-matlab-examples" class="repo-name">mikgroup/espirit-matlab-examples</a>
+    </div>
+    <p class="repo-description">ESPIRiT MATLAB examples and implementations.</p>
+    <div class="repo-meta">
+      <div class="repo-language">
+        <span class="language-dot matlab"></span>
+        <span>MATLAB</span>
+      </div>
+      <div class="repo-stats stars">
+        <svg viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">
+          <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"></path>
+        </svg>
+        <span>28</span>
+      </div>
+      <div class="repo-stats forks">
+        <svg viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">
+          <path fill-rule="evenodd" d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h1.5v2.128a2.251 2.251 0 101.5 0V8.5h1.5a2.25 2.25 0 002.25-2.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75H11v2.128a2.251 2.251 0 101.5 0V8.5h1.5a.75.75 0 00.75-.75v-.878a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 0011.25 5H9.75a2.25 2.25 0 00-2.25 2.25v.878zm-3 3.378a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm3 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"></path>
+        </svg>
+        <span>12</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="repo-card">
+    <div class="repo-header">
+      <svg class="repo-icon" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">
+        <path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"></path>
+      </svg>
+      <a href="https://github.com/mikgroup/espirit-python" class="repo-name">mikgroup/espirit-python</a>
+    </div>
+    <p class="repo-description">ESPIRiT Python implementation and examples.</p>
+    <div class="repo-meta">
+      <div class="repo-language">
+        <span class="language-dot python"></span>
+        <span>Python</span>
+      </div>
+      <div class="repo-stats stars">
+        <svg viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">
+          <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"></path>
+        </svg>
+        <span>24</span>
+      </div>
+      <div class="repo-stats forks">
+        <svg viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">
+          <path fill-rule="evenodd" d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h1.5v2.128a2.251 2.251 0 101.5 0V8.5h1.5a2.25 2.25 0 002.25-2.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75H11v2.128a2.251 2.251 0 101.5 0V8.5h1.5a.75.75 0 00.75-.75v-.878a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 0011.25 5H9.75a2.25 2.25 0 00-2.25 2.25v.878zm-3 3.378a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm3 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"></path>
+        </svg>
+        <span>8</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<h3 id="sparse-mri">Sparse MRI</h3>
+<p style="padding-left:15px; padding-right:15px; text-align: justify; line-height: 1.6;">A collection of MATLAB functions implementing the algorithms and examples described in Lustig, Donoho, and Pauly, “Sparse MRI: The Application of Compressed Sensing for Rapid MR Imaging,” MRM 2007, and the overview in Lustig et al., “Compressed Sensing MRI,” IEEE Signal Processing Magazine, 2008.</p>
+<p style="padding-left:15px; padding-right:15px; text-align: justify; line-height: 1.6;"></p><a href="https://people.eecs.berkeley.edu/~mlustig/Software.html">Download link for MATLAB code</a></p>
+
+<h3 id="gcc">Geometric-Decomposition Coil Compression (GCC)</h3>
+<p style="padding-left:15px; padding-right:15px; text-align: justify; line-height: 1.6;">Coil arrays enable acceleration by exploiting spatial sensitivity for encoding. The increasing number of channels can increase computation time, especially for iterative reconstructions. GCC exploits redundancy between channels and the fact that the readout dimension in Cartesian imaging is never subsampled to compress the coils into fewer virtual coils. Described in Zhang et al., “Coil Compression for Accelerated Imaging with Cartesian Sampling,” MRM 2013.</p>
+<p style="padding-left:15px; padding-right:15px; text-align: justify; line-height: 1.6;">Demos:</p>
+<ul>
+  <li><a href="https://mikgroup.github.io/software/demo_gcc/">Geometric-decomposition coil compression</a></li>
+  <li><a href="https://mikgroup.github.io/software/demo_ecc/">ESPIRiT-based coil compression</a></li>
+  <li><a href="https://mikgroup.github.io/software/demo_gcc_speedup/">Speedup with GCC</a></li>
+  
+</ul>
+<p style="padding-left:15px; padding-right:15px; text-align: justify; line-height: 1.6;"></p><a href="https://people.eecs.berkeley.edu/~mlustig/Software.html">Download link for MATLAB code</a></p>
+
+<h3 id="github-repos">Github Repositories</h3>
+<p style="padding-left:15px; padding-right:15px; text-align: justify; line-height: 1.6;"></p>Selected repositories from our group:</p>
+<ul>
+  <li><a href="https://github.com/mikgroup/extreme_mri">mikgroup/extreme_mri</a></li>
+  <li><a href="https://github.com/mikgroup/kspace_precond">mikgroup/kspace_precond</a></li>
+  <li><a href="https://github.com/mikgroup/bpt_paper">mikgroup/bpt_paper</a></li>
+  <li><a href="https://github.com/mikgroup/bpt_mrpub">mikgroup/bpt_mrpub</a></li>
+  <li><a href="https://github.com/mikgroup/UFLoss">mikgroup/UFLoss</a></li>
+  <li><a href="https://github.com/mikgroup/ResoNet">mikgroup/ResoNet</a></li>
+  <li><a href="https://github.com/mikgroup/Caterpillar-Traps">mikgroup/Caterpillar-Traps</a></li>
+  <li><a href="https://github.com/mikgroup/DiSpectMRI">mikgroup/DiSpectMRI</a></li>
+  <li><a href="https://github.com/mikgroup/phase_cycling">mikgroup/phase_cycling</a></li>
+  <li><a href="https://github.com/mikgroup/MEL_MRI">mikgroup/MEL_MRI</a></li>
+  <li><a href="https://github.com/mikgroup/DCSNet">mikgroup/DCSNet</a></li>
+  <li><a href="https://github.com/mikgroup/auto-espirit">mikgroup/auto-espirit</a></li>
+  <li><a href="https://github.com/mikgroup/data_crimes">mikgroup/data_crimes</a></li>
+  
+</ul>
+
+<h3 id="data">Data</h3>
+<p style="padding-left:15px; padding-right:15px; text-align: justify; line-height: 1.6;"><a href="https://mridata.org">mridata.org</a> provides open datasets to support reproducible research and validation of algorithms on known undersampled acquisitions. Datasets include variable- and uniform-density undersampled knee images, as well as fully sampled cases for custom undersampling experiments.</p>
+
+
