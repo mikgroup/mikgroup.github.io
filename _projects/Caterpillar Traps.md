@@ -22,9 +22,9 @@ The management of long cables connecting a coil array to the main MRI system rem
 
 ## Key Contributions
 
-- **Ultra-thin Conformal Design**: Developed ultra-thin MRI receiver coils that conform closely to anatomical structures for improved signal-to-noise ratio and patient comfort
-- **Advanced Fabrication Methods**: Integrated novel manufacturing techniques including vacuum forming and electroless copper plating for flexible, lightweight coil construction
-- **Twstr Coil Technology**: Implemented resonant, matched MRI coils without discrete components, enabling simplified and robust coil designs
-- **Neuroimaging Compatibility**: Designed coils specifically optimized for brain imaging applications with enhanced sensitivity and reduced artifacts
+- **Distributed Trap Architecture**: Introduced caterpillar traps, a novel distributed system of small, elastic resonant toroids that cover the full length of MRI coil cables
+- **Flexible Cable Management**: Enabled cable flexibility while maintaining high blocking efficiency, addressing the trade-off between performance and system flexibility in traditional stiff traps
+- **Enhanced Safety Performance**: Mitigated RF coupling-induced shield currents that cause B1 field inhomogeneities and serious safety hazards like heating and RF burns
+- **Superior Blocking Efficiency**: Achieved high blocking efficiency at different positions and orientations, outperforming commercial cable traps in challenging scenarios
 
 
