@@ -12,6 +12,14 @@
   margin-bottom: 0;
 }
 
+/* Make project thumbnail images responsive and not overly tall */
+.card .img-fluid {
+  width: 100%;
+  height: auto;
+  max-height: 320px;
+  object-fit: contain;
+}
+
 /* Mobile responsiveness */
 @media (max-width: 768px) {
   .card-columns {
@@ -43,23 +51,31 @@
   
   /* Project header image responsive */
   .project-header-image img {
-    height: 200px;
+    height: 180px;
+  }
+
+  .card .img-fluid {
+    max-height: 220px;
   }
   
   /* Person entry mobile layout */
   .person-entry {
     padding: 0.75rem;
     margin-bottom: 1rem;
+    align-items: center;
   }
   
   .person-header {
-    flex-direction: column;
-    align-items: flex-start;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
   }
   
   .person-name {
-    margin-bottom: 0.25rem;
-    margin-right: 0;
+    margin-bottom: 0;
+    margin-right: 0.5rem;
+    max-width: 100%;
+    overflow-wrap: anywhere;
   }
   
   .person-description {
@@ -117,13 +133,19 @@
   .project-header-image img {
     height: 150px;
   }
+
+  .card .img-fluid {
+    max-height: 180px;
+  }
   
   .person-entry {
     padding: 0.5rem;
   }
   
   .person-name {
-    font-size: 0.9rem;
+    font-size: 0.95rem;
+    max-width: 100%;
+    overflow-wrap: anywhere;
   }
   
   .person-description {
