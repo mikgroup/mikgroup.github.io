@@ -159,19 +159,21 @@ img {vertical-align: middle}
   </table>
 -->
 </div>
+<!--
 {% if site.data.talks %}
 <h1 class="h3">Talks</h1>
 <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
 {% for entry in site.data.talks %}
 <div style="flex: 0 1 300px; margin-bottom: 20px;">
   <p class="data-content"><i>{{ entry.description }}</i></p>
-  <div style="position: relative; width: 100%; padding-bottom: 56.25%; height: 0;"> <!-- 16:9 aspect ratio -->
+  <div style="position: relative; width: 100%; padding-bottom: 56.25%; height: 0;"> 
     <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/{{ entry.youtube_code }}?rel=0&hd=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
 </div>
 {% endfor %}
 </div>
 {% endif %}
+-->
 <script>
 var slideIndex = 1;
 showSlides(slideIndex);
