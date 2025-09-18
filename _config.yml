@@ -4,7 +4,7 @@ email:
 author:      Berkeley MikGroup
 description: "Berkeley MikGroup - Advanced MRI Methods and Technologies"
 baseurl:     ""
-url:         "https://berkeley_mri_lab.github.io"
+url:         "https://mikgroup.github.io"
 date_format: "%b %-d, %Y"
 header_pages:
  - people.html
