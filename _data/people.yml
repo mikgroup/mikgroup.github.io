@@ -28,8 +28,8 @@
 
 - name: Izabel Wu
   picture: /images/people/Izabel.jpeg
-  home_url: https://www.linkedin.com/in/izjw/ 
-  description: Karthik is a Staff Scientist at MikGroup, UC Berkeley EECS. She works on MRI phantom development and hardware design.
+  home_url: 
+  description: Izabel is a Staff Scientist at MikGroup, UC Berkeley EECS. She works on MRI phantom development and hardware design.
   rank: staff
   current_position: Staff Scientist, MikGroup
   links:
